@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from fastapi import FastAPI, UploadFile, File
 from pathlib import Path
 import shutil
@@ -44,11 +45,15 @@ def home():
     return {
         "message": "Samvad Setu AI Image Verification API is running",
         "model": "YOLO11n",
-        "classes": [
+        "supported_issues": [
             "pothole",
             "garbage",
             "crack",
-            "open_manhole"
+            "open_manhole",
+            "waterlogging",
+            "stray_animal",
+            "traffic_light",
+            "waste_container"
         ]
     }
 
@@ -129,7 +134,8 @@ async def predict_image(file: UploadFile = File(...)):
     # ========================================================
 
     if any(
-        d["issue"] == "open_manhole"
+        (d["issue"] in ("open_manhole", "waterlogging") and d["severity"] == "CRITICAL")
+        or d["issue"] == "open_manhole"
         for d in detections
     ):
         overall_severity = "CRITICAL"

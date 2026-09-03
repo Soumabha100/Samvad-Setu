@@ -68,6 +68,8 @@ weights/
 # ------------------------------------------------------------
 
 image/uploads/
+voice/uploads/
+uploads/
 
 image/test*.jpg
 image/test*.jpeg
