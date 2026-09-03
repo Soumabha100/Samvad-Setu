@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { protect, authorize } = require("../middleware/authMiddleware");
 const Problem = require("../models/Problem");
+const { upload, uploadToCloudinary } = require("../middleware/upload");
+const cloudinary = require("../config/cloudinary");
 
 // Public Route: Anyone can view public problems
 router.get("/public", async (req, res) => {
@@ -14,10 +16,28 @@ router.get("/public", async (req, res) => {
 });
 
 // Role-Restricted Route: Only 'citizen' can submit a problem
-router.post("/", protect, authorize("citizen"), async (req, res) => {
+router.post("/", protect, authorize("citizen"), upload.array('images', 3), async (req, res) => {
   try {
+    let location = req.body.location;
+    if (typeof location === 'string') {
+      location = JSON.parse(location);
+    }
+
+    const uploadedImages = [];
+    if (req.files && req.files.length > 0) {
+      for (const file of req.files) {
+        const result = await uploadToCloudinary(file.buffer);
+        uploadedImages.push({
+          url: result.secure_url,
+          publicId: result.public_id,
+        });
+      }
+    }
+
     const newProblem = new Problem({
       ...req.body,
+      location,
+      images: uploadedImages,
       reportedBy: req.user._id,
       timeline: [
         { stage: "Reported", timestamp: "Just now", actor: "Citizen" },
@@ -38,6 +58,16 @@ router.delete("/:id", protect, authorize("citizen"), async (req, res) => {
     if (!problem) {
       return res.status(404).json({ message: "Problem not found or unauthorized to delete" });
     }
+    
+    // Delete images from Cloudinary
+    if (problem.images && problem.images.length > 0) {
+      for (const image of problem.images) {
+        if (image.publicId) {
+          await cloudinary.uploader.destroy(image.publicId);
+        }
+      }
+    }
+
     await Problem.findByIdAndDelete(req.params.id);
     res.json({ message: "Problem deleted successfully" });
   } catch (error) {
