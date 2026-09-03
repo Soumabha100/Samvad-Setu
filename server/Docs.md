@@ -68,6 +68,8 @@ The server will start on `http://localhost:5000`
 | ------------ | ------- | ---------------------------------------------------------------- |
 | **express**  | ^5.2.1  | Core web framework for building the API and handling routing     |
 | **mongoose** | ^9.9.2  | Object Data Modeling (ODM) library for MongoDB interactions      |
+| **multer**   | ^1.4.5-lts.1 | Middleware for handling multipart/form-data (file uploads)     |
+| **cloudinary**| ^2.5.1  | Cloud service for image management and optimization              |
 | **cors**     | ^2.8.6  | Enables Cross-Origin Resource Sharing for frontend communication |
 
 ### 🔐 Security Dependencies
@@ -142,8 +144,8 @@ Content-Type: application/json
 | Method    | Endpoint                     | Access Level                           | Description                                                      | Status         |
 | --------- | ---------------------------- | -------------------------------------- | ---------------------------------------------------------------- | -------------- |
 | **GET**   | `/api/problems/public`       | Public                                 | Retrieves all civic problems from the database                   | 🟢 Live MongoDB |
-| **POST**  | `/api/problems`              | Private _(Citizen only)_               | Submits a new problem or report to the platform                  | 🟢 Live MongoDB |
-| **DELETE**| `/api/problems/:id`          | Private _(Citizen only)_               | Deletes a problem (only if the authenticated user is the owner)  | 🟢 Live MongoDB |
+| **POST**  | `/api/problems`              | Private _(Citizen only)_               | Submits a new problem with multipart/form-data Cloudinary image upload | 🟢 Live MongoDB |
+| **DELETE**| `/api/problems/:id`          | Private _(Citizen only)_               | Deletes a problem and syncs deletion with Cloudinary assets      | 🟢 Live MongoDB |
 | **POST**  | `/api/problems/:id/claim`    | Private _(HEI, HEI Admin)_             | Allows an institution to claim a specific problem for resolution | ⚠️ Placeholder |
 | **PATCH** | `/api/problems/:id/moderate` | Private _(Govt Admin, Platform Admin)_ | Updates the lifecycle status of a reported problem               | ⚠️ Placeholder |
 

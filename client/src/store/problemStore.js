@@ -16,10 +16,25 @@ export const useProblemStore = create((set, get) => ({
     }
   },
 
-  addProblem: async (formData) => {
+  addProblem: async (data) => {
     set({ isLoading: true });
     try {
-      const response = await api.post('/problems', formData);
+      let payload = data;
+
+      if (data.images && data.images.length > 0) {
+        payload = new FormData();
+        payload.append('title', data.title);
+        payload.append('description', data.description);
+        payload.append('category', data.category);
+        payload.append('urgency', data.urgency);
+        payload.append('location', JSON.stringify(data.location));
+        
+        data.images.forEach((image) => {
+          payload.append('images', image);
+        });
+      }
+
+      const response = await api.post('/problems', payload);
       set({ problems: [response.data, ...get().problems], isLoading: false });
       return response.data;
     } catch (error) {
