@@ -1,67 +1,92 @@
 import React, { useState } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import MapView, { Marker, Callout } from 'react-native-maps';
+import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
+import { MapPin, AlertTriangle } from 'lucide-react-native';
+import { useTheme } from '../../context/ThemeContext'; // Import theme hook
+
+const { width, height } = Dimensions.get('window');
 
 export default function GovernmentMapScreen() {
-  const [tickets, setTickets] = useState<any[]>([]);
+  const [challenges, setChallenges] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const { theme, isDarkMode } = useTheme(); // Pull theme variables
 
   useFocusEffect(
     React.useCallback(() => {
-      loadTickets();
+      loadMapData();
     }, [])
   );
 
-  const loadTickets = async () => {
+  const loadMapData = async () => {
+    setLoading(true);
     try {
       const stored = await AsyncStorage.getItem('@citizen_tickets');
-      if (stored) setTickets(JSON.parse(stored));
+      if (stored) {
+        setChallenges(JSON.parse(stored));
+      }
     } catch (error) {
-      console.error('Failed to load tickets for map', error);
+      console.error('Failed to load map data', error);
+    } finally {
+      setLoading(false);
     }
   };
 
-  const howrahRegion = {
-    latitude: 22.5958,
-    longitude: 88.2636,
-    latitudeDelta: 0.08,
-    longitudeDelta: 0.08,
+  const initialRegion = {
+    latitude: 23.3441,
+    longitude: 85.3096,
+    latitudeDelta: 2.5,
+    longitudeDelta: 2.5,
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#0F1B1E', padding: 16 }}>
-      <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
-        
-        {/* Header */}
-        <View style={{ marginBottom: 20 }}>
-          <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F2EFE9' }}>Issue Heatmap</Text>
-          <Text style={{ fontSize: 13, color: '#9BA8A6', marginTop: 2 }}>Geographic concentration of reported grievances</Text>
-        </View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: theme.background }}>
+      <View style={{ padding: 16, backgroundColor: theme.card, borderBottomWidth: 1, borderBottomColor: theme.border }}>
+        <Text style={{ fontSize: 10, color: theme.subtext, letterSpacing: 1.2, fontWeight: '700' }}>
+          SPATIAL ANALYTICS
+        </Text>
+        <Text style={{ fontSize: 22, fontWeight: '800', color: theme.text, marginTop: 2 }}>
+          Live Innovation Map
+        </Text>
+      </View>
 
-        {/* Live Interactive Map Box */}
-        <View style={{ backgroundColor: '#16262A', height: 320, borderRadius: 16, borderWidth: 1, borderColor: '#1D3238', marginBottom: 20, overflow: 'hidden' }}>
+      {loading ? (
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <ActivityIndicator size="large" color={theme.authorityPrimary} />
+          <Text style={{ color: theme.subtext, marginTop: 12 }}>Loading spatial data...</Text>
+        </View>
+      ) : (
+        <View style={[styles.mapContainer, { borderColor: theme.border }]}>
           <MapView
-            style={StyleSheet.absoluteFillObject}
-            initialRegion={howrahRegion}
-            userInterfaceStyle="dark"
+            style={styles.map}
+            initialRegion={initialRegion}
+            showsUserLocation={true}
+            showsMyLocationButton={true}
+            userInterfaceStyle={isDarkMode ? "dark" : "light"}
           >
-            {tickets.map((ticket, index) => {
-              if (!ticket.latitude || !ticket.longitude) return null;
-              const pinColor = ticket.status === 'Resolved' ? '#2F9E8F' : (ticket.status === 'In Progress' ? '#E8A33D' : '#F87171');
-              
+            {challenges.map((challenge, index) => {
+              const lat = challenge.latitude || 23.3441 + (Math.random() * 0.1);
+              const lng = challenge.longitude || 85.3096 + (Math.random() * 0.1);
+
               return (
                 <Marker
-                  key={ticket.id || index}
-                  coordinate={{ latitude: parseFloat(ticket.latitude), longitude: parseFloat(ticket.longitude) }}
-                  pinColor={pinColor}
+                  key={challenge.id || index}
+                  coordinate={{ latitude: lat, longitude: lng }}
                 >
+                  <View style={[styles.customMarker, { backgroundColor: isDarkMode ? 'rgba(15, 27, 30, 0.7)' : 'rgba(255, 255, 255, 0.7)' }]}>
+                    <MapPin size={24} color={theme.citizenPrimary} fill="#C1443B" />
+                  </View>
                   <Callout tooltip>
-                    <View style={{ backgroundColor: '#16262A', padding: 14, borderRadius: 12, borderWidth: 1, borderColor: '#1D3238', minWidth: 220 }}>
-                      <Text style={{ color: '#F2EFE9', fontWeight: 'bold', fontSize: 14, marginBottom: 4 }}>{ticket.category}</Text>
-                      <Text style={{ color: '#9BA8A6', fontSize: 12, marginBottom: 6 }} numberOfLines={2}>{ticket.description}</Text>
-                      <Text style={{ color: pinColor, fontSize: 12, fontWeight: 'bold' }}>Status: {ticket.status}</Text>
+                    <View style={[styles.calloutContainer, { backgroundColor: theme.card, borderColor: theme.authorityPrimary }]}>
+                      <Text style={[styles.calloutTitle, { color: theme.citizenPrimary }]}>{challenge.domain}</Text>
+                      <Text style={[styles.calloutDesc, { color: theme.text }]} numberOfLines={2}>
+                        {challenge.title}
+                      </Text>
+                      <View style={[styles.calloutBadge, { backgroundColor: theme.background, borderColor: theme.border }]}>
+                        <Text style={[styles.badgeText, { color: theme.subtext }]}>{challenge.stage}</Text>
+                      </View>
                     </View>
                   </Callout>
                 </Marker>
@@ -69,39 +94,51 @@ export default function GovernmentMapScreen() {
             })}
           </MapView>
         </View>
-
-        {/* Zone Hotspots Breakdown */}
-        <Text style={{ color: '#F2EFE9', fontSize: 16, fontWeight: 'bold', marginBottom: 12 }}>High-Density Redzones</Text>
-
-        <View style={{ backgroundColor: '#16262A', borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#1D3238', marginBottom: 16 }}>
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
-            <Text style={{ color: '#F2EFE9', fontWeight: 'bold', fontSize: 15 }}>Howrah Block Market Area</Text>
-            <View style={{ backgroundColor: 'rgba(239, 68, 68, 0.1)', paddingHorizontal: 8, paddingVertical: 4, borderRadius: 6, borderWidth: 1, borderColor: '#EF4444' }}>
-              <Text style={{ color: '#EF4444', fontSize: 11, fontWeight: 'bold' }}>Critical Severity</Text>
-            </View>
-          </View>
-          <Text style={{ color: '#9BA8A6', fontSize: 13, marginBottom: 12 }}>Primary issues: Water leakage, drainage clogging, broken utilities.</Text>
-          
-          <TouchableOpacity style={{ backgroundColor: '#1D3238', padding: 10, borderRadius: 8, alignItems: 'center' }}>
-            <Text style={{ color: '#2F9E8F', fontWeight: 'bold', fontSize: 13 }}>Deploy Rapid Response Team</Text>
-          </TouchableOpacity>
-        </View>
-
-        <View style={{ backgroundColor: '#16262A', borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#1D3238' }}>
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
-            <Text style={{ color: '#F2EFE9', fontWeight: 'bold', fontSize: 15 }}>Main Arterial Road Junction</Text>
-            <View style={{ backgroundColor: 'rgba(232, 163, 61, 0.1)', paddingHorizontal: 8, paddingVertical: 4, borderRadius: 6, borderWidth: 1, borderColor: '#E8A33D' }}>
-              <Text style={{ color: '#E8A33D', fontSize: 11, fontWeight: 'bold' }}>Moderate Severity</Text>
-            </View>
-          </View>
-          <Text style={{ color: '#9BA8A6', fontSize: 13, marginBottom: 12 }}>Primary issues: Road potholes, streetlight failures.</Text>
-          
-          <TouchableOpacity style={{ backgroundColor: '#1D3238', padding: 10, borderRadius: 8, alignItems: 'center' }}>
-            <Text style={{ color: '#E8A33D', fontWeight: 'bold', fontSize: 13 }}>Dispatch Maintenance Crew</Text>
-          </TouchableOpacity>
-        </View>
-
-      </ScrollView>
+      )}
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  mapContainer: {
+    flex: 1,
+    borderRadius: 16,
+    overflow: 'hidden',
+    margin: 16,
+    borderWidth: 1,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+  },
+  customMarker: {
+    borderRadius: 20,
+    padding: 4,
+  },
+  calloutContainer: {
+    borderRadius: 12,
+    padding: 12,
+    width: 220,
+    borderWidth: 1,
+  },
+  calloutTitle: {
+    fontSize: 12,
+    fontWeight: '800',
+    marginBottom: 4,
+  },
+  calloutDesc: {
+    fontSize: 13,
+    marginBottom: 8,
+  },
+  calloutBadge: {
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 6,
+    alignSelf: 'flex-start',
+    borderWidth: 1,
+  },
+  badgeText: {
+    fontSize: 10,
+    fontWeight: '700',
+  },
+});
