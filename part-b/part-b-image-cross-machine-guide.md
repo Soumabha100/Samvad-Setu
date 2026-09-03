@@ -13,10 +13,17 @@ part-b/
 │   ├── api.py
 │   ├── predict.py
 │   ├── prepare_dataset.py
-│   └── severity.py
+│   ├── severity.py
+│   ├── taxonomy.json
+│   └── train.py
+├── voice/
+│   ├── api.py
+│   ├── citizen_report.mp3
+│   └── whisper_service.py
 ├── models/
 │   └── vision_model.pt
 ├── requirements.txt
+├── Docs.md
 └── main.py
 ```
 
@@ -26,16 +33,20 @@ The trained model is:
 part-b/models/vision_model.pt
 ```
 
-The model is approximately **5.22 MB** and is included in Git.
+The model is approximately **5.47 MB** and is included in Git.
 
-## 2. Supported Civic Issues
+## 2. Supported Civic Issues (8 Classes)
 
-| Class ID | Issue |
-|---:|---|
-| 0 | pothole |
-| 1 | garbage |
-| 2 | crack |
-| 3 | open_manhole |
+| Class ID | Issue | Scope | Department |
+|---:|---|---|---|
+| 0 | pothole | Road Pothole | Public Works Department (PWD - Roads) |
+| 1 | garbage | Waste Dump / Litter | Solid Waste & Sanitation Department |
+| 2 | crack | Surface Crack | Public Works Department (PWD - Roads) |
+| 3 | open_manhole | Open Manhole | PHED Drainage (Critical Hazard) |
+| 4 | waterlogging | Roadway Flooding | PHED Drainage / Stormwater |
+| 5 | stray_animal | Cattle / Stray Animals | Animal Control & Public Safety Unit |
+| 6 | traffic_light | Malfunctioning Signal | Traffic Police & Electrical Division |
+| 7 | waste_container | Overflowing Dumpster | Solid Waste & Sanitation Department |
 
 The system returns issue type, confidence, object count, individual severity, and overall incident severity.
 

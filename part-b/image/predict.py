@@ -9,9 +9,12 @@ from severity import calculate_severity
 # MODEL
 # ============================================================
 
-MODEL_PATH = "./runs/detect/train-2/weights/best.pt"
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR.parent / "models" / "vision_model.pt"
+if not MODEL_PATH.exists():
+    MODEL_PATH = BASE_DIR / "runs" / "detect" / "train-2" / "weights" / "best.pt"
 
-model = YOLO(MODEL_PATH)
+model = YOLO(str(MODEL_PATH))
 
 
 # ============================================================

@@ -1,0 +1,200 @@
+{
+  "project": "Samvad-Setu",
+  "component": "Part A - Municipal Operations Triage",
+  "created_at": "2026-09-03T18:51:04.820016+00:00",
+  "models": {
+    "category_model": {
+      "file": "category_model.joblib",
+      "metrics": {
+        "target": "category",
+        "classes": [
+          "bridge_damage",
+          "building_damage",
+          "drainage",
+          "fire",
+          "flood",
+          "garbage",
+          "landslide",
+          "other",
+          "road_damage",
+          "water_supply",
+          "waterlogging"
+        ],
+        "test_size": 0.2,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "classification_report": {
+          "bridge_damage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 365.0
+          },
+          "building_damage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 352.0
+          },
+          "drainage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 372.0
+          },
+          "fire": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 347.0
+          },
+          "flood": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 365.0
+          },
+          "garbage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 381.0
+          },
+          "landslide": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 374.0
+          },
+          "other": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 363.0
+          },
+          "road_damage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 355.0
+          },
+          "water_supply": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 360.0
+          },
+          "waterlogging": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 366.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4000.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4000.0
+          }
+        }
+      }
+    },
+    "severity_model": {
+      "file": "severity_model.joblib",
+      "metrics": {
+        "target": "severity",
+        "classes": [
+          "critical",
+          "high",
+          "low",
+          "medium"
+        ],
+        "test_size": 0.2,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "classification_report": {
+          "critical": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1013.0
+          },
+          "high": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1001.0
+          },
+          "low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 981.0
+          },
+          "medium": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1005.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4000.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4000.0
+          }
+        }
+      }
+    }
+  },
+  "department_mapping": {
+    "road_damage": "Public Works Department (PWD - Roads)",
+    "garbage": "Solid Waste & Sanitation Department",
+    "drainage": "Public Health Engineering Dept (PHED - Drainage)",
+    "waterlogging": "Stormwater & Flood Management Cell",
+    "flood": "Disaster Management & Emergency Response",
+    "building_damage": "Town Planning & Structural Safety",
+    "bridge_damage": "PWD - Bridges & Heavy Infrastructure",
+    "water_supply": "Municipal Water Supply Board",
+    "fire": "Fire Safety & Emergency Services",
+    "landslide": "Disaster Response & Geological Hazard Unit"
+  },
+  "sla_policy": {
+    "critical": {
+      "sla_hours": 4,
+      "priority_level": 1,
+      "description": "Immediate Life Safety / Critical Hazard Response"
+    },
+    "high": {
+      "sla_hours": 24,
+      "priority_level": 2,
+      "description": "Urgent Operational Escalation (1 Day)"
+    },
+    "medium": {
+      "sla_hours": 72,
+      "priority_level": 3,
+      "description": "Standard Municipal Ticket (3 Days)"
+    },
+    "low": {
+      "sla_hours": 168,
+      "priority_level": 4,
+      "description": "Routine Maintenance Schedule (7 Days)"
+    }
+  }
+}

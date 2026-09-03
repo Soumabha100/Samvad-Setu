@@ -1,25 +1,47 @@
-# severity.py
+"""
+=============================================================================
+Samvad-Setu: Civic Innovation Platform (Part B - Computer Vision)
+Module: Part B - Civic Issue Severity Assessment Engine (8 Classes)
+=============================================================================
+"""
 
-def calculate_severity(issue_type, confidence):
+def calculate_severity(issue_type: str, confidence: float) -> str:
     """
-    Prototype severity engine for Samvad Setu AI.
+    Calculates severity level for detected civic issues.
 
     Parameters:
-        issue_type  : detected issue class
-        confidence  : YOLO confidence (0.0 - 1.0)
+        issue_type : detected class name (e.g. pothole, waterlogging)
+        confidence : YOLO detection confidence score (0.0 to 1.0)
 
     Returns:
-        severity level
+        severity level: 'CRITICAL', 'HIGH', 'MEDIUM', or 'LOW'
     """
+    issue = issue_type.lower().strip()
 
-    issue_type = issue_type.lower()
-
-    # Critical issues
-    if issue_type == "open_manhole":
+    # 1. Immediate Life-Safety Hazards (Highest Priority)
+    if issue == "open_manhole":
         return "CRITICAL"
 
-    # High severity issues
-    if issue_type == "pothole":
+    # 2. Roadway Flooding & Waterlogging
+    if issue == "waterlogging":
+        if confidence >= 0.75:
+            return "CRITICAL"
+        elif confidence >= 0.45:
+            return "HIGH"
+        else:
+            return "MEDIUM"
+
+    # 3. Traffic Light / Signal Failures
+    if issue == "traffic_light":
+        if confidence >= 0.70:
+            return "HIGH"
+        elif confidence >= 0.40:
+            return "MEDIUM"
+        else:
+            return "LOW"
+
+    # 4. Road Potholes
+    if issue == "pothole":
         if confidence >= 0.75:
             return "HIGH"
         elif confidence >= 0.50:
@@ -27,8 +49,17 @@ def calculate_severity(issue_type, confidence):
         else:
             return "LOW"
 
-    # Garbage
-    if issue_type == "garbage":
+    # 5. Stray Animals on Active Roadways
+    if issue == "stray_animal":
+        if confidence >= 0.75:
+            return "HIGH"
+        elif confidence >= 0.45:
+            return "MEDIUM"
+        else:
+            return "LOW"
+
+    # 6. Garbage Dumps and Waste Containers
+    if issue in ("garbage", "waste_container"):
         if confidence >= 0.75:
             return "HIGH"
         elif confidence >= 0.50:
@@ -36,8 +67,8 @@ def calculate_severity(issue_type, confidence):
         else:
             return "LOW"
 
-    # Cracks
-    if issue_type == "crack":
+    # 7. Structural Road Cracks
+    if issue == "crack":
         if confidence >= 0.75:
             return "HIGH"
         elif confidence >= 0.50:
@@ -45,25 +76,25 @@ def calculate_severity(issue_type, confidence):
         else:
             return "LOW"
 
-    # Unknown issue
+    # Default fallback
     return "LOW"
 
 
-# Simple test
 if __name__ == "__main__":
-
     tests = [
-        ("pothole", 0.85),
-        ("garbage", 0.65),
+        ("open_manhole", 0.65),
+        ("waterlogging", 0.85),
+        ("waterlogging", 0.55),
+        ("pothole", 0.80),
+        ("stray_animal", 0.78),
+        ("traffic_light", 0.72),
+        ("waste_container", 0.60),
+        ("garbage", 0.76),
         ("crack", 0.45),
-        ("open_manhole", 0.80),
     ]
 
-    for issue, confidence in tests:
-        severity = calculate_severity(issue, confidence)
-
-        print(
-            f"Issue: {issue:15} "
-            f"Confidence: {confidence:.2f} "
-            f"Severity: {severity}"
-        )
+    print(f"{'Issue Type':<18} | {'Confidence':<10} | {'Calculated Severity'}")
+    print("-" * 50)
+    for issue, conf in tests:
+        sev = calculate_severity(issue, conf)
+        print(f"{issue:<18} | {conf:<10.2f} | {sev}")
