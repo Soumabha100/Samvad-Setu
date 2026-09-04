@@ -16,8 +16,29 @@ router.get("/public", async (req, res) => {
 // Role-Restricted Route: Only 'citizen' can submit a problem
 router.post("/", protect, authorize("citizen"), async (req, res) => {
   try {
+    let category = "other";
+    
+    // Attempt to classify using AI Service
+    try {
+      const aiResponse = await fetch("http://127.0.0.1:8000/api/classify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: req.body.description || req.body.title || "" })
+      });
+      
+      if (aiResponse.ok) {
+        const aiData = await aiResponse.json();
+        if (aiData && aiData.category) {
+          category = aiData.category;
+        }
+      }
+    } catch (aiError) {
+      console.error("AI Classification Error:", aiError.message);
+    }
+
     const newProblem = new Problem({
       ...req.body,
+      category: category,
       reportedBy: req.user._id,
       timeline: [
         { stage: "Reported", timestamp: "Just now", actor: "Citizen" },

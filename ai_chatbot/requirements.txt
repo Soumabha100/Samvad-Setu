@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+nltk
+spacy
+sentence-transformers
+transformers
+torch
+faiss-cpu
+joblib
+fastapi
+uvicorn
+pydantic
