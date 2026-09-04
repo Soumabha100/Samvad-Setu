@@ -3,20 +3,14 @@ import { View, Text, TextInput, TouchableOpacity, KeyboardAvoidingView, Platform
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Building2, ShieldCheck, User, Lock, Mail, ArrowRight } from 'lucide-react-native';
+import { Building2, ShieldCheck, User, Lock, Mail, Phone, ArrowRight } from 'lucide-react-native';
+import { useTheme } from '../../context/ThemeContext';
 
 const isOfficialAccount = (email: string) => {
   const normalized = email.trim().toLowerCase();
-
-  if (!normalized) {
-    return false;
-  }
-
-  // Updated Regex: Now properly accepts standard .gov domains without needing .in or .com after it
+  if (!normalized) return false;
   return (
-    /@(?:[a-z0-9-]+\.)*(?:gov(?:\.in)?|municipal|municipality|authority|official)(?:\.[a-z]{2,})?$/i.test(
-      normalized
-    ) ||
+    /@(?:[a-z0-9-]+\.)*(?:gov(?:\.in)?|municipal|municipality|authority|official)(?:\.[a-z]{2,})?$/i.test(normalized) ||
     /^(official|authority|municipality|admin)[.@]/i.test(normalized) ||
     /(official|authority|municipality|admin)/i.test(normalized.split('@')[0])
   );
@@ -25,10 +19,14 @@ const isOfficialAccount = (email: string) => {
 export default function AuthScreen() {
   const router = useRouter();
   const params = useLocalSearchParams<{ portal?: string }>();
-  // Defaults to Citizen if no param is passed
   const portal = params.portal === 'authority' ? 'Authority' : 'Citizen';
   
+  const { theme } = useTheme();
+  const primaryColor = portal === 'Authority' ? theme.authorityPrimary : theme.citizenPrimary;
+  
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -38,172 +36,192 @@ export default function AuthScreen() {
   );
 
   const handleLogin = async () => {
-    const trimmedEmail = email.trim();
+    const trimmedName = name.trim();
+    const trimmedEmail = email.trim().toLowerCase();
+    const trimmedPhone = phone.trim();
     const trimmedPassword = password.trim();
 
-    if (!trimmedEmail || !trimmedPassword) {
-      setErrorMessage('Please enter both email and password.');
+    if (!trimmedName || !trimmedEmail || !trimmedPhone || !trimmedPassword) {
+      setErrorMessage('Please fill in all fields (Name, Email, Phone, Password).');
       return;
     }
 
-    // -----------------------------------------
-    // AUTHORITY LOGIN LOGIC & PROTECTION
-    // -----------------------------------------
-    if (portal === 'Authority') {
-      // 1. Explicit Test Admin Bypass
-      const isTestAdmin = trimmedEmail.toLowerCase() === 'admin@hmc.gov' && trimmedPassword === 'admin123';
+    if (trimmedPhone.length < 10) {
+      setErrorMessage('Please enter a valid 10-digit mobile number.');
+      return;
+    }
 
-      // 2. If it's NOT the test admin, strictly check the official regex rules
+    if (portal === 'Authority') {
+      const isTestAdmin = trimmedEmail === 'admin@hmc.gov' && trimmedPassword === 'admin123';
+
       if (!isTestAdmin && !isOfficialAccount(trimmedEmail)) {
-        setErrorMessage('Access denied: Restricted to verified HMC official accounts.');
+        setErrorMessage('Access denied: Restricted to verified official accounts.');
         return;
       }
-
-      // 3. Password length check for non-test accounts
       if (!isTestAdmin && trimmedPassword.length < 6) {
-        setErrorMessage('Official password is invalid. Please use verified staff credentials.');
+        setErrorMessage('Official password is invalid.');
         return;
       }
     } else {
-      // -----------------------------------------
-      // CITIZEN LOGIN LOGIC
-      // -----------------------------------------
       if (trimmedPassword.length < 6) {
         setErrorMessage('Password must be at least 6 characters long.');
+        return;
+      }
+
+      try {
+        const usersJson = await AsyncStorage.getItem('@app_users');
+        const users = usersJson ? JSON.parse(usersJson) : {};
+
+        if (users[trimmedEmail]) {
+          if (users[trimmedEmail].password !== trimmedPassword) {
+            setErrorMessage('Incorrect password for this account.');
+            return;
+          }
+          users[trimmedEmail].phone = trimmedPhone;
+          users[trimmedEmail].name = trimmedName;
+          await AsyncStorage.setItem('@app_users', JSON.stringify(users));
+        } else {
+          users[trimmedEmail] = { password: trimmedPassword, phone: trimmedPhone, name: trimmedName };
+          await AsyncStorage.setItem('@app_users', JSON.stringify(users));
+        }
+      } catch (error) {
+        console.error("Auth Error:", error);
+        setErrorMessage('An error occurred during authentication.');
         return;
       }
     }
 
     setErrorMessage('');
 
-    // Save the role to local storage so other screens can verify access level
-    await AsyncStorage.setItem('@app_user_role', portal === 'Authority' ? 'official' : 'citizen');
+    // Save session containing user's entered name
+    const sessionData = {
+      email: trimmedEmail,
+      phone: trimmedPhone,
+      name: trimmedName,
+      role: portal === 'Authority' ? 'official' : 'citizen'
+    };
     
-    // Navigate to the respective dashboard
+    await AsyncStorage.setItem('@app_current_session', JSON.stringify(sessionData));
+    await AsyncStorage.setItem('@app_user_role', sessionData.role);
+    await AsyncStorage.setItem('@app_user_token', 'dummy-auth-token-123'); 
+    
     router.replace(destination as any);
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#0F1B1E' }}>
-      <KeyboardAvoidingView
-        style={{ flex: 1 }}
-        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-      >
-        <View style={{ flex: 1, paddingHorizontal: 24, paddingTop: 40, paddingBottom: 28, justifyContent: 'center' }}>
-          <View style={{ alignItems: 'center', marginBottom: 26 }}>
-            <View
-              style={{
-                width: 84,
-                height: 84,
-                borderRadius: 24,
-                backgroundColor: '#16262A',
-                borderWidth: 1,
-                borderColor: portal === 'Authority' ? '#2F9E8F' : '#E8A33D',
-                alignItems: 'center',
-                justifyContent: 'center',
-                shadowColor: portal === 'Authority' ? '#2F9E8F' : '#E8A33D',
-                shadowOpacity: 0.2,
-                shadowRadius: 18,
-                shadowOffset: { width: 0, height: 8 },
-                marginBottom: 16,
-              }}
-            >
-              {portal === 'Authority' ? (
-                <ShieldCheck size={38} color="#2F9E8F" />
-              ) : (
-                <User size={38} color="#E8A33D" />
-              )}
+    <SafeAreaView style={{ flex: 1, backgroundColor: theme.background }}>
+      <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+        <View style={{ flex: 1, paddingHorizontal: 24, paddingTop: 20, paddingBottom: 20, justifyContent: 'center' }}>
+          
+          <View style={{ alignItems: 'center', marginBottom: 16 }}>
+            <View style={{
+                width: 68, height: 68, borderRadius: 20, backgroundColor: theme.card, borderWidth: 1,
+                borderColor: primaryColor, alignItems: 'center',
+                justifyContent: 'center', marginBottom: 10,
+              }}>
+              {portal === 'Authority' ? <ShieldCheck size={32} color={primaryColor} /> : <User size={32} color={primaryColor} />}
             </View>
-            <Text style={{ fontSize: 28, fontWeight: '800', color: '#F2EFE9', marginBottom: 6 }}>
-              {portal} Portal
-            </Text>
-            <Text style={{ fontSize: 14, color: '#9BA8A6', textAlign: 'center', lineHeight: 20 }}>
-              Sign in to continue to your civic workspace and service dashboard.
+            <Text style={{ fontSize: 24, fontWeight: '800', color: theme.text, marginBottom: 2 }}>{portal} Portal</Text>
+            <Text style={{ fontSize: 12, color: theme.subtext, textAlign: 'center', lineHeight: 16 }}>
+              {portal === 'Citizen' ? 'Sign in or register a new civic account.' : 'Sign in to your civic workspace.'}
             </Text>
           </View>
 
-          <View style={{ backgroundColor: '#16262A', borderRadius: 20, padding: 20, borderWidth: 1, borderColor: '#1D3238' }}>
-            <View style={{ marginBottom: 18 }}>
-              <Text style={{ color: '#9BA8A6', fontSize: 11, letterSpacing: 1, marginBottom: 8, fontWeight: '700' }}>
-                {portal.toUpperCase()} ACCOUNT
+          <View style={{ backgroundColor: theme.card, borderRadius: 20, padding: 18, borderWidth: 1, borderColor: theme.border }}>
+            
+            {/* Full Name Field */}
+            <View style={{ marginBottom: 12 }}>
+              <Text style={{ color: theme.subtext, fontSize: 10, letterSpacing: 1, marginBottom: 4, fontWeight: '700' }}>
+                FULL NAME
               </Text>
-              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: '#0F1B1E', borderRadius: 12, borderWidth: 1, borderColor: '#1D3238', paddingHorizontal: 12, paddingVertical: 12 }}>
-                <Mail size={18} color="#9BA8A6" style={{ marginRight: 10 }} />
+              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: theme.background, borderRadius: 12, borderWidth: 1, borderColor: theme.border, paddingHorizontal: 12, paddingVertical: 10 }}>
+                <User size={16} color={theme.subtext} style={{ marginRight: 10 }} />
+                <TextInput
+                  value={name}
+                  onChangeText={(val) => { setName(val); setErrorMessage(''); }}
+                  placeholder="Enter your name"
+                  placeholderTextColor={theme.subtext}
+                  style={{ flex: 1, color: theme.text, fontSize: 14 }}
+                />
+              </View>
+            </View>
+
+            {/* Email Field */}
+            <View style={{ marginBottom: 12 }}>
+              <Text style={{ color: theme.subtext, fontSize: 10, letterSpacing: 1, marginBottom: 4, fontWeight: '700' }}>
+                {portal.toUpperCase()} EMAIL
+              </Text>
+              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: theme.background, borderRadius: 12, borderWidth: 1, borderColor: theme.border, paddingHorizontal: 12, paddingVertical: 10 }}>
+                <Mail size={16} color={theme.subtext} style={{ marginRight: 10 }} />
                 <TextInput
                   value={email}
-                  onChangeText={(value) => {
-                    setEmail(value);
-                    if (errorMessage) {
-                      setErrorMessage('');
-                    }
-                  }}
-                  placeholder={portal === 'Authority' ? 'admin@hmc.gov' : 'Email address'}
-                  placeholderTextColor="#4A5553"
+                  onChangeText={(val) => { setEmail(val); setErrorMessage(''); }}
+                  placeholder={portal === 'Authority' ? 'admin@hmc.gov' : 'name@example.com'}
+                  placeholderTextColor={theme.subtext}
                   keyboardType="email-address"
                   autoCapitalize="none"
-                  style={{ flex: 1, color: '#F2EFE9', fontSize: 15 }}
+                  style={{ flex: 1, color: theme.text, fontSize: 14 }}
                 />
               </View>
             </View>
 
-            <View style={{ marginBottom: 22 }}>
-              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: '#0F1B1E', borderRadius: 12, borderWidth: 1, borderColor: '#1D3238', paddingHorizontal: 12, paddingVertical: 12 }}>
-                <Lock size={18} color="#9BA8A6" style={{ marginRight: 10 }} />
+            {/* Phone Number Field */}
+            <View style={{ marginBottom: 12 }}>
+              <Text style={{ color: theme.subtext, fontSize: 10, letterSpacing: 1, marginBottom: 4, fontWeight: '700' }}>
+                CONTACT NUMBER
+              </Text>
+              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: theme.background, borderRadius: 12, borderWidth: 1, borderColor: theme.border, paddingHorizontal: 12, paddingVertical: 10 }}>
+                <Phone size={16} color={theme.subtext} style={{ marginRight: 10 }} />
+                <TextInput
+                  value={phone}
+                  onChangeText={(val) => { setPhone(val); setErrorMessage(''); }}
+                  placeholder="10-digit Mobile Number"
+                  placeholderTextColor={theme.subtext}
+                  keyboardType="phone-pad"
+                  maxLength={10}
+                  style={{ flex: 1, color: theme.text, fontSize: 14 }}
+                />
+              </View>
+            </View>
+
+            {/* Password Field */}
+            <View style={{ marginBottom: 6 }}>
+              <Text style={{ color: theme.subtext, fontSize: 10, letterSpacing: 1, marginBottom: 4, fontWeight: '700' }}>
+                PASSWORD
+              </Text>
+              <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: theme.background, borderRadius: 12, borderWidth: 1, borderColor: theme.border, paddingHorizontal: 12, paddingVertical: 10 }}>
+                <Lock size={16} color={theme.subtext} style={{ marginRight: 10 }} />
                 <TextInput
                   value={password}
-                  onChangeText={(value) => {
-                    setPassword(value);
-                    if (errorMessage) {
-                      setErrorMessage('');
-                    }
-                  }}
+                  onChangeText={(val) => { setPassword(val); setErrorMessage(''); }}
                   placeholder={portal === 'Authority' ? 'Official password' : 'Password'}
-                  placeholderTextColor="#4A5553"
+                  placeholderTextColor={theme.subtext}
                   secureTextEntry
-                  style={{ flex: 1, color: '#F2EFE9', fontSize: 15 }}
+                  style={{ flex: 1, color: theme.text, fontSize: 14 }}
                 />
               </View>
             </View>
 
-            {errorMessage ? (
-              <Text style={{ color: '#FFB4B4', fontSize: 12, marginBottom: 12, textAlign: 'center' }}>
-                {errorMessage}
+            <TouchableOpacity onPress={() => router.push('/(auth)/forgot-password')} style={{ marginBottom: 14, alignSelf: 'flex-end' }}>
+              <Text style={{ color: primaryColor, fontSize: 12, fontWeight: '600' }}>
+                Forgot Password?
               </Text>
-            ) : null}
-
-            <TouchableOpacity
-              onPress={handleLogin}
-              style={{
-                backgroundColor: portal === 'Authority' ? '#2F9E8F' : '#E8A33D',
-                borderRadius: 14,
-                paddingVertical: 16,
-                flexDirection: 'row',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginBottom: 14,
-              }}
-            >
-              <Text style={{ color: portal === 'Authority' ? '#0F1B1E' : '#0F1B1E', fontSize: 16, fontWeight: '800', marginRight: 8 }}>
-                Sign in
-              </Text>
-              <ArrowRight size={18} color="#0F1B1E" />
             </TouchableOpacity>
 
-            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
-              <Building2 size={14} color="#9BA8A6" />
-              <Text style={{ color: '#9BA8A6', fontSize: 12 }}>
-                Secure access for {portal.toLowerCase()} users
-              </Text>
-            </View>
+            {errorMessage ? <Text style={{ color: theme.error, fontSize: 11, marginBottom: 10, textAlign: 'center' }}>{errorMessage}</Text> : null}
 
-            {/* Test Credentials Hint specifically for Authority View */}
+            <TouchableOpacity onPress={handleLogin} style={{ backgroundColor: primaryColor, borderRadius: 12, paddingVertical: 14, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginBottom: 8 }}>
+              <Text style={{ color: '#0F1B1E', fontSize: 15, fontWeight: '800', marginRight: 8 }}>Sign in</Text>
+              <ArrowRight size={16} color="#0F1B1E" />
+            </TouchableOpacity>
+
             {portal === 'Authority' && (
-              <Text style={{ color: '#2F9E8F', fontSize: 12, textAlign: 'center', marginTop: 16, fontWeight: '600' }}>
-                Test Login: admin@hmc.gov / admin123
+              <Text style={{ color: theme.authorityPrimary, fontSize: 11, textAlign: 'center', marginTop: 8, fontWeight: '600' }}>
+                Test: admin@hmc.gov / admin123
               </Text>
             )}
-
           </View>
+
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>

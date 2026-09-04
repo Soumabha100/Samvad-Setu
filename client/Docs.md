@@ -96,9 +96,10 @@ client/
 | **Build Tool**       | Vite            | Fast development server and production bundler          |
 | **State Management** | Zustand         | Lightweight state management for auth and notifications |
 | **API Client**       | Axios           | HTTP client with automatic JWT token injection          |
-| **Styling**          | Tailwind CSS    | Utility-first CSS framework                             |
-| **Icons**            | Lucide React    | Modern icon library                                     |
-| **Routing**          | React Router v6 | Client-side routing                                     |
+| **leaflet**             | ^1.9.4  | Open-source JavaScript library for mobile-friendly interactive maps |
+| **react-leaflet**       | ^5.0.0  | React components for Leaflet maps                                   |
+| **react-easy-crop**     | ^5.2.0  | Component to crop images with easy interactions                     |
+| **lucide-react**        | ^0.263.1| Beautiful and consistent icon toolkit                               |       |
 
 ### Design Pattern
 
@@ -487,8 +488,10 @@ The following components and layouts were recently added via an Agentic Workflow
 - `problemStore.js` now uses the authenticated Axios `api` instance to perform `GET /api/problems/public`, `POST /api/problems`, and `DELETE /api/problems/:id` requests.
 - Integrated a new **Delete** feature directly into the `ProblemDetail.jsx` view. The Delete button conditionally renders *only* if the currently authenticated Citizen is the original author of the problem.
 
-### 9. Submit Problem UI/UX Overhaul
+### 9. Submit Problem UI/UX Overhaul & Cloudinary
 - **Smooth Animations**: Integrated `framer-motion` to wrap all multi-step form transitions in buttery-smooth `<motion.div>` slide and fade animations, making it feel like a premium mobile app.
 - **Live Geolocation**: Replaced the static GPS display with a "Use Current Location" button that leverages the browser's `navigator.geolocation` API to retrieve actual latitude and longitude coordinates.
-- **Media Uploads**: Implemented a functional `<input type="file" />` that securely reads images as Base64 DataURLs. It dynamically renders a sleek preview thumbnail of the selected photo directly in the form.
+- **Image Cropping**: Integrated `react-easy-crop` into a custom modal. Users can now zoom, drag, and crop their images into 1:1, 4:3, or Free-Form aspect ratios before uploading.
+- **Cloudinary Media Uploads**: Upgraded the file input to capture actual cropped `File` objects. The `problemStore` intercepts these files and transforms the payload into a native `multipart/form-data` request. The backend streams these files directly to Cloudinary, ensuring scalable and secure cloud storage.
 - **Dynamic Toasts**: Hooked into `useToastStore` to provide instant, beautiful feedback messages when a location is fetched, an image is processed, a problem is successfully submitted, or a problem is securely deleted.
+- **Full-Screen Previews**: Added premium modal overlays with dark backdrops to elegantly view cropped images before submission and attached evidence on the Problem Details page.

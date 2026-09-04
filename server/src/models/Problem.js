@@ -22,7 +22,12 @@ const problemSchema = new mongoose.Schema(
       block: { type: String },
       address: { type: String },
     },
-    mediaUrls: [{ type: String }],
+    images: [
+      {
+        url: { type: String, required: true },
+        publicId: { type: String, required: true },
+      }
+    ],
     status: {
       type: String,
       default: 'unresolved',
