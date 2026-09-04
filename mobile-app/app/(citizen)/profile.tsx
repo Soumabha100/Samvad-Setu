@@ -5,24 +5,42 @@ import { useRouter } from 'expo-router';
 import { User, MapPin, Mail, Phone, Award, LogOut, Clock, CheckCircle2 } from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
+import { useTheme } from '../../context/ThemeContext';
 
 export default function CitizenProfileScreen() {
   const router = useRouter();
   const [tickets, setTickets] = useState<any[]>([]);
+  const { theme, isDarkMode } = useTheme();
+  
+  const [userName, setUserName] = useState('Citizen User');
+  const [userEmail, setUserEmail] = useState('Not provided');
+  const [userPhone, setUserPhone] = useState('+91 ----------');
 
-  // Refresh tickets whenever the profile tab comes into focus
   useFocusEffect(
     React.useCallback(() => {
       loadTickets();
+      loadUserData();
     }, [])
   );
+
+  const loadUserData = async () => {
+    try {
+      const sessionJson = await AsyncStorage.getItem('@app_current_session');
+      if (sessionJson) {
+        const session = JSON.parse(sessionJson);
+        if (session.name) setUserName(session.name);
+        if (session.email) setUserEmail(session.email);
+        if (session.phone) setUserPhone(`+91 ${session.phone}`);
+      }
+    } catch (error) {
+      console.error('Failed to load user session', error);
+    }
+  };
 
   const loadTickets = async () => {
     try {
       const stored = await AsyncStorage.getItem('@citizen_tickets');
-      if (stored) {
-        setTickets(JSON.parse(stored));
-      }
+      if (stored) setTickets(JSON.parse(stored));
     } catch (error) {
       console.error('Failed to load tickets', error);
     }
@@ -35,8 +53,7 @@ export default function CitizenProfileScreen() {
         text: 'Logout', 
         style: 'destructive',
         onPress: async () => {
-          // Clear authentication session data securely
-          await AsyncStorage.multiRemove(['@app_user_role', '@user_email']);
+          await AsyncStorage.multiRemove(['@app_user_role', '@app_current_session', '@app_user_token']);
           router.replace('/(auth)/login' as any);
         }
       }
@@ -44,55 +61,57 @@ export default function CitizenProfileScreen() {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#0F1B1E', padding: 16 }}>
-      <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: theme.background, padding: 16 }}>
+      <ScrollView contentContainerStyle={{ paddingBottom: 40 }} showsVerticalScrollIndicator={false}>
         
-        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F2EFE9', marginBottom: 20 }}>Citizen Profile</Text>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: theme.text, marginBottom: 20 }}>Citizen Profile</Text>
 
         {/* User Info Card */}
-        <View style={{ backgroundColor: '#16262A', borderRadius: 16, padding: 20, borderWidth: 1, borderColor: '#1D3238', alignItems: 'center', marginBottom: 24 }}>
-          <View style={{ width: 80, height: 80, borderRadius: 40, backgroundColor: '#E8A33D', alignItems: 'center', justifyContent: 'center', marginBottom: 12 }}>
-            <User size={40} color="#0F1B1E" />
+        <View style={{ backgroundColor: theme.card, borderRadius: 16, padding: 20, borderWidth: 1, borderColor: theme.border, alignItems: 'center', marginBottom: 24 }}>
+          <View style={{ width: 80, height: 80, borderRadius: 40, backgroundColor: theme.citizenPrimary, alignItems: 'center', justifyContent: 'center', marginBottom: 12 }}>
+            <User size={40} color={isDarkMode ? '#0F1B1E' : '#FFFFFF'} />
           </View>
-          <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#F2EFE9', marginBottom: 4 }}>Souvojit Sadhukhan</Text>
+          
+          <Text style={{ fontSize: 20, fontWeight: 'bold', color: theme.text, marginBottom: 4 }}>{userName}</Text>
+          
           <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 12 }}>
-            <MapPin size={14} color="#9BA8A6" style={{ marginRight: 4 }} />
-            <Text style={{ fontSize: 13, color: '#9BA8A6' }}>Howrah, West Bengal, India</Text>
+            <MapPin size={14} color={theme.subtext} style={{ marginRight: 4 }} />
+            <Text style={{ fontSize: 13, color: theme.subtext }}>Howrah, West Bengal, India</Text>
           </View>
 
-          <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: 'rgba(232, 163, 61, 0.1)', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 20, borderWidth: 1, borderColor: '#E8A33D' }}>
-            <Award size={16} color="#E8A33D" style={{ marginRight: 6 }} />
-            <Text style={{ color: '#E8A33D', fontSize: 12, fontWeight: 'bold' }}>Civic Contributor • Level 2</Text>
+          <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: isDarkMode ? 'rgba(232, 163, 61, 0.1)' : 'rgba(212, 138, 34, 0.1)', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 20, borderWidth: 1, borderColor: theme.citizenPrimary }}>
+            <Award size={16} color={theme.citizenPrimary} style={{ marginRight: 6 }} />
+            <Text style={{ color: theme.citizenPrimary, fontSize: 12, fontWeight: 'bold' }}>Civic Contributor • Level 2</Text>
           </View>
         </View>
 
         {/* Contact Details */}
-        <View style={{ backgroundColor: '#16262A', borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#1D3238', marginBottom: 24 }}>
-          <Text style={{ color: '#F2EFE9', fontSize: 16, fontWeight: 'bold', marginBottom: 16 }}>Account Details</Text>
+        <View style={{ backgroundColor: theme.card, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: theme.border, marginBottom: 24 }}>
+          <Text style={{ color: theme.text, fontSize: 16, fontWeight: 'bold', marginBottom: 16 }}>Account Details</Text>
           
           <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 16 }}>
-            <Mail size={18} color="#9BA8A6" style={{ marginRight: 12 }} />
+            <Mail size={18} color={theme.subtext} style={{ marginRight: 12 }} />
             <View>
-              <Text style={{ color: '#9BA8A6', fontSize: 11 }}>EMAIL</Text>
-              <Text style={{ color: '#F2EFE9', fontSize: 14 }}>souvojit.s@sih2026.gov</Text>
+              <Text style={{ color: theme.subtext, fontSize: 11 }}>EMAIL</Text>
+              <Text style={{ color: theme.text, fontSize: 14 }}>{userEmail}</Text>
             </View>
           </View>
 
           <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-            <Phone size={18} color="#9BA8A6" style={{ marginRight: 12 }} />
+            <Phone size={18} color={theme.subtext} style={{ marginRight: 12 }} />
             <View>
-              <Text style={{ color: '#9BA8A6', fontSize: 11 }}>PHONE</Text>
-              <Text style={{ color: '#F2EFE9', fontSize: 14 }}>+91 98765 43210</Text>
+              <Text style={{ color: theme.subtext, fontSize: 11 }}>PHONE</Text>
+              <Text style={{ color: theme.text, fontSize: 14 }}>{userPhone}</Text>
             </View>
           </View>
         </View>
 
         {/* Dynamic Stored Reports */}
-        <Text style={{ color: '#F2EFE9', fontSize: 16, fontWeight: 'bold', marginBottom: 12 }}>My Submitted Reports</Text>
+        <Text style={{ color: theme.text, fontSize: 16, fontWeight: 'bold', marginBottom: 12 }}>My Submitted Reports</Text>
         
-        <View style={{ backgroundColor: '#16262A', borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#1D3238', marginBottom: 24 }}>
+        <View style={{ backgroundColor: theme.card, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: theme.border, marginBottom: 24 }}>
           {tickets.length === 0 ? (
-            <Text style={{ color: '#9BA8A6', fontSize: 13, textAlign: 'center', paddingVertical: 10 }}>No reports submitted yet.</Text>
+            <Text style={{ color: theme.subtext, fontSize: 13, textAlign: 'center', paddingVertical: 10 }}>No reports submitted yet.</Text>
           ) : (
             tickets.map((item, index) => {
               const isResolved = item.status === 'Resolved';
@@ -105,30 +124,30 @@ export default function CitizenProfileScreen() {
                     alignItems: 'center', 
                     paddingBottom: index < tickets.length - 1 ? 12 : 0, 
                     borderBottomWidth: index < tickets.length - 1 ? 1 : 0, 
-                    borderBottomColor: '#1D3238', 
+                    borderBottomColor: theme.border, 
                     marginBottom: index < tickets.length - 1 ? 12 : 0 
                   }}
                 >
                   <View style={{ flex: 1, marginRight: 10 }}>
-                    <Text style={{ color: '#F2EFE9', fontWeight: 'bold', fontSize: 14 }}>{item.description}</Text>
-                    <Text style={{ color: '#9BA8A6', fontSize: 12, marginTop: 4 }}>{item.id} • {item.category}</Text>
+                    <Text style={{ color: theme.text, fontWeight: 'bold', fontSize: 14 }}>{item.description}</Text>
+                    <Text style={{ color: theme.subtext, fontSize: 12, marginTop: 4 }}>{item.id} • {item.category}</Text>
                   </View>
                   <View style={{ 
                     flexDirection: 'row', 
                     alignItems: 'center', 
-                    backgroundColor: isResolved ? 'rgba(47, 158, 143, 0.1)' : 'rgba(232, 163, 61, 0.1)', 
+                    backgroundColor: isResolved ? (isDarkMode ? 'rgba(47, 158, 143, 0.1)' : 'rgba(35, 122, 110, 0.1)') : (isDarkMode ? 'rgba(232, 163, 61, 0.1)' : 'rgba(212, 138, 34, 0.1)'), 
                     paddingHorizontal: 8, 
                     paddingVertical: 4, 
                     borderRadius: 6,
                     borderWidth: 1,
-                    borderColor: isResolved ? '#2F9E8F' : '#E8A33D'
+                    borderColor: isResolved ? theme.authorityPrimary : theme.citizenPrimary
                   }}>
                     {isResolved ? (
-                      <CheckCircle2 size={12} color="#2F9E8F" style={{ marginRight: 4 }} />
+                      <CheckCircle2 size={12} color={theme.authorityPrimary} style={{ marginRight: 4 }} />
                     ) : (
-                      <Clock size={12} color="#E8A33D" style={{ marginRight: 4 }} />
+                      <Clock size={12} color={theme.citizenPrimary} style={{ marginRight: 4 }} />
                     )}
-                    <Text style={{ color: isResolved ? '#2F9E8F' : '#E8A33D', fontSize: 11, fontWeight: 'bold' }}>{item.status}</Text>
+                    <Text style={{ color: isResolved ? theme.authorityPrimary : theme.citizenPrimary, fontSize: 11, fontWeight: 'bold' }}>{item.status}</Text>
                   </View>
                 </View>
               );
@@ -140,9 +159,9 @@ export default function CitizenProfileScreen() {
         <TouchableOpacity 
           onPress={handleLogout}
           style={{ 
-            backgroundColor: 'rgba(239, 68, 68, 0.1)', 
+            backgroundColor: isDarkMode ? 'rgba(239, 68, 68, 0.1)' : 'rgba(217, 56, 56, 0.1)', 
             borderWidth: 1, 
-            borderColor: '#EF4444', 
+            borderColor: theme.error, 
             paddingVertical: 14, 
             borderRadius: 12, 
             flexDirection: 'row', 
@@ -150,8 +169,8 @@ export default function CitizenProfileScreen() {
             justifyContent: 'center' 
           }}
         >
-          <LogOut size={18} color="#EF4444" style={{ marginRight: 8 }} />
-          <Text style={{ color: '#EF4444', fontWeight: 'bold', fontSize: 15 }}>Secure Sign Out</Text>
+          <LogOut size={18} color={theme.error} style={{ marginRight: 8 }} />
+          <Text style={{ color: theme.error, fontWeight: 'bold', fontSize: 15 }}>Secure Sign Out</Text>
         </TouchableOpacity>
 
       </ScrollView>

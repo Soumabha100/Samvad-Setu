@@ -3,13 +3,24 @@ import { useNavigate } from 'react-router-dom';
 import { Camera, MapPin, Sparkles, CheckCircle, ArrowRight, ArrowLeft } from 'lucide-react';
 import { useProblemStore } from '../../store/problemStore';
 import { useToastStore } from '../../store/toastStore';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import Cropper from 'react-easy-crop';
+import getCroppedImg from '../../utils/cropImage';
 import Button from '../../components/ui/Button';
 
 export default function SubmitProblem() {
   const navigate = useNavigate();
   const { addProblem, isLoading } = useProblemStore();
   const [step, setStep] = useState(1);
+
+  const [cropModalOpen, setCropModalOpen] = useState(false);
+  const [previewModalOpen, setPreviewModalOpen] = useState(false);
+  const [imageToCrop, setImageToCrop] = useState(null);
+  const [crop, setCrop] = useState({ x: 0, y: 0 });
+  const [zoom, setZoom] = useState(1);
+  const [croppedAreaPixels, setCroppedAreaPixels] = useState(null);
+  const [aspect, setAspect] = useState(1);
+
 
   const [formData, setFormData] = useState({
     title: '',
@@ -19,7 +30,8 @@ export default function SubmitProblem() {
     urgency: 'medium',
     category: 'Infrastructure & Safety',
     imageUploaded: false,
-    mediaUrls: [],
+    images: [],
+    previewUrls: [],
     lat: 23.3441,
     lng: 85.3096,
   });
@@ -55,24 +67,39 @@ export default function SubmitProblem() {
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setFormData(prev => ({ ...prev, imageUploaded: true, mediaUrls: [reader.result] }));
-        showToast("Image processed successfully", "success");
-      };
-      reader.readAsDataURL(file);
+      const url = URL.createObjectURL(file);
+      setImageToCrop(url);
+      setCropModalOpen(true);
+    }
+  };
+
+  const onCropComplete = (croppedArea, croppedAreaPixels) => {
+    setCroppedAreaPixels(croppedAreaPixels);
+  };
+
+  const handleCropConfirm = async () => {
+    try {
+      const croppedImageFile = await getCroppedImg(imageToCrop, croppedAreaPixels);
+      const previewUrl = URL.createObjectURL(croppedImageFile);
+      setFormData(prev => ({ ...prev, imageUploaded: true, images: [croppedImageFile], previewUrls: [previewUrl] }));
+      setCropModalOpen(false);
+      showToast("Image cropped successfully", "success");
+    } catch (e) {
+      showToast("Failed to crop image", "error");
     }
   };
 
   const handleSubmit = async () => {
-    const created = await addProblem({
+    const payload = {
       title: formData.title,
       description: formData.description,
       category: formData.category,
       urgency: formData.urgency,
       location: { district: formData.district, block: formData.block, lat: formData.lat, lng: formData.lng },
-      mediaUrls: formData.mediaUrls,
-    });
+      images: formData.images,
+    };
+    
+    const created = await addProblem(payload);
     
     if (created) {
       showToast("Problem reported successfully!", "success");
@@ -188,7 +215,7 @@ export default function SubmitProblem() {
           <label className="p-8 border-2 border-dashed border-[#1D3238] hover:border-[#E8A33D] rounded-xl bg-[#0F1B1E] text-center space-y-3 cursor-pointer block transition-colors">
             <input type="file" className="hidden" accept="image/*" onChange={handleFileUpload} />
             {formData.imageUploaded ? (
-              <img src={formData.mediaUrls[0]} alt="Preview" className="mx-auto h-32 object-cover rounded-lg" />
+              <img src={formData.previewUrls[0]} alt="Preview" className="mx-auto h-32 object-cover rounded-lg border border-[#1D3238] shadow-md hover:scale-105 transition-transform" onClick={(e) => { e.preventDefault(); setPreviewModalOpen(true); }} />
             ) : (
               <>
                 <Camera className="mx-auto text-[#9BA8A6]" size={36} />
@@ -264,6 +291,87 @@ export default function SubmitProblem() {
           </div>
         </motion.div>
       )}
+      {/* Crop Modal */}
+      <AnimatePresence>
+        {cropModalOpen && (
+          <motion.div 
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          >
+            <motion.div 
+              initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.9, opacity: 0 }}
+              className="bg-[#16262A] w-full max-w-lg rounded-2xl border border-[#1D3238] overflow-hidden flex flex-col"
+            >
+              <div className="p-4 border-b border-[#1D3238] flex justify-between items-center bg-[#0F1B1E]">
+                <h3 className="font-bold text-[#F2EFE9]">Crop Image</h3>
+                <button onClick={() => setCropModalOpen(false)} className="text-[#9BA8A6] hover:text-red-400">✕</button>
+              </div>
+              
+              <div className="relative w-full h-[300px] sm:h-[400px] bg-[#0F1B1E]">
+                <Cropper
+                  image={imageToCrop}
+                  crop={crop}
+                  zoom={zoom}
+                  aspect={aspect}
+                  onCropChange={setCrop}
+                  onCropComplete={onCropComplete}
+                  onZoomChange={setZoom}
+                />
+              </div>
+
+              <div className="p-4 space-y-4">
+                <div>
+                  <label className="text-xs font-mono text-[#9BA8A6] mb-2 block">Zoom</label>
+                  <input
+                    type="range"
+                    value={zoom}
+                    min={1}
+                    max={3}
+                    step={0.1}
+                    aria-labelledby="Zoom"
+                    onChange={(e) => setZoom(e.target.value)}
+                    className="w-full accent-[#E8A33D]"
+                  />
+                </div>
+                
+                <div>
+                  <label className="text-xs font-mono text-[#9BA8A6] mb-2 block">Aspect Ratio</label>
+                  <div className="flex gap-2">
+                    <Button variant={aspect === 1 ? 'primary' : 'outline'} className="flex-1 text-xs py-1" onClick={() => setAspect(1)}>1:1 (Square)</Button>
+                    <Button variant={aspect === 4/3 ? 'primary' : 'outline'} className="flex-1 text-xs py-1" onClick={() => setAspect(4/3)}>4:3</Button>
+                    <Button variant={!aspect ? 'primary' : 'outline'} className="flex-1 text-xs py-1" onClick={() => setAspect(undefined)}>Free Form</Button>
+                  </div>
+                </div>
+
+                <div className="flex justify-end gap-2 pt-2 border-t border-[#1D3238]">
+                  <Button variant="outline" onClick={() => setCropModalOpen(false)}>Cancel</Button>
+                  <Button variant="primary" onClick={handleCropConfirm}>Confirm Crop</Button>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Preview Modal */}
+      <AnimatePresence>
+        {previewModalOpen && (
+          <motion.div 
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+            onClick={() => setPreviewModalOpen(false)}
+          >
+            <button className="absolute top-4 right-4 text-white hover:text-red-400 bg-black/50 rounded-full w-10 h-10 flex items-center justify-center backdrop-blur-sm z-50">✕</button>
+            <motion.img 
+              initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.8, opacity: 0 }}
+              src={formData.previewUrls[0]} 
+              alt="Full Preview" 
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
