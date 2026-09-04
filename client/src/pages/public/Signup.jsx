@@ -9,20 +9,30 @@ import {
 } from "lucide-react";
 import SignalDot from "../../components/ui/SignalDot";
 import Button from "../../components/ui/Button";
-import { useAuthStore } from "../../store/authStore";
 import { useToastStore } from "../../store/toastStore";
 
 export default function Signup() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const initialRole = searchParams.get("role") || "citizen";
-  const { signup, isLoading, error } = useAuthStore();
   const { showToast } = useToastStore();
 
   const [role, setRole] = useState(initialRole);
+  const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
-    name: "",
-    contact: "",
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    dateOfBirth: "",
+    gender: "prefer-not-to-say",
+    address: "",
+    city: "",
+    state: "Jharkhand",
+    district: "",
+    pinCode: "",
+    password: "",
+    confirmPassword: "",
     orgName: "",
     regId: "",
     consent: false,
@@ -31,43 +41,49 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // 1. Map UI tab selection to backend database role schema
-    let dbRole = "citizen";
-    if (role === "university") dbRole = "hei";
-    if (role === "industry") dbRole = "industry_csr";
-
-    // 2. Format request body to match backend expectations
-    const payload = {
-      name: formData.name,
-      email: formData.contact,
-      password: formData.password,
-      role: dbRole,
-      institutionName: formData.orgName,
-      department: formData.regId,
-    };
-
-    // 3. Send registration payload to API gateway
-    const success = await signup(payload);
-
-    if (success) {
-      showToast("Account created successfully! Redirecting...", "success");
-
-      // 4. Navigate based on selected UI registration path
-      if (role === "citizen") {
-        navigate("/citizen/dashboard");
-      } else if (role === "university") {
-        navigate("/hei/dashboard");
-      } else {
-        navigate("/industry/dashboard");
-      }
-    } else {
-      // 5. Display backend validation error in toast
-      const errorMessage =
-        useAuthStore.getState().error ||
-        "Registration failed. Please try again.";
-      showToast(errorMessage, "error");
+    if (role !== "citizen") {
+      showToast("Institutional registration will be enabled in the next verification phase.", "success");
+      return;
     }
+    if (formData.password !== formData.confirmPassword) {
+      showToast("Passwords do not match.", "error");
+      return;
+    }
+    if (!/^\d{6}$/.test(formData.pinCode)) {
+      showToast("Enter a valid 6-digit PIN code.", "error");
+      return;
+    }
+
+    localStorage.setItem("samvad-setu-registration-draft", JSON.stringify({
+      ...formData,
+      name: `${formData.firstName} ${formData.lastName}`.trim(),
+      role: "citizen",
+    }));
+    showToast("Profile details saved. You can now sign in once backend registration is connected.", "success");
+    navigate("/login");
   };
+
+  const updateField = (field, value) => {
+    setFormData((current) => ({ ...current, [field]: value }));
+  };
+
+  const goToNextStep = () => {
+    if (step === 1 && (!formData.firstName || !formData.lastName || !formData.email || !formData.phone)) {
+      showToast("Complete your name, email, and phone number first.", "error");
+      return;
+    }
+    if (step === 2 && (!formData.dateOfBirth || !formData.address || !formData.city || !formData.district || !formData.pinCode)) {
+      showToast("Complete your date of birth and address details first.", "error");
+      return;
+    }
+    if (step === 2 && !formData.consent) {
+      showToast("Please accept the privacy notice before continuing.", "error");
+      return;
+    }
+    if (step < 3) setStep((current) => current + 1);
+  };
+
+  const goToPreviousStep = () => setStep((current) => Math.max(1, current - 1));
 
   return (
     <div className="min-h-screen bg-[#0F1B1E] text-[#F2EFE9] flex flex-col justify-between p-6">
@@ -75,7 +91,7 @@ export default function Signup() {
         <Link to="/" className="flex items-center gap-2">
           <SignalDot status="unresolved" size="sm" />
           <span className="font-display font-bold text-lg text-[#F2EFE9]">
-            SICP
+           Samvad-Setu
           </span>
         </Link>
       </header>
@@ -84,7 +100,7 @@ export default function Signup() {
         <div className="space-y-2 text-center">
           <h1 className="text-2xl font-bold font-display">Create an Account</h1>
           <p className="text-xs text-[#9BA8A6]">
-            Select your registration path below[cite: 1].
+            Create your civic profile. Registration is currently frontend-only.
           </p>
         </div>
 
@@ -141,60 +157,73 @@ export default function Signup() {
           </div>
         )}
 
-        {error && (
-          <div className="p-3 bg-red-900/30 border border-red-500/50 rounded-lg text-red-400 text-xs text-center">
-            {error}
-          </div>
-        )}
+        <div className="flex items-center gap-2" aria-label="Registration progress">
+          {["Basic details", "Profile & location", "Security"].map((label, index) => (
+            <div key={label} className="flex-1 space-y-1">
+              <div className={`h-1.5 rounded-full ${step >= index + 1 ? "bg-[#E8A33D]" : "bg-[#1D3238]"}`} />
+              <p className={`text-[10px] font-mono ${step === index + 1 ? "text-[#E8A33D]" : "text-[#9BA8A6]"}`}>{index + 1}. {label}</p>
+            </div>
+          ))}
+        </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="space-y-1">
-            <label className="text-xs font-mono text-[#9BA8A6]">
-              Full Name / Representative Name
-            </label>
-            <input
-              type="text"
-              required
-              placeholder="Full Name"
-              value={formData.name}
-              onChange={(e) =>
-                setFormData({ ...formData, name: e.target.value })
-              }
-              className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9] focus:outline-none focus:border-[#E8A33D]"
-            />
+          {step === 1 && (
+            <section className="space-y-4">
+              <div>
+                <h2 className="text-lg font-bold font-display">Basic details</h2>
+                <p className="text-xs text-[#9BA8A6] mt-1">Tell us how we should identify and contact you.</p>
+              </div>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[['firstName', 'First Name'], ['lastName', 'Last Name']].map(([key, label]) => (
+              <div className="space-y-1" key={key}>
+                <label className="text-xs font-mono text-[#9BA8A6]">{label}</label>
+                <input type="text" required placeholder={label} value={formData[key]} onChange={(e) => setFormData({ ...formData, [key]: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9] focus:outline-none focus:border-[#E8A33D]" />
+              </div>
+            ))}
           </div>
 
-          <div className="space-y-1">
-            <label className="text-xs font-mono text-[#9BA8A6]">
-              Phone / Email
-            </label>
-            <input
-              type="text"
-              required
-              placeholder="contact@domain.com or +91..."
-              value={formData.contact}
-              onChange={(e) =>
-                setFormData({ ...formData, contact: e.target.value })
-              }
-              className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9] focus:outline-none focus:border-[#E8A33D]"
-            />
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[['email', 'Email Address', 'email'], ['phone', 'Phone Number', 'tel']].map(([key, label, type]) => (
+              <div className="space-y-1" key={key}>
+                <label className="text-xs font-mono text-[#9BA8A6]">{label}</label>
+                <input type={type} required placeholder={label} value={formData[key]} onChange={(e) => setFormData({ ...formData, [key]: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9] focus:outline-none focus:border-[#E8A33D]" />
+              </div>
+            ))}
+          </div>
+            </section>
+          )}
+
+          {step === 2 && (
+            <section className="space-y-4">
+              <div>
+                <h2 className="text-lg font-bold font-display">Profile & location</h2>
+                <p className="text-xs text-[#9BA8A6] mt-1">Add your demographic and address details for local civic services.</p>
+              </div>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <div className="space-y-1"><label className="text-xs font-mono text-[#9BA8A6]">Date of Birth</label><input type="date" value={formData.dateOfBirth} onChange={(e) => setFormData({ ...formData, dateOfBirth: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9]" /></div>
+            <div className="space-y-1"><label className="text-xs font-mono text-[#9BA8A6]">Gender</label><select value={formData.gender} onChange={(e) => setFormData({ ...formData, gender: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9]"><option value="prefer-not-to-say">Prefer not to say</option><option>Female</option><option>Male</option><option>Other</option></select></div>
           </div>
 
-          <div className="space-y-1">
-            <label className="text-xs font-mono text-[#9BA8A6]">Password</label>
-            <input
-              type="password"
-              required
-              placeholder="Create a secure password"
-              value={formData.password || ""}
-              onChange={(e) =>
-                setFormData({ ...formData, password: e.target.value })
-              }
-              className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9] focus:outline-none focus:border-[#E8A33D]"
-            />
+          <div className="space-y-1"><label className="text-xs font-mono text-[#9BA8A6]">Address</label><textarea required rows="2" placeholder="House number, street, village or ward" value={formData.address} onChange={(e) => setFormData({ ...formData, address: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9]" /></div>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[['city', 'City / Town'], ['district', 'District'], ['state', 'State'], ['pinCode', 'PIN Code']].map(([key, label]) => <div className="space-y-1" key={key}><label className="text-xs font-mono text-[#9BA8A6]">{label}</label><input type={key === 'pinCode' ? 'text' : 'text'} required value={formData[key]} onChange={(e) => setFormData({ ...formData, [key]: e.target.value })} placeholder={label} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9]" /></div>)}
           </div>
+            </section>
+          )}
 
-          {role !== "citizen" && (
+          {step === 3 && (
+            <section className="space-y-4">
+              <div>
+                <h2 className="text-lg font-bold font-display">Secure your account</h2>
+                <p className="text-xs text-[#9BA8A6] mt-1">Create a password to finish your frontend registration.</p>
+              </div>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[['password', 'Create Password'], ['confirmPassword', 'Confirm Password']].map(([key, label]) => <div className="space-y-1" key={key}><label className="text-xs font-mono text-[#9BA8A6]">{label}</label><input type="password" required minLength="8" placeholder={label} value={formData[key]} onChange={(e) => setFormData({ ...formData, [key]: e.target.value })} className="w-full bg-[#0F1B1E] border border-[#1D3238] rounded-lg py-2.5 px-4 text-sm text-[#F2EFE9]" /></div>)}
+          </div>
+            </section>
+          )}
+
+          {step === 2 && role !== "citizen" && (
             <>
               <div className="space-y-1">
                 <label className="text-xs font-mono text-[#9BA8A6]">
@@ -230,41 +259,40 @@ export default function Signup() {
             </>
           )}
 
-          {/* DPDP Compliance Checkbox (Section 3.3)[cite: 1] */}
-          <div className="flex items-start gap-2 pt-2">
+          {step === 2 && <div className="flex items-start gap-2 pt-2">
             <input
               type="checkbox"
               id="consent"
-              required
               checked={formData.consent}
-              onChange={(e) =>
-                setFormData({ ...formData, consent: e.target.checked })
-              }
+              onChange={(e) => updateField("consent", e.target.checked)}
               className="mt-1 accent-[#E8A33D]"
             />
-            <label
-              htmlFor="consent"
-              className="text-xs text-[#9BA8A6] leading-relaxed"
-            >
-              We'll use your submission and location to route your problem. We
-              never sell your data (DPDP Act Compliant)[cite: 1].
+            <label htmlFor="consent" className="text-xs text-[#9BA8A6] leading-relaxed">
+              We'll use your submission and location to route your problem. We never sell your data (DPDP Act Compliant).
             </label>
-          </div>
+          </div>}
 
+          {step === 3 && <>
           <Button
             variant="primary"
             type="submit"
-            disabled={isLoading}
-            className="w-full py-2.5 disabled:opacity-50"
+            className="w-full py-2.5"
           >
-            {isLoading ? (
-              "Creating Account..."
-            ) : (
-              <>
-                Complete Registration <ArrowRight size={16} />
-              </>
-            )}
+            Complete Registration <ArrowRight size={16} />
           </Button>
+          </>}
+
+          {step < 3 && (
+            <Button type="button" variant="primary" className="w-full py-2.5" onClick={goToNextStep}>
+              Continue to {step === 1 ? "Profile & location" : "Security"} <ArrowRight size={16} />
+            </Button>
+          )}
+
+          {step > 1 && (
+            <Button type="button" variant="outline" className="w-full py-2.5" onClick={goToPreviousStep}>
+              Back to {step === 3 ? "Profile & location" : "Basic details"}
+            </Button>
+          )}
         </form>
 
         <p className="text-center text-xs text-[#9BA8A6]">

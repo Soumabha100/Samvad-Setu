@@ -50,7 +50,7 @@ export default function Login() {
         <Link to="/" className="flex items-center gap-2">
           <SignalDot status="unresolved" size="sm" />
           <span className="font-display font-bold text-lg text-[#F2EFE9]">
-            SICP
+            Samvad-Setu
           </span>
         </Link>
       </header>

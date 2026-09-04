@@ -3,6 +3,7 @@ import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { LayoutDashboard, User, Settings as SettingsIcon, LogOut, Menu, ShieldCheck, Building2, Briefcase } from 'lucide-react';
 import { useAuthStore } from '../../store/authStore';
 import { useToastStore } from '../../store/toastStore';
+import { ThemeSwitcher } from '../../context/ThemeContext';
 
 export default function SidebarLayout() {
   const { logout, user } = useAuthStore();
@@ -22,10 +23,13 @@ export default function SidebarLayout() {
     
     if (role === 'government_admin' || role === 'admin' || role === 'govt_admin' || role === 'platform_admin') {
       items.push({ name: 'Admin Analytics', path: '/admin/analytics', icon: ShieldCheck });
+      items.push({ name: 'Problem Operations', path: '/admin/problems', icon: LayoutDashboard });
     } else if (role === 'hei' || role === 'hei_admin') {
       items.push({ name: 'HEI Dashboard', path: '/hei/dashboard', icon: Building2 });
+      items.push({ name: 'Problem Tracking', path: '/hei/tracking', icon: LayoutDashboard });
     } else if (role === 'industry_csr' || role === 'industry_admin') {
       items.push({ name: 'Industry Dashboard', path: '/industry/dashboard', icon: Briefcase });
+      items.push({ name: 'Problem Tracking', path: '/industry/tracking', icon: LayoutDashboard });
     } else {
       items.push({ name: 'Dashboard', path: '/citizen/dashboard', icon: LayoutDashboard });
     }
@@ -80,6 +84,7 @@ export default function SidebarLayout() {
         </nav>
 
         <div className="p-4 border-t border-[#1D3238]">
+          <div className="mb-3"><ThemeSwitcher /></div>
           <div className="flex items-center gap-3 px-4 py-3 mb-2 bg-[#0F1B1E] rounded-lg border border-[#1D3238]">
             <div className="w-8 h-8 rounded-full bg-[#1D3238] flex items-center justify-center text-[#E8A33D] font-bold">
               {user?.name ? user.name.charAt(0).toUpperCase() : 'C'}
