@@ -3,6 +3,18 @@
 .env.*
 !.env.example
 
-# Python Cache
+# Python Cache & Environments
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+env/
+
+# Datasets & Large Training Files
+**/dataset/
+dataset/
+**/runs/
+runs/
+*.zip
+*.tar*
+*.cache

@@ -45,13 +45,17 @@ CIVIC_DOMAIN_PROMPT = (
 )
 
 # Connect to Part A NLP inference engine
-if str(PART_A_DIR) not in sys.path:
-    sys.path.insert(0, str(PART_A_DIR))
-
 try:
-    # pyrefly: ignore [missing-import]
-    from predict import get_classifier
-    part_a_classifier = get_classifier()
+    import importlib.util
+    part_a_file = PART_A_DIR / "predict.py"
+    if part_a_file.exists():
+        spec = importlib.util.spec_from_file_location("part_a_inference", str(part_a_file))
+        part_a_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(part_a_mod)
+        get_classifier_fn = getattr(part_a_mod, "get_classifier", None)
+        part_a_classifier = get_classifier_fn() if get_classifier_fn else getattr(part_a_mod, "ComplaintClassifier", lambda: None)()
+    else:
+        part_a_classifier = None
 except Exception as e:
     part_a_classifier = None
     print(f"[WARNING] Part A classifier could not be loaded: {e}")

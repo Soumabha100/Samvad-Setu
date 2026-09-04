@@ -43,9 +43,8 @@ ai-engine/
 │   └── Docs.md                         # Part A documentation
 │
 └── part-b/                             # Multimodal AI, Academic & Corporate Engine
-    ├── .env                            # Part B environment configuration
-    ├── .gitignore                      # Git ignore rules
-    ├── main.py                         # Unified FastAPI server (Port 8000)
+    ├── .gitignore                      # Git ignore rules (strict dataset & run exclusion)
+    ├── main.py                         # Unified FastAPI server (Port 8000, 37 verified routes)
     ├── dedup.py                        # Spatial & semantic deduplication engine
     ├── requirements.txt                # Part B Python dependencies
     ├── Docs.md                         # Complete API and schema documentation
@@ -96,20 +95,22 @@ To prevent the backend team from having to manage 10+ disparate endpoints across
 cd ai-engine/part-b
 uvicorn main:app --reload --port 8000
 ```
-Interactive Swagger API documentation is live at **`http://localhost:8000/docs`**.
+Interactive Swagger API documentation is live at **`http://localhost:8000/docs`** (37 registered and verified endpoints).
 
-### 2. Run Academic HEI Test Suite
+### 2. Run Autonomous AI-Agent Lifecycle Test Suite
 ```powershell
-cd ai-engine/part-b
-python academic/test_academic.py
-python academic/test_academic_api.py
+python ai-engine/ai-agent/test_agent.py
+```
+Validates the entire 10-phase lifecycle (ingestion, spatial fusion, chronic escalation, HEI capstone, CSR escrow pledge, municipal clearance, and MCA 135 certification).
+
+### 3. Run Academic HEI Test Suite
+```powershell
+python ai-engine/part-b/academic/test_academic.py
 ```
 
-### 3. Run Corporate CSR & Escrow Test Suite
+### 4. Run Corporate CSR & Escrow Test Suite
 ```powershell
-cd ai-engine/part-b
-python corporate/test_corporate.py
-python corporate/test_corporate_api.py
+python ai-engine/part-b/corporate/test_corporate.py
 ```
 
 ---

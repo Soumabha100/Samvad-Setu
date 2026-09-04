@@ -3,133 +3,92 @@
 # .gitignore
 # ============================================================
 
-
 # ------------------------------------------------------------
-# Python
+# Python Cache & Virtual Environments
 # ------------------------------------------------------------
-
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 *.pyd
-
-# Python cache
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
-
-# ------------------------------------------------------------
-# Virtual Environment
-# ------------------------------------------------------------
 
 venv/
 env/
 .venv/
 
-
 # ------------------------------------------------------------
-# Environment / Secrets
+# Environment & Secrets (STRICTLY ONE MASTER .env in ai-engine/)
 # ------------------------------------------------------------
-
 .env
 .env.*
 !.env.example
 
-
 # ------------------------------------------------------------
-# DATASETS
+# DATASETS (Ignore entire dataset directory & large assets)
 # ------------------------------------------------------------
+# Ignore entire dataset directories anywhere in part-b
+dataset/
+image/dataset/
+**/dataset/
 
-# Original downloaded datasets
-image/dataset/raw/
+# Dataset archives and downloaded data dumps
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
 
-# Processed YOLO dataset
-image/dataset/processed/
-
-# Dataset cache files
+# Dataset cache files and label caches
 *.cache
-
+labels.cache
 
 # ------------------------------------------------------------
-# YOLO TRAINING OUTPUTS
+# YOLO TRAINING RUNS & OUTPUT WEIGHTS
 # ------------------------------------------------------------
-
 image/runs/
-
-# Ultralytics generated files
 runs/
 weights/
-
+*.pt.backup
 
 # ------------------------------------------------------------
-# UPLOADED / TEST IMAGES
+# UPLOADED, GENERATED & LOCAL TEST IMAGES / AUDIO
 # ------------------------------------------------------------
-
 image/uploads/
 voice/uploads/
 uploads/
+test_images/
 
+# Local test images
 image/test*.jpg
 image/test*.jpeg
 image/test*.png
 image/test*.webp
-
-# Temporary images
 *.tmp
 *.temp
 
-
 # ------------------------------------------------------------
-# MODEL FILES
+# MODEL WEIGHTS (Only track production vision_model.pt)
 # ------------------------------------------------------------
-
-# Ignore trained model by default
-
 *.pt
 !models/vision_model.pt
 *.pth
 *.onnx
-
-# IMPORTANT:
-# If you later decide to upload the final model,
-# remove the corresponding *.pt rule or use Git LFS.
-
+*.engine
 
 # ------------------------------------------------------------
-# LOGS
+# LOGS & SYSTEM ARTIFACTS
 # ------------------------------------------------------------
-
 *.log
 logs/
-
-
-
-# ------------------------------------------------------------
-# IDE
-# ------------------------------------------------------------
-
 .vscode/
 .idea/
-
-
-# ------------------------------------------------------------
-# OS FILES
-# ------------------------------------------------------------
-
-# Windows
 Thumbs.db
 Desktop.ini
-
-# macOS
 .DS_Store
-
-
-# ------------------------------------------------------------
-# Temporary files
-# ------------------------------------------------------------
-
 *.swp
 *.swo
 *.bak

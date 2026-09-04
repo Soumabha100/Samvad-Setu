@@ -17,123 +17,95 @@ if not MODEL_PATH.exists():
 model = YOLO(str(MODEL_PATH))
 
 
-# ============================================================
-# GET IMAGE
-# ============================================================
+def run_prediction_cli():
+    if len(sys.argv) < 2:
+        print("Usage: python predict.py <image_path>")
+        print("Example: python predict.py test2.jpg")
+        sys.exit(1)
 
-if len(sys.argv) < 2:
-    print("Usage: python predict.py <image_path>")
-    print("Example: python predict.py test2.jpg")
-    sys.exit(1)
+    image_path = sys.argv[1]
 
-image_path = sys.argv[1]
-
-if not Path(image_path).exists():
-    print(f"ERROR: Image not found: {image_path}")
-    sys.exit(1)
+    if not Path(image_path).exists():
+        print(f"ERROR: Image not found: {image_path}")
+        sys.exit(1)
 
 
-# ============================================================
-# PREDICTION
-# ============================================================
+    # ============================================================
+    # PREDICTION
+    # ============================================================
 
-results = model(image_path, conf=0.25)
-
-
-# ============================================================
-# COLLECT DETECTIONS
-# ============================================================
-
-detections = []
-
-for result in results:
-
-    if result.boxes is None or len(result.boxes) == 0:
-        continue
-
-    for box in result.boxes:
-
-        class_id = int(box.cls[0])
-        confidence = float(box.conf[0])
-
-        issue_type = model.names[class_id]
-
-        severity = calculate_severity(
-            issue_type,
-            confidence
-        )
-
-        detections.append({
-            "issue": issue_type,
-            "confidence": confidence,
-            "severity": severity
-        })
+    results = model(image_path, conf=0.25)
 
 
-# ============================================================
-# DISPLAY RESULTS
-# ============================================================
+    # ============================================================
+    # COLLECT DETECTIONS
+    # ============================================================
 
-print("\n========== SAMVAD SETU AI ==========\n")
+    detections = []
 
-if not detections:
+    for result in results:
+        if result.boxes is None or len(result.boxes) == 0:
+            continue
 
-    print("No civic issue detected.")
+        for box in result.boxes:
+            class_id = int(box.cls[0])
+            confidence = float(box.conf[0])
+            issue_type = model.names[class_id]
+            severity = calculate_severity(
+                issue_type,
+                confidence
+            )
 
-else:
+            detections.append({
+                "issue": issue_type,
+                "confidence": confidence,
+                "severity": severity
+            })
 
-    print(f"Detected objects: {len(detections)}\n")
+    # ============================================================
+    # DISPLAY RESULTS
+    # ============================================================
 
-    for i, detection in enumerate(detections, start=1):
+    print("\n========== SAMVAD SETU AI ==========\n")
 
-        print(f"Object #{i}")
-        print(f"Issue       : {detection['issue']}")
-        print(f"Confidence  : {detection['confidence']:.2f}")
-        print(f"Severity    : {detection['severity']}")
-        print("-----------------------------------")
-
-
-    # ========================================================
-    # OVERALL INCIDENT SEVERITY
-    # ========================================================
-
-    if any(
-        d["issue"] == "open_manhole"
-        for d in detections
-    ):
-        overall_severity = "CRITICAL"
-
-    elif any(
-        d["severity"] == "HIGH"
-        for d in detections
-    ):
-        overall_severity = "HIGH"
-
-    elif any(
-        d["severity"] == "MEDIUM"
-        for d in detections
-    ):
-        overall_severity = "MEDIUM"
-
+    if not detections:
+        print("No civic issue detected.")
     else:
-        overall_severity = "LOW"
+        print(f"Detected objects: {len(detections)}\n")
+        for i, detection in enumerate(detections, start=1):
+            print(f"Object #{i}")
+            print(f"Issue       : {detection['issue']}")
+            print(f"Confidence  : {detection['confidence']:.2f}")
+            print(f"Severity    : {detection['severity']}")
+            print("-----------------------------------")
+
+        # ========================================================
+        # OVERALL INCIDENT SEVERITY
+        # ========================================================
+
+        if any(d["issue"] == "open_manhole" for d in detections):
+            overall_severity = "CRITICAL"
+        elif any(d["severity"] == "HIGH" for d in detections):
+            overall_severity = "HIGH"
+        elif any(d["severity"] == "MEDIUM" for d in detections):
+            overall_severity = "MEDIUM"
+        else:
+            overall_severity = "LOW"
+
+        # Most common detected issue
+        issue_counts = {}
+        for d in detections:
+            issue = d["issue"]
+            issue_counts[issue] = issue_counts.get(issue, 0) + 1
+
+        overall_issue = max(issue_counts, key=issue_counts.get)
+
+        print("\n========== INCIDENT SUMMARY ==========")
+        print(f"Overall Issue    : {overall_issue}")
+        print(f"Objects Detected : {len(detections)}")
+        print(f"Overall Severity : {overall_severity}")
+        print("======================================")
 
 
-    # Most common detected issue
-    issue_counts = {}
-
-    for d in detections:
-        issue = d["issue"]
-        issue_counts[issue] = issue_counts.get(issue, 0) + 1
-
-    overall_issue = max(
-        issue_counts,
-        key=issue_counts.get # type: ignore
-    ) # type: ignore
-
-
-    print("\n========== INCIDENT SUMMARY ==========")
-    print(f"Overall Issue    : {overall_issue}")
-    print(f"Objects Detected : {len(detections)}")
-    print(f"Overall Severity : {overall_severity}")
-    print("======================================")
+if __name__ == "__main__":
+    run_prediction_cli()

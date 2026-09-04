@@ -62,10 +62,17 @@ logging.basicConfig(level=logging.INFO)
 
 # Part A: Indic NLP & SLA Classifier
 try:
-    # pyrefly: ignore [missing-import]
-    from predict import ComplaintClassifier
-    part_a_classifier = ComplaintClassifier()
-    logger.info("Agent: Part A ComplaintClassifier successfully loaded.")
+    import importlib.util
+    part_a_predict_path = PART_A_DIR / "predict.py"
+    if part_a_predict_path.exists():
+        spec = importlib.util.spec_from_file_location("part_a_predict", str(part_a_predict_path))
+        part_a_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(part_a_module)
+        ComplaintClassifier = getattr(part_a_module, "ComplaintClassifier")
+        part_a_classifier = ComplaintClassifier()
+        logger.info("Agent: Part A ComplaintClassifier successfully loaded.")
+    else:
+        part_a_classifier = None
 except Exception as e:
     part_a_classifier = None
     logger.warning(f"Agent: Part A ComplaintClassifier fallback mode: {e}")
@@ -166,7 +173,8 @@ class CivicOrchestratorAgent:
 
         if part_a_classifier and text.strip():
             try:
-                res = part_a_classifier.predict(text)
+                predict_fn = getattr(part_a_classifier, "predict_one", getattr(part_a_classifier, "predict", None))
+                res = predict_fn(text) if predict_fn else {}
                 if not detected_category or detected_category.lower() in ["general", "other", ""]:
                     detected_category = res.get("category", "road_damage")
                 detected_department = res.get("department", "Public Works Department")

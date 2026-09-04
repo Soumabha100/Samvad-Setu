@@ -115,7 +115,8 @@ ACADEMIC_MATCHERS = {
 
 
 class ComplexityRequest(BaseModel):
-    text: str
+    text: Optional[str] = None
+    problem_text: Optional[str] = None
     category: Optional[str] = ""
     department: Optional[str] = ""
 
@@ -911,8 +912,12 @@ def evaluate_complexity_endpoint(req: ComplexityRequest):
     Evaluates a problem statement's technical complexity tier (Tier 1-4),
     minimum eligible academic year (1-4), prerequisites, and suggested deliverables.
     """
+    query_text = req.text or req.problem_text or ""
+    if not query_text.strip():
+        raise HTTPException(status_code=400, detail="Missing required problem text ('text' or 'problem_text').")
+
     res = evaluate_problem_complexity(
-        text=req.text,
+        text=query_text,
         category=req.category or "",
         department=req.department or ""
     )

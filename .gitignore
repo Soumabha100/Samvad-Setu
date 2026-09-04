@@ -46,3 +46,11 @@ temp/
 # Secrets
 *.pem
 *.key
+
+# Datasets & Heavy AI Assets
+**/dataset/
+dataset/
+**/runs/
+runs/
+*.pt.backup
+*.cache
