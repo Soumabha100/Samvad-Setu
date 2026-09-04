@@ -2,12 +2,16 @@ import React from 'react';
 import { Stack } from 'expo-router';
 import OfflineBanner from '../components/OfflineBanner'; // Import the banner
 import { ThemeProvider } from '../context/ThemeContext'; // Import the ThemeProvider
+import Toast from '../components/ui/Toast';
 
 export default function RootLayout() {
   return (
     <ThemeProvider>
       {/* The banner sits at the very top of the app */}
       <OfflineBanner />
+      
+      {/* Global Toast Message */}
+      <Toast />
       
       {/* Your existing navigation stack */}
       <Stack screenOptions={{ headerShown: false }}>

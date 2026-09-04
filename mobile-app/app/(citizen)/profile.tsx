@@ -6,6 +6,8 @@ import { User, MapPin, Mail, Phone, Award, LogOut, Clock, CheckCircle2 } from 'l
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 import { useTheme } from '../../context/ThemeContext';
+import { useAuthStore } from '../../store/authStore';
+import { useToastStore } from '../../store/toastStore';
 
 export default function CitizenProfileScreen() {
   const router = useRouter();
@@ -15,6 +17,9 @@ export default function CitizenProfileScreen() {
   const [userName, setUserName] = useState('Citizen User');
   const [userEmail, setUserEmail] = useState('Not provided');
   const [userPhone, setUserPhone] = useState('+91 ----------');
+
+  const { logout } = useAuthStore();
+  const { showToast } = useToastStore();
 
   useFocusEffect(
     React.useCallback(() => {
@@ -53,7 +58,8 @@ export default function CitizenProfileScreen() {
         text: 'Logout', 
         style: 'destructive',
         onPress: async () => {
-          await AsyncStorage.multiRemove(['@app_user_role', '@app_current_session', '@app_user_token']);
+          await logout();
+          showToast('Logged out successfully', 'success');
           router.replace('/(auth)/login' as any);
         }
       }
