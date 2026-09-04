@@ -12,7 +12,7 @@ export default function Landing() {
         <div className="flex items-center gap-3">
           <SignalDot status="unresolved" size="md" />
           <span className="font-display font-bold text-xl tracking-tight text-[#F2EFE9]">
-            SICP <span className="text-[#E8A33D] font-mono text-xs font-normal ml-1">PS 26043</span>
+            Samvad-Setu <span className="text-[#E8A33D] font-mono text-xs font-normal ml-1">PS 26043</span>
           </span>
         </div>
         <div className="flex items-center gap-4">
