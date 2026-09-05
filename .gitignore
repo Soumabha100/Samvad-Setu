@@ -49,8 +49,10 @@ temp/
 
 # Datasets & Heavy AI Assets
 **/dataset/
+**/dataset/**
 dataset/
 **/runs/
+**/runs/**
 runs/
 *.pt.backup
 *.cache

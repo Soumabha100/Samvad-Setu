@@ -12,8 +12,11 @@ env/
 
 # Datasets & Large Training Files
 **/dataset/
+**/dataset/**
 dataset/
+image/dataset/
 **/runs/
+**/runs/**
 runs/
 *.zip
 *.tar*
