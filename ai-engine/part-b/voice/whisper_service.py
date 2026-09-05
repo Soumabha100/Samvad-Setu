@@ -49,6 +49,8 @@ try:
     import importlib.util
     part_a_file = PART_A_DIR / "predict.py"
     if part_a_file.exists():
+        if str(PART_A_DIR) not in sys.path:
+            sys.path.insert(0, str(PART_A_DIR))
         spec = importlib.util.spec_from_file_location("part_a_inference", str(part_a_file))
         part_a_mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(part_a_mod)
