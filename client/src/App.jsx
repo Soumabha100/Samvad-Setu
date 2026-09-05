@@ -13,6 +13,9 @@ import PublicMap from "./pages/public/PublicMap";
 import IndustryDashboard from "./pages/industry/IndustryDashboard";
 import IndustryBrowse from "./pages/industry/IndustryBrowse";
 import AdminAnalytics from "./pages/admin/AdminAnalytics";
+import AdminProblems from "./pages/admin/AdminProblems";
+import HeiTracking from "./pages/hei/HeiTracking";
+import IndustryTracking from "./pages/industry/IndustryTracking";
 import Toast from "./components/ui/Toast";
 import SidebarLayout from "./components/layout/SidebarLayout";
 import ProtectedRoute from "./components/layout/ProtectedRoute";
@@ -77,6 +80,7 @@ export default function App() {
         {/* HEI / Faculty Module Routes (Section 1)[cite: 1] */}
         <Route path="/hei/dashboard" element={<HeiDashboard />} />
         <Route path="/hei/review" element={<HeiProblemReview />} />
+        <Route path="/hei/tracking" element={<HeiTracking />} />
         <Route
           path="/hei/team-formation"
           element={
@@ -105,6 +109,7 @@ export default function App() {
         {/* Industry / CSR Module Routes (Section 1)[cite: 1] */}
         <Route path="/industry/dashboard" element={<IndustryDashboard />} />
         <Route path="/industry/browse" element={<IndustryBrowse />} />
+        <Route path="/industry/tracking" element={<IndustryTracking />} />
         <Route
           path="/industry/pledge"
           element={
@@ -122,6 +127,7 @@ export default function App() {
         <Route element={<ProtectedRoute allowedRoles={['government_admin', 'admin', 'govt_admin', 'platform_admin']} />}>
           <Route element={<SidebarLayout />}>
             <Route path="/admin/analytics" element={<AdminAnalytics />} />
+            <Route path="/admin/problems" element={<AdminProblems />} />
             <Route path="/admin/profile" element={<Profile />} />
             <Route path="/admin/settings" element={<Settings />} />
             <Route

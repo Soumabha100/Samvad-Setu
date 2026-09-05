@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "ce83b933-1890-4e39-9bd5-31398436b545",
+    "text": "Hazaribagh में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "54c9584d-e6b8-417d-bd25-1923dc1ec78f",
+    "text": "Gumla में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "dd4b04fb-5fa6-4e05-b6e4-c4149b9b7007",
+    "text": "Exam paper leak ho gaya hai Ranchi mein, exams cancel hone chahiye. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "ff18ed0e-0650-4bbc-bf7f-6dcc127bb0cf",
+    "text": "Need better citizen facilitation center in Palamu. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "79bb723a-dc76-4dc9-9925-811149fe287a",
+    "text": "No drinking water supply in Ramgarh for the last 5 days. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "53367799-364a-4ded-927a-c9ae6d9a2599",
+    "text": "Crops in Ramgarh are dying due to lack of irrigation canals.",
+    "category": "agriculture"
+  },
+  {
+    "id": "7e5fba18-afd8-47d4-bffd-a1c58efc0b8c",
+    "text": "Ranchi के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b444c924-2a87-4aa4-aa35-5f1a9f89b06b",
+    "text": "Air quality index in Giridih is hazardous due to construction dust.",
+    "category": "environment"
+  },
+  {
+    "id": "d28969f4-1330-4332-adfa-3739435eba90",
+    "text": "No drinking water supply in Ramgarh for the last 5 days.",
+    "category": "water"
+  },
+  {
+    "id": "d53120c5-178c-48f0-b699-409031ea16e5",
+    "text": "Gumla ke river mein chemicals dump kiye ja rahe hain. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "c32b2717-1e98-4f8a-bcb7-697660adc118",
+    "text": "No drinking water supply in Ranchi for the last 5 days. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "af4c5b73-634f-44a7-a048-b6dc93a42139",
+    "text": "Jamshedpur की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "a71c3eb7-89e0-4403-80ed-058ece671a8e",
+    "text": "Hazaribagh में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "0a14f3a5-2035-4740-b683-ead085780550",
+    "text": "Kisan credit card ka loan maaf nahi hua Bokaro mein. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "bc79ecee-d2ba-47de-8da7-f6ea29d3b97a",
+    "text": "Need better library facilities in our government college at Dhanbad. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "93fa5817-4b58-49f9-bff3-80b58526ac90",
+    "text": "Bokaro के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "e4be6074-0cf2-4c71-9ad7-717449129a35",
+    "text": "Ranchi में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "ff25ce84-6935-4583-bd78-3c4640fd9355",
+    "text": "Hazaribagh mein drainage system block hai, sadak par pani bhara hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "c02a8090-ec17-4f4f-94a0-778481d5668b",
+    "text": "Palamu mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e7c3f907-87a1-446c-baeb-94013eadb0ec",
+    "text": "Crops in Ranchi are dying due to lack of irrigation canals. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "8efc649c-5a96-4f6e-8c8a-1d25f0e17ca4",
+    "text": "Ranchi mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "8584b4be-1755-4485-9a6d-f1f9f1a7f81f",
+    "text": "Need public toilets in the busy market area of Ranchi. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "094f9da9-487f-4878-b113-efe12a6d80cf",
+    "text": "Ranchi mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "66f5f05e-60ed-4a7a-a9b9-4d32365d83b4",
+    "text": "Grievance cell phone numbers for Palamu municipality are always switched off. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "741f9bb6-c043-442c-b2da-4de5c822d149",
+    "text": "Exam paper leak ho gaya hai Hazaribagh mein, exams cancel hone chahiye.",
+    "category": "education"
+  },
+  {
+    "id": "8eb8e7ac-7865-4198-98bf-62783ad8c872",
+    "text": "Low voltage issue in Gumla is damaging water pumps. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "7d4cfafb-52f8-4e45-a9b5-8af4ed5afee3",
+    "text": "No wheelchair ramp available at the Ranchi railway station. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "12ea08d6-0413-462f-89e9-8a7b13dcf628",
+    "text": "बच्चों को Jamshedpur में मिड-डे मील सही से नहीं मिल रहा है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "2eeb0e8c-fb5a-4002-b892-30799ec5417f",
+    "text": "Grievance cell phone numbers for Dhanbad municipality are always switched off. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "be1ed11d-7deb-4926-90e3-590f3ff3cf3c",
+    "text": "Public buses in Ramgarh are not accessible for differently-abled citizens. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "0a672d37-3f02-40f5-a948-2754a5f7ed37",
+    "text": "Police verification ke liye Dhanbad thane mein pareshan kiya ja raha hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "fec796d1-75db-46f7-a808-d7c78da428ff",
+    "text": "हमारे मोहल्ले Gumla में पानी का प्रेशर बहुत कम है। Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "1c7f6df4-7b7f-4a72-ab1c-02b40a90bfe8",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Deoghar में, कभी भी गिर सकता है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "ed05974d-2fa6-4864-a75c-22ca6c757240",
+    "text": "Giridih mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "f4c5a710-b5ce-48ae-8c7d-88a0f131c33d",
+    "text": "Ramgarh mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "74de35d9-ca50-4aaf-8a2c-c5849571f911",
+    "text": "Ramgarh में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "a76228d9-039d-4250-b6a9-622625247480",
+    "text": "Unseasonal rains have destroyed wheat crops in Gumla. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "8beebf6a-cbdd-46c8-9bb4-c56f09e2abea",
+    "text": "Deoghar में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं।",
+    "category": "public_admin"
+  },
+  {
+    "id": "f8b48021-c01b-4197-9587-3a2eee55481d",
+    "text": "Ranchi के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "4a873e88-433a-46cc-8864-48516409673d",
+    "text": "Dhanbad ke government office mein disabled logo ke liye lift nahi hai.",
+    "category": "accessibility"
+  },
+  {
+    "id": "254a6e4b-c3cc-48bb-931f-edd7106c529a",
+    "text": "Public buses in Bokaro are not accessible for differently-abled citizens. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "5aa61ad3-9929-478c-9b9d-7b8542aed79b",
+    "text": "Ranchi mein handpump pichle 2 mahine se kharab hai. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "a5c6210d-01d4-4f6f-8c3b-2439aeac17bd",
+    "text": "Skill development center in Deoghar has been closed down. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "f8e6ab24-e945-4522-b532-c33400f95ba6",
+    "text": "No wheelchair ramp available at the Ramgarh railway station.",
+    "category": "accessibility"
+  },
+  {
+    "id": "a90cf821-773a-42d4-ba3e-139ef150a22d",
+    "text": "Covid vaccination center Palamu mein band pada hai. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "f583ff9f-2c13-4b67-b08a-97a0fa62348e",
+    "text": "Bokaro mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "3c1907da-78e1-4bb2-9859-4e30fd6b72d3",
+    "text": "Frequent power cuts in Palamu are affecting student studies. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "8c1ddbe0-f86b-4329-8918-dbe80bcbc97a",
+    "text": "Teacher vacancy bahut zyada hai Jamshedpur district mein. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "1525356b-2ab9-4a15-be05-e22db7d42ced",
+    "text": "Gumla में सीवर लाइन का ढक्कन खुला है, खतरा है। Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "de63f0c0-4cd6-4fa8-adee-e20e92f9f222",
+    "text": "गांव Jamshedpur से लोग रोजगार की तलाश में पलायन कर रहे हैं। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "c5fa0a18-f5aa-438a-bc6a-f6c0d890b7dd",
+    "text": "Hazaribagh ke hospital mein dawaiyan available nahi hain. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "82f1c923-9765-4efc-828a-d0cae44d3eb4",
+    "text": "गांव Deoghar से लोग रोजगार की तलाश में पलायन कर रहे हैं। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "ebf8ead9-c34a-4818-a9f2-72ea74b05b82",
+    "text": "Deoghar mein parking ki suvidha nahi hone se traffic jam hota hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "752063d6-24f8-4ea6-91e6-bff86f38f661",
+    "text": "Giridih में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "ecd65ebf-14dd-412a-9ada-ae7d74cb0a98",
+    "text": "Palamu mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4f173e1d-9fac-4b20-a342-d3ac8b24b3e7",
+    "text": "पहाड़ों पर Deoghar में अवैध खनन हो रहा है। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "cf0adb78-5731-4c4e-bdcb-a5d81bcca286",
+    "text": "हमारे मोहल्ले Ramgarh में पानी का प्रेशर बहुत कम है। Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "55b7fe59-a4ee-499a-bac4-06c3f84e9f1d",
+    "text": "Public buses in Giridih are not accessible for differently-abled citizens.",
+    "category": "accessibility"
+  },
+  {
+    "id": "18358aca-c69e-4742-99c2-958c415e5488",
+    "text": "Bokaro में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है।",
+    "category": "accessibility"
+  },
+  {
+    "id": "9e88a9ac-36a8-4ae9-adb4-86891eee08ad",
+    "text": "Garbage collection truck does not visit Gumla regularly. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "d8613bfa-2b0e-41a8-8656-4938711f19b1",
+    "text": "Jamshedpur ke hospital mein dawaiyan available nahi hain. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "fa4d1ba4-2d45-41ca-ae54-48740eafe0a9",
+    "text": "Ranchi mein naya borewell khudwane ki jarurat hai. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "51a60296-916e-4df9-9e72-4caa46b885ea",
+    "text": "Crops in Gumla are dying due to lack of irrigation canals. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "e5b6ffac-61d6-40b9-a8b5-574471382939",
+    "text": "Dhanbad तहसील कार्यालय में अधिकारी समय पर नहीं आते। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "e5800f97-ceae-4278-8720-5661b69f291e",
+    "text": "Construction of the Gumla flyover has been stalled for 2 years. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "054a7dd2-1bd0-42f6-ba69-6ab04580c152",
+    "text": "Fluoride contamination in Hazaribagh groundwater is causing health issues. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "b11808ac-4234-4206-b621-5e5976da3a12",
+    "text": "गांव Deoghar से लोग रोजगार की तलाश में पलायन कर रहे हैं। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4281cfa6-e777-423e-aa30-01b12397c357",
+    "text": "Giridih mein handpump pichle 2 mahine se kharab hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "3d0e45f6-69eb-4cba-987d-ac4c6480770d",
+    "text": "Minimum Support Price is not being offered at the Jamshedpur mandi. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "f181f25d-ac7e-4cf8-a17f-a5c319d7117d",
+    "text": "Construction of the Ranchi flyover has been stalled for 2 years.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6ee7c88d-14c6-4135-887b-fedbc501a8f7",
+    "text": "Need better library facilities in our government college at Giridih. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "6e009184-871e-4a2f-a96b-888b66441508",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Hazaribagh में, कभी भी गिर सकता है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "defbfb49-1579-4954-89da-e70a48da2d2f",
+    "text": "Need soil testing lab in Deoghar for better crop yield. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "6b2ef11a-12f8-43bf-ad64-818757b21b22",
+    "text": "Construction of the Bokaro flyover has been stalled for 2 years. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "902f1378-ee88-4fd2-b189-d282c95b898b",
+    "text": "Self-help groups in Ranchi are not receiving government funding. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d0713dd0-f38b-4232-a775-6e0eb49686f7",
+    "text": "Fasal bima yojana ka paisa Bokaro ke kisano ko nahi mila. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "2a18d2b1-8588-4e56-9d48-00f627af0b48",
+    "text": "Public buses in Ranchi are not accessible for differently-abled citizens. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f2a2e715-0b4d-4a36-8442-a759d813bfee",
+    "text": "Dhanbad में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "06a156a0-be02-4bc1-a5ab-f89f51758018",
+    "text": "The local pond in Ranchi is completely dried up. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "975586ce-e703-4886-b63b-692eae47a8e9",
+    "text": "Bokaro के अस्पताल में एंबुलेंस की सुविधा नहीं है।",
+    "category": "healthcare"
+  },
+  {
+    "id": "1f173226-9759-4d4b-8a76-fd0c72cd8fd1",
+    "text": "Grievance cell phone numbers for Hazaribagh municipality are always switched off. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "0e641c0b-0c06-48f8-81d1-05d912d67ce2",
+    "text": "Deoghar mein parking ki suvidha nahi hone se traffic jam hota hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "e27768b2-c75b-477f-b16e-7d35f87b86e8",
+    "text": "Tractor subsidy ka form reject ho gaya Bokaro office se.",
+    "category": "agriculture"
+  },
+  {
+    "id": "1310ad04-b811-40eb-92f9-6fbb75ba4314",
+    "text": "Jamshedpur में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "9502cdbb-a558-40ed-af8e-570d87e4bf48",
+    "text": "Bokaro School mein teacher nahi aate hain pichle ek mahine se.",
+    "category": "education"
+  },
+  {
+    "id": "80d6684a-4da0-4898-b2b8-8742ebb5dfd0",
+    "text": "Low voltage issue in Palamu is damaging water pumps. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "649a1cb7-aa9b-4d31-8b15-e5b4db7d7949",
+    "text": "Bokaro में सीवर लाइन का ढक्कन खुला है, खतरा है। Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "a9b22b3e-a234-4f58-a0e6-32de0d104842",
+    "text": "हमारे Bokaro के स्कूल में पीने का पानी नहीं है। Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "4e6229e0-f98a-421b-aa80-eae8c04c29a7",
+    "text": "Teacher vacancy bahut zyada hai Ranchi district mein. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "26dd9d36-f6f4-4e3a-91e3-b11b43b34045",
+    "text": "Low voltage issue in Ramgarh is damaging water pumps. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "2c9cc2d3-b62b-4f56-a303-0ed6e263d0c6",
+    "text": "Deoghar में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "0121fc04-1ac5-4ce7-9283-ec04eb15febe",
+    "text": "Blind tactile paths are broken on Ramgarh footpaths. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "cd6872e4-e976-4c57-ac7e-614714f7f9f1",
+    "text": "Divyang pension Giridih mein time par nahi mil rahi hai. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "2e6e8e48-0c57-4e8e-b637-c4219359a40e",
+    "text": "Illegal sand mining is destroying the riverbed in Giridih. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "3ed20ff4-0422-4aba-85f7-3dd122a2b595",
+    "text": "Deoghar ke river mein chemicals dump kiye ja rahe hain. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "ccc1d128-cc7b-4f11-b653-b3ea762edf52",
+    "text": "Dhanbad में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "a05fa61c-763f-4d5e-b322-dfd1ab6a1170",
+    "text": "Deoghar park mein jhule tute hue hain aur kachra hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "f8d3190d-4f88-4f51-952b-763a0a99ff94",
+    "text": "Bokaro में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "53c369c2-1e03-4f93-8c7c-4e8a6c085148",
+    "text": "Palamu mein handpump pichle 2 mahine se kharab hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "4272e293-ff8b-44fc-b70f-93e873f7566d",
+    "text": "Hazaribagh ke gaon mein artisans ko unka saman bechne ka market nahi hai. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a1c967d8-8175-401b-8fbd-e222ce9317b1",
+    "text": "Online portal for Ramgarh property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "4bfc73f6-997a-4f30-bc84-f1778ec9afc8",
+    "text": "Jamshedpur ke government office mein disabled logo ke liye lift nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "54fecfa5-231b-4311-9ea2-6501141eb399",
+    "text": "Ayushman card Palamu ke private hospital mein accept nahi kar rahe. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a6b117fb-9e16-4030-a386-d73041a6ca9c",
+    "text": "Illegal sand mining is destroying the riverbed in Deoghar. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "a8785ed9-f1f5-4bf2-a9fb-3284448a4048",
+    "text": "Garbage collection truck does not visit Deoghar regularly. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "e3564a9c-8826-48c0-a51b-9f1bc50a45f1",
+    "text": "Fluoride contamination in Gumla groundwater is causing health issues. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "1bf00d32-01e5-48cc-bcf5-6870fa9ca15b",
+    "text": "Lack of computer labs in the Hazaribagh high school is affecting students.",
+    "category": "education"
+  },
+  {
+    "id": "a6e951c5-d80c-4ff4-9e2a-5e3545ca5771",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Ranchi में बहुत दिक्कत आ रही है। Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f6be87ad-9aae-418b-8a24-f04cafbedb16",
+    "text": "Kisan credit card ka loan maaf nahi hua Ramgarh mein. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9581ee44-41d0-46a0-a6f3-3b80d6a7e710",
+    "text": "Deoghar School mein teacher nahi aate hain pichle ek mahine se. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "900f942c-1585-4dc6-82bd-4dadba14cd41",
+    "text": "Ranchi ke hospital mein dawaiyan available nahi hain.",
+    "category": "healthcare"
+  },
+  {
+    "id": "b560c437-ea87-419c-9816-f260d60af04c",
+    "text": "Gumla mein transformer jal gaya hai 3 din pehle. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "6416941c-2f46-4631-a889-134b602156e0",
+    "text": "Bokaro में सीवर लाइन का ढक्कन खुला है, खतरा है।",
+    "category": "urban_development"
+  },
+  {
+    "id": "6d8e29d7-c05f-43b5-83e6-5eaf61089669",
+    "text": "Hazaribagh में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d00403cf-8bee-4f01-87b6-fec4b035571e",
+    "text": "Teacher vacancy bahut zyada hai Palamu district mein.",
+    "category": "education"
+  },
+  {
+    "id": "27beee3d-9d3f-4080-a217-04913591b194",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Deoghar में कोई काम नहीं हुआ। Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "8948364a-aead-49cd-8c99-1d86075067ca",
+    "text": "Jamshedpur mein naya borewell khudwane ki jarurat hai. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "9681bd1a-9eeb-46c1-a784-87077cf03601",
+    "text": "बच्चों को Ranchi में मिड-डे मील सही से नहीं मिल रहा है।",
+    "category": "education"
+  },
+  {
+    "id": "f3f60fc0-68e4-4110-870a-2cd6ea73f60c",
+    "text": "Online portal for Dhanbad property tax is continuously crashing. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "911ed21e-260c-4adf-9b08-d4c5cbd90d87",
+    "text": "हमारे Giridih के स्कूल में पीने का पानी नहीं है। Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "11544b0e-0228-469b-85ce-3b8618e574b0",
+    "text": "Ayushman card Ramgarh ke private hospital mein accept nahi kar rahe. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a28fe6dc-1ce9-4659-9a37-86c9e9be98ab",
+    "text": "Bokaro में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "e8436fba-023a-4a14-8a1f-7045632599d0",
+    "text": "Need better library facilities in our government college at Ranchi. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "582054b8-e68b-4187-b172-2151061af14a",
+    "text": "No ultrasound machine available in the Jamshedpur district hospital. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "17fc6c67-3450-4fba-9ec8-2804d1ed1e06",
+    "text": "No scholarships have been disbursed in Ranchi this year. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "5b2fd7a8-8013-49f1-a6d5-cb8f3c43e6c4",
+    "text": "Fluoride contamination in Ranchi groundwater is causing health issues.",
+    "category": "water"
+  },
+  {
+    "id": "4225c62f-1db8-4e4f-b7a0-0083c4223f86",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Giridih में, कभी भी गिर सकता है। Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "cd98a11f-079c-45bb-8444-f60b4b7b6ec2",
+    "text": "Women weavers in Dhanbad need micro-loans for purchasing looms. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "b890ec14-c2a6-4607-bbee-ac39319f0d99",
+    "text": "Dhanbad mein drainage system block hai, sadak par pani bhara hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6df5595e-2c8d-4eb2-8331-ef1ab1c4c9e1",
+    "text": "Ayushman card Deoghar ke private hospital mein accept nahi kar rahe. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "4f13d8a5-ab3b-4d55-ba81-c9f1ad7c2bbe",
+    "text": "Women weavers in Bokaro need micro-loans for purchasing looms. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "6cce42bb-604a-45cb-887e-13593984bb5b",
+    "text": "Police verification ke liye Dhanbad thane mein pareshan kiya ja raha hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b9812810-8635-41b2-a184-c51a0e12f4af",
+    "text": "Need better citizen facilitation center in Gumla. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "6ab897c4-a899-495b-992b-d6256204f78e",
+    "text": "The primary health center in Bokaro has no doctors on night duty. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "48649bd1-574c-4b4e-9562-a8607004662d",
+    "text": "Bribery is rampant in the Ramgarh RTO office for driving licenses. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "a227bf7b-c860-43b1-98fc-2e4f988e4c50",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Giridih में कोई काम नहीं हुआ। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "010ef24b-f2e6-4f66-a917-d43e3299c69b",
+    "text": "Illegal sand mining is destroying the riverbed in Giridih. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "b3fa5791-7c73-410f-b725-77921b6ffee5",
+    "text": "Divyang pension Gumla mein time par nahi mil rahi hai. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "1dce508f-d86b-481b-9626-10fb003ae28b",
+    "text": "Deoghar mein drainage system block hai, sadak par pani bhara hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "0c5ebf93-c49d-480f-b59e-a08cd35bdf0b",
+    "text": "Hazaribagh mein drainage system block hai, sadak par pani bhara hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "eeff49f2-3cda-415d-b4d8-bb8d68e982b8",
+    "text": "Need proper waste segregation systems in Ranchi. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "e64a7b2b-e95a-4613-a4cc-77b65be1d00c",
+    "text": "The main road in Gumla is full of potholes causing accidents. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "3b8efddb-d5d6-4c89-b28c-ecdd52ebd36d",
+    "text": "Palamu mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "95d4b0a5-6b4a-4fe1-95be-b4854e670273",
+    "text": "Blind tactile paths are broken on Dhanbad footpaths. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "8a3e0f06-2cbc-427a-bfa4-815b547986e1",
+    "text": "Plastic kachra Jamshedpur ke park mein jala rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "8e35303d-a474-4ce3-b6a1-805efe66f105",
+    "text": "The local pond in Ranchi is completely dried up. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "e2eb8b10-ec80-4268-bd9a-04456f38734d",
+    "text": "Tractor subsidy ka form reject ho gaya Dhanbad office se. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "c238fe61-6d65-49ac-8df4-1450ee53e1f3",
+    "text": "Online portal for Jamshedpur property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "60e25990-b829-4d3b-af84-384c253e034c",
+    "text": "Deoghar में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है।",
+    "category": "accessibility"
+  },
+  {
+    "id": "98c3c3f8-979c-4de3-98c7-94c1a4849811",
+    "text": "Women weavers in Gumla need micro-loans for purchasing looms.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "7969379f-5089-4a4f-ad4f-6d186bc10604",
+    "text": "Giridih mein handpump pichle 2 mahine se kharab hai. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "24e379b8-7b17-425c-9311-89131a08b983",
+    "text": "Unseasonal rains have destroyed wheat crops in Giridih. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "05208f91-b0f2-483e-8924-b88eb4294b4e",
+    "text": "Deoghar ke hospital mein dawaiyan available nahi hain. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a54e835d-f2d7-45c0-abed-5f7ca034a3b4",
+    "text": "Air quality index in Giridih is hazardous due to construction dust. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "3cf37e47-c240-496b-a451-8718e7efd31f",
+    "text": "Ramgarh में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6c8a6f8a-9beb-4683-9ff2-9114909d409f",
+    "text": "Need immediate dengue fogging in Palamu as cases are rising. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "896bb56b-8503-4e56-a857-792cd8bc12bc",
+    "text": "Deoghar की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है।",
+    "category": "water"
+  },
+  {
+    "id": "9f00869b-ef31-440c-932d-42c8073f8895",
+    "text": "Maternity ward in Dhanbad is in unhygienic conditions.",
+    "category": "healthcare"
+  },
+  {
+    "id": "bae7227c-5375-4877-8d3a-8159889d5254",
+    "text": "Palamu mein naya meter connection apply kiya tha, abhi tak nahi laga. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "2eaa7d2c-9bbe-4085-b069-878bd97f9ed2",
+    "text": "Bokaro mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "f309a855-f8d1-457e-9c08-3738c1fe0e31",
+    "text": "Need soil testing lab in Giridih for better crop yield. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "a70c4c7d-d267-4eec-947f-bcce9579cea9",
+    "text": "Maternity ward in Giridih is in unhygienic conditions. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ff45c3c0-a648-47cc-abd4-d2db835520b0",
+    "text": "Gumla block office mein caste certificate banane mein bahut time lag raha hai. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "7a1dbe50-4fe9-4323-a3c6-fad201380824",
+    "text": "Fasal bima yojana ka paisa Dhanbad ke kisano ko nahi mila. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "b29cc413-c8c3-4f34-a757-a07b41251e16",
+    "text": "Air quality index in Dhanbad is hazardous due to construction dust. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "32b4aa1f-301b-46a3-b062-d0a0e26f0835",
+    "text": "Fasal bima yojana ka paisa Dhanbad ke kisano ko nahi mila. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "c040b6b2-c67d-47d9-905d-5f2ead06cafa",
+    "text": "Illegal sand mining is destroying the riverbed in Deoghar. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "5ee303b5-c9ec-4d4f-a88f-eaee3d7ff232",
+    "text": "Need modern dairy farming training programs in Bokaro. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d792a66c-4914-441f-8b8b-69796b49af0e",
+    "text": "Dhanbad mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "478d7511-7721-4a61-9051-cb3ed1e3f2db",
+    "text": "Dhanbad में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "e2900da2-fbad-4626-92b7-0f558dafee5b",
+    "text": "Crops in Jamshedpur are dying due to lack of irrigation canals. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "fc200fd6-753a-4580-ab05-ab47b34dbace",
+    "text": "Ranchi mein handpump pichle 2 mahine se kharab hai. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "58ad80ed-1822-4557-a009-bad4ab097d05",
+    "text": "Exam paper leak ho gaya hai Deoghar mein, exams cancel hone chahiye. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "6acfd17c-a4e4-4043-93f1-c94d1420272a",
+    "text": "Ranchi में खाद और बीज की बहुत कमी है, खेती कैसे करें? Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "f6fc0e00-b9fc-4e68-abdd-71f158f641c5",
+    "text": "Online portal for Hazaribagh property tax is continuously crashing. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "c40dbe2e-a341-4e7e-9906-ff24df6905cf",
+    "text": "पहाड़ों पर Palamu में अवैध खनन हो रहा है। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "216f7f51-51e3-4a3e-b61b-2b15dd97c1c4",
+    "text": "Construction of the Deoghar flyover has been stalled for 2 years. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "5bcd30a8-a985-4a98-97e7-e94f3e60e917",
+    "text": "The local pond in Deoghar is completely dried up. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "ad91c326-e0b5-42f3-89ac-d304f409d9fd",
+    "text": "Jamshedpur के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "94bd3c1f-62c9-4489-85af-e9becbc40a4e",
+    "text": "Bokaro में खाद और बीज की बहुत कमी है, खेती कैसे करें? Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9bbf0583-64f1-44cd-a35a-557a58db78ca",
+    "text": "Giridih में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "ea2407da-0ea1-42d3-b533-2d13aef15efa",
+    "text": "Pipeline is leaking near the main road in Bokaro, wasting water. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "ad7bc3db-c890-49b4-ab8b-6f5bbf0da486",
+    "text": "Bokaro ke river mein chemicals dump kiye ja rahe hain. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "789d7091-d39b-409c-8c94-9174c1641be4",
+    "text": "Maternity ward in Deoghar is in unhygienic conditions.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ac5829b5-f158-4988-96e1-89702d346eaa",
+    "text": "Giridih में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "71c90a3c-f6e7-4fd8-87c9-c95074de8361",
+    "text": "Bribery is rampant in the Dhanbad RTO office for driving licenses. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "93df74f4-31b0-4be0-abd9-dda7acff4cf4",
+    "text": "Giridih के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c432e97f-f35d-40c6-a5f6-99d19bd7b789",
+    "text": "Jamshedpur में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है।",
+    "category": "environment"
+  },
+  {
+    "id": "ac8fa766-b473-4c5a-847e-572062987771",
+    "text": "The primary health center in Ramgarh has no doctors on night duty. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "086a0526-e924-4486-8807-c5380e335fad",
+    "text": "Bokaro में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ebebaa1f-f7e2-4b3f-92c7-27f61ff94ef6",
+    "text": "Fluoride contamination in Hazaribagh groundwater is causing health issues. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "60f8955d-90b6-4dd6-b5c3-33b46b6ed351",
+    "text": "Lack of computer labs in the Ramgarh high school is affecting students. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "0c0baf88-d39f-48a5-81b8-bff9e276cdb7",
+    "text": "Jamshedpur park mein jhule tute hue hain aur kachra hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dc7bde54-cd59-40cb-a2fb-01f8b36bbb45",
+    "text": "Giridih mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "6ffe99c6-a4e4-4d2f-a43c-429ce6b3a2f9",
+    "text": "Need better citizen facilitation center in Jamshedpur. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "70175996-da8c-47de-a9dc-37e8c496b29a",
+    "text": "Hazaribagh में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e6b984ff-5e1c-4e47-a73d-e6500fe6c5b7",
+    "text": "Palamu में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "5d9ee60d-8b31-48d2-8491-4640b7d91479",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Ramgarh में, कभी भी गिर सकता है। Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "f634807b-067a-4994-b327-ba5765f470b0",
+    "text": "Divyang pension Jamshedpur mein time par nahi mil rahi hai. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "13c2bb33-d3a7-4d68-9b41-cd0f6eb31e78",
+    "text": "Ramgarh में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "20cd640a-2f81-4ced-8188-5661e5f11c50",
+    "text": "Giridih mein naya meter connection apply kiya tha, abhi tak nahi laga. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "6cafd77f-d4d4-4dd9-b954-99f25568ee19",
+    "text": "Ramgarh School mein teacher nahi aate hain pichle ek mahine se. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "0523fb53-6e3f-4cc8-a86a-684c597562c9",
+    "text": "हमारे मोहल्ले Ranchi में पानी का प्रेशर बहुत कम है।",
+    "category": "water"
+  },
+  {
+    "id": "220efe7a-7b25-4a3e-8548-c9970764bd11",
+    "text": "Gumla ke government office mein disabled logo ke liye lift nahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "a2a27b75-ae6e-467c-ad98-8b9a1fd9af7f",
+    "text": "Need immediate dengue fogging in Gumla as cases are rising. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "477e5cb5-cf54-47df-ab3d-8a0cbeb5c3ad",
+    "text": "Need better citizen facilitation center in Deoghar. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "45a89e24-bd65-4a4b-aed7-c1de7d64d43f",
+    "text": "Ranchi में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "9014674d-4bab-4e45-a54c-4ff4f4401bd0",
+    "text": "Dhanbad mein drainage system block hai, sadak par pani bhara hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "f6223e99-70be-4e72-bf52-f97db387695f",
+    "text": "Plastic kachra Bokaro ke park mein jala rahe hain. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "9abe76b8-005e-470b-8d0b-5042ac9ce6a9",
+    "text": "सरकारी अस्पताल Hazaribagh में डॉक्टर पैसे मांग रहे हैं। Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "b21be444-b696-4fae-896c-696769bc406d",
+    "text": "Fasal bima yojana ka paisa Hazaribagh ke kisano ko nahi mila. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "2ee5fd34-0026-4d86-a2e2-fd61ed20e8f7",
+    "text": "Bokaro ke gaon mein artisans ko unka saman bechne ka market nahi hai. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "db4f1bbb-13b0-4c4e-947a-2bbdb35665fb",
+    "text": "Lack of computer labs in the Palamu high school is affecting students. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "3194cf63-a79c-4551-b7c9-00ff1bb3beab",
+    "text": "Illegal sand mining is destroying the riverbed in Ranchi.",
+    "category": "environment"
+  },
+  {
+    "id": "e204ef9d-7b3c-458f-a6d1-b5debb15331b",
+    "text": "Palamu में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "e088fa82-5056-4585-9c6c-306e85c6ba9d",
+    "text": "Pipeline is leaking near the main road in Ramgarh, wasting water. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "62b4f9d3-6599-4a95-911d-0fb97e17d5af",
+    "text": "हमारे गांव Deoghar में अभी तक बिजली के खंभे नहीं लगे हैं। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "cbef9290-cee7-4d13-aeae-8a82a3a163fd",
+    "text": "No wheelchair ramp available at the Gumla railway station.",
+    "category": "accessibility"
+  },
+  {
+    "id": "24e38c51-6b99-486b-a563-cc2ec5c4b1fc",
+    "text": "No scholarships have been disbursed in Giridih this year.",
+    "category": "education"
+  },
+  {
+    "id": "ba4e2a15-db40-4bc7-88a2-62549678016b",
+    "text": "Bribery is rampant in the Ranchi RTO office for driving licenses. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "0e1bcb17-a3d8-4cf6-a648-fd14cc971391",
+    "text": "Low voltage issue in Hazaribagh is damaging water pumps. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "f9c23f7d-4c59-433e-8aba-09d17cb879b4",
+    "text": "गांव Deoghar से लोग रोजगार की तलाश में पलायन कर रहे हैं। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e74a0ccc-4381-4587-9403-b60c5b78ad3a",
+    "text": "Maternity ward in Giridih is in unhygienic conditions. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "f797f24c-045c-4b26-9bea-1d14ebc0e5e1",
+    "text": "Ranchi में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "ce7e1b4a-2b26-4719-ac7f-ad1283ac5db7",
+    "text": "Need modern dairy farming training programs in Dhanbad. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "641ea96a-3cc3-45bd-af8f-dd6b28ce4de5",
+    "text": "High voltage ke karan Jamshedpur mein logo ke TV jal gaye.",
+    "category": "energy"
+  },
+  {
+    "id": "fa43c2d8-7320-4af5-92a5-21c48ffb0a87",
+    "text": "The local primary school in Hazaribagh has no roof and leaks during rain. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "a56a1443-8148-4f04-8cb5-3f6e3bfc006a",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Ranchi में कोई काम नहीं हुआ। Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "5f27d529-2608-433f-9929-909bc73d1689",
+    "text": "हमारे गांव Deoghar में अभी तक बिजली के खंभे नहीं लगे हैं। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "66c8e6e7-af0d-45ef-930a-7bf605d6aee0",
+    "text": "Unseasonal rains have destroyed wheat crops in Bokaro. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "533c31bf-857b-4978-94a8-55711afb1223",
+    "text": "Ayushman card Hazaribagh ke private hospital mein accept nahi kar rahe. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "4b7585b5-f814-47b5-9448-3e3f0d29c74d",
+    "text": "हमारे गांव Deoghar में अभी तक बिजली के खंभे नहीं लगे हैं।",
+    "category": "energy"
+  },
+  {
+    "id": "4b91423d-8858-41b6-bff2-0846f09c8380",
+    "text": "Bribery is rampant in the Palamu RTO office for driving licenses.",
+    "category": "public_admin"
+  },
+  {
+    "id": "bd7dede5-8501-44e4-b032-8207549eb371",
+    "text": "Street lights in Bokaro sector 4 are not working. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "1157471f-8b24-4075-843b-66fedc80bb89",
+    "text": "No drinking water supply in Dhanbad for the last 5 days.",
+    "category": "water"
+  },
+  {
+    "id": "60414430-2f66-4422-a963-d21f8f4de31d",
+    "text": "हमारे मोहल्ले Bokaro में पानी का प्रेशर बहुत कम है। Please help.",
+    "category": "water"
+  },
+  {
+    "id": "f9a12b08-f7f2-46bf-88cf-577f42e78320",
+    "text": "Ranchi panchayat mein MNREGA ka payment ruka hua hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "8d4c6f38-8d27-4c1e-8999-dcc2e54c742c",
+    "text": "Jamshedpur mein parking ki suvidha nahi hone se traffic jam hota hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "9d3b1e61-d861-4157-aefd-669d365649b4",
+    "text": "Kisan credit card ka loan maaf nahi hua Jamshedpur mein. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "fcaccaa5-2572-45ff-8249-dc5742568488",
+    "text": "Deoghar के अस्पताल में एंबुलेंस की सुविधा नहीं है। Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ce5a681e-102b-4c2f-acd8-f82424ebc099",
+    "text": "Need better citizen facilitation center in Gumla. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "abba519a-54fb-4915-8010-658643db8d93",
+    "text": "Bokaro के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "1ae69386-2c27-4eaa-a114-c44dad126f23",
+    "text": "बिजली विभाग वाले Jamshedpur में लाइन ठीक करने नहीं आ रहे। Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "965ac167-7e2f-49dd-a6c3-21de2df0b519",
+    "text": "Dhanbad में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "bc5bd449-6d58-4cc8-96d0-1f085dc32166",
+    "text": "Deoghar panchayat mein MNREGA ka payment ruka hua hai. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "553cbe3c-ae1c-417d-9a97-4465f9124d69",
+    "text": "हमारे Jamshedpur के स्कूल में पीने का पानी नहीं है। Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "6b9c2cec-032a-4f13-8f62-b6e0cbb0e1fa",
+    "text": "Palamu में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "50441923-be32-40dd-8bec-13874c49138f",
+    "text": "Bokaro hospital mein wheelchair available nahi hai. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "0ea24bee-022e-4b0d-bd49-862b9c8f0d5d",
+    "text": "Divyang pension Jamshedpur mein time par nahi mil rahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "821718cf-ad21-47a3-9922-83ea9644a095",
+    "text": "Need better library facilities in our government college at Gumla. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "e0f8b86d-66e4-4502-8c4e-f16a54b73d2c",
+    "text": "बच्चों को Giridih में मिड-डे मील सही से नहीं मिल रहा है। Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "d4e50a31-31ea-4152-9e4d-1bc51a21ae15",
+    "text": "Water tanker Gumla mein nahi aa raha hai. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "21042bca-2469-46ab-9345-09bc7df99311",
+    "text": "Tractor subsidy ka form reject ho gaya Ranchi office se. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9c0b9284-d96c-4304-b4c7-1e46f7e588da",
+    "text": "Bokaro के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "876ed393-b4fa-4b90-bc76-b93c69e0753e",
+    "text": "Palamu mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "dc491011-828c-4cf5-ace4-daa11c083323",
+    "text": "Ramgarh में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "0055e1d4-f518-4813-97e2-996763cab0ed",
+    "text": "Maternity ward in Bokaro is in unhygienic conditions. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "d2c8513a-2e61-4714-82d1-0814f6975647",
+    "text": "Water tanker Ramgarh mein nahi aa raha hai. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "023d8e7c-b38c-4262-af02-a85e81d872d6",
+    "text": "Fluoride contamination in Bokaro groundwater is causing health issues. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "97a2905e-20ce-449f-ae0c-35b2785b8d3b",
+    "text": "No drinking water supply in Palamu for the last 5 days. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "5baf7fc5-def4-47c4-8054-5f4ae6025ae6",
+    "text": "बिजली विभाग वाले Jamshedpur में लाइन ठीक करने नहीं आ रहे।",
+    "category": "energy"
+  },
+  {
+    "id": "4678fd26-09d4-40f9-8f79-2010d8dbe4e9",
+    "text": "सरकारी अस्पताल Hazaribagh में डॉक्टर पैसे मांग रहे हैं। Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "68e5a09e-a515-4803-a6d4-aea6c4994256",
+    "text": "Deoghar के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "c0d6548b-648a-4bae-beaf-0a9269d2c65d",
+    "text": "Giridih block office mein caste certificate banane mein bahut time lag raha hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "00f875b0-babd-40e9-af9a-2890e1360d7c",
+    "text": "Need soil testing lab in Dhanbad for better crop yield. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "6f59038f-87cf-4c6d-9f8d-efd06030684f",
+    "text": "Exam paper leak ho gaya hai Dhanbad mein, exams cancel hone chahiye.",
+    "category": "education"
+  },
+  {
+    "id": "7d78d41f-6dd0-412d-b358-36487b4ecd54",
+    "text": "Ramgarh में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "51884384-f323-46d6-b4dd-5e9d89ff9d65",
+    "text": "Giridih में जल जीवन मिशन का काम अधूरा पड़ा है। Please help.",
+    "category": "water"
+  },
+  {
+    "id": "8d0d322a-ef80-44f3-b0a5-b6d97db1416e",
+    "text": "The main road in Deoghar is full of potholes causing accidents. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "73ddd9d0-8571-4c90-898f-efc38383af8e",
+    "text": "Bokaro park mein jhule tute hue hain aur kachra hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "f736247c-92b5-492c-a26f-f7aed3adcc71",
+    "text": "Bokaro के अस्पताल में एंबुलेंस की सुविधा नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "8de2f40a-1597-4efc-851c-3c20ddc1b8a2",
+    "text": "Palamu में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "24192fad-d6d4-4632-9f01-92e71a5c0bd1",
+    "text": "Lack of computer labs in the Giridih high school is affecting students. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "b2ef0d1f-2bbb-4dff-af5e-07bf02a93946",
+    "text": "Ramgarh mein sound pollution limit se cross ho gaya hai. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "d64fcfc3-55cd-42ae-bb9d-8831dd27b557",
+    "text": "Need immediate dengue fogging in Ranchi as cases are rising. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "8e78014c-2dc8-4c4d-816c-f04e432ff4ab",
+    "text": "Covid vaccination center Deoghar mein band pada hai. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "b70719cf-9763-4b1a-9d0c-7cceacdc3882",
+    "text": "Kisan credit card ka loan maaf nahi hua Ranchi mein. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "027b5964-e9fe-4b5a-8ba7-60637d858019",
+    "text": "Deoghar में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "03881345-1d68-4433-90e8-e7e8acffaf96",
+    "text": "Jamshedpur mein sound pollution limit se cross ho gaya hai. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "2bdff470-847e-414c-8c41-b10a3f75f83c",
+    "text": "Need soil testing lab in Dhanbad for better crop yield.",
+    "category": "agriculture"
+  },
+  {
+    "id": "e0261f32-3941-446c-8579-7bcd4cfba008",
+    "text": "Giridih की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "b17b8b61-7547-4868-b7b2-c40cb9762203",
+    "text": "Hazaribagh panchayat mein MNREGA ka payment ruka hua hai. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "589fcd92-2a36-4b2d-8b9e-9d8903a38819",
+    "text": "Giridih ke hospital mein dawaiyan available nahi hain. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "fb968922-54a2-4a18-b027-ecbf8e586ba5",
+    "text": "Lack of computer labs in the Gumla high school is affecting students.",
+    "category": "education"
+  },
+  {
+    "id": "cb0e4fe8-00d0-40f3-a024-0ea4881f0f09",
+    "text": "Ranchi mein handpump pichle 2 mahine se kharab hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "06aaa488-3d18-4345-bbd5-516c0c91ba56",
+    "text": "Need audio signals at Gumla traffic lights for visually impaired. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "76f86014-ab21-4955-8274-ad5314f555da",
+    "text": "Ranchi ke gaon mein artisans ko unka saman bechne ka market nahi hai. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "b34725e0-3301-41c2-8b41-448db4e85ddd",
+    "text": "Jamshedpur mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "949483ac-3311-462e-aa2c-bb425da0023b",
+    "text": "Plastic kachra Bokaro ke park mein jala rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "e88e9eb5-65b4-4b13-97e6-0b028258948c",
+    "text": "The primary health center in Giridih has no doctors on night duty. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "7b7c4376-9e72-40af-ae86-3eb354cc589f",
+    "text": "Need immediate dengue fogging in Jamshedpur as cases are rising. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "145378e5-f3ab-4181-896a-0a9264047503",
+    "text": "Hazaribagh ke government office mein disabled logo ke liye lift nahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c698225c-b15f-4f2c-9e3a-babc153a3841",
+    "text": "Gumla mein drainage system block hai, sadak par pani bhara hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "448e14a8-d7df-4b07-bd7d-d71d5075545a",
+    "text": "Ramgarh तहसील कार्यालय में अधिकारी समय पर नहीं आते।",
+    "category": "public_admin"
+  },
+  {
+    "id": "0252acaf-2a61-4ebc-998e-41fb7058d760",
+    "text": "Water tanker Jamshedpur mein nahi aa raha hai. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "6780b3ce-e086-4838-9e9b-0b94b2d11edd",
+    "text": "Crops in Deoghar are dying due to lack of irrigation canals. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "a202b5ed-1430-45b8-be93-5b8ddc6f9c3a",
+    "text": "Plastic kachra Giridih ke park mein jala rahe hain. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "6a6985f4-8012-4b89-9a2b-f2c99d847279",
+    "text": "Bokaro mein naya borewell khudwane ki jarurat hai. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "b2e7c132-f558-4af8-ac60-16e8247f3543",
+    "text": "Online portal for Jamshedpur property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "c3c8a741-55fb-4486-b9fd-1652a2891c3d",
+    "text": "Factories in Jamshedpur are releasing toxic smoke at night. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "dd196573-ce8b-4034-8415-9f7d661681d2",
+    "text": "Plastic kachra Palamu ke park mein jala rahe hain. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "ee0f9793-b639-4890-be6a-a7c7b847cb98",
+    "text": "Need proper waste segregation systems in Gumla. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "69496ffa-2b20-454b-9278-41a34bdae265",
+    "text": "Giridih hospital mein wheelchair available nahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b6d425d6-f838-47b2-b838-1ee5e5d9f2e2",
+    "text": "हमारे मोहल्ले Deoghar में पानी का प्रेशर बहुत कम है।",
+    "category": "water"
+  },
+  {
+    "id": "b7585fb9-ad97-4e58-b3f3-2230e352ba89",
+    "text": "Maternity ward in Ranchi is in unhygienic conditions. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "da04c64e-b0c4-4614-b02f-e5a3138071c9",
+    "text": "Need better library facilities in our government college at Gumla. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "69f72f83-f62f-4c53-833f-c80249624e10",
+    "text": "The local primary school in Ramgarh has no roof and leaks during rain. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "2f08858f-1620-4f99-a371-c1eaeb291f51",
+    "text": "Deoghar में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "7f32a05a-917c-468e-879d-e7be35b5b665",
+    "text": "Jamshedpur में सीवर लाइन का ढक्कन खुला है, खतरा है। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "c83bcf40-da79-43b7-86bc-a2b2a44b0957",
+    "text": "Deoghar mein naya borewell khudwane ki jarurat hai.",
+    "category": "water"
+  },
+  {
+    "id": "9affe7a2-c3bc-4adb-9fc3-d74c4e7e5cac",
+    "text": "The primary health center in Palamu has no doctors on night duty. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "5157f022-a5ef-40d6-9580-66ecbb295f4b",
+    "text": "Hazaribagh में खाद और बीज की बहुत कमी है, खेती कैसे करें? Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "5fe81240-a612-426e-bcd5-c2aaa9ab3e70",
+    "text": "हमारे मोहल्ले Palamu में पानी का प्रेशर बहुत कम है। Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "46db137d-f6dc-4631-b3b4-cc2372a715ba",
+    "text": "Ranchi में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "bbdd9a02-b490-4a54-bf34-b7f528cf450c",
+    "text": "Ramgarh hospital mein wheelchair available nahi hai. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "d0e7afb8-2d3a-4539-b0f3-9936c27c8960",
+    "text": "The main road in Ramgarh is full of potholes causing accidents. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "b06d81a8-6ca4-4a74-aff4-6ed78a3fdd89",
+    "text": "Blind tactile paths are broken on Gumla footpaths.",
+    "category": "accessibility"
+  },
+  {
+    "id": "4d6a0ef9-edce-4670-9285-f0df07e939cd",
+    "text": "Frequent power cuts in Ramgarh are affecting student studies. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "859ca235-762e-4b50-882d-fc33f8ffd619",
+    "text": "Dhanbad के अस्पताल में एंबुलेंस की सुविधा नहीं है। Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "525faa3b-3ab6-4a95-9342-7ee54fcb19ad",
+    "text": "Plastic kachra Ramgarh ke park mein jala rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "fdeb5bb8-1183-439a-9900-d7ab3426dc23",
+    "text": "Need proper waste segregation systems in Jamshedpur. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "48fea420-3680-43b0-a5c8-8d5dabba4b7e",
+    "text": "Exam paper leak ho gaya hai Bokaro mein, exams cancel hone chahiye. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "61bcc649-72ea-4b5a-86c1-36d0752f1ebe",
+    "text": "Crops in Hazaribagh are dying due to lack of irrigation canals. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "56711c9c-0493-4dfe-828c-2d776e033673",
+    "text": "Giridih में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "3e29f0b5-be58-43f9-8b38-7033e0a02fe5",
+    "text": "Deoghar में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "cffe13fb-fcf5-4c41-9bcd-7aa3aa15df4f",
+    "text": "Garbage collection truck does not visit Bokaro regularly. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "461537f9-f7d8-420e-9ad1-f8042a11961a",
+    "text": "Solar panels installed in Hazaribagh government building are defective. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "acd29667-7f17-4140-8d38-bfec3178f6af",
+    "text": "Solar panels installed in Palamu government building are defective. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "3587757f-6b78-4300-8c5a-295c684c1ffd",
+    "text": "हमारे Gumla के स्कूल में पीने का पानी नहीं है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "1c2c251a-3cf4-4824-983e-f28948521f6e",
+    "text": "Pipeline is leaking near the main road in Ramgarh, wasting water. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "ab38354d-84d7-4a8d-be62-08f85f7e45f1",
+    "text": "Giridih में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "9b7a7a3c-72da-445f-a3e9-5d4a79c0c374",
+    "text": "Need better citizen facilitation center in Deoghar.",
+    "category": "public_admin"
+  },
+  {
+    "id": "3bd640de-509e-4882-b90a-3b3bc269e1c2",
+    "text": "The primary health center in Palamu has no doctors on night duty. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "e0a452ac-8264-4e33-aa83-7392690ac48e",
+    "text": "No wheelchair ramp available at the Bokaro railway station. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "70b9db21-e750-4d99-975b-7bd11d64c20c",
+    "text": "Giridih mein transformer jal gaya hai 3 din pehle. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "d86eb4e7-d40a-4496-8dc2-a14a02302593",
+    "text": "Giridih mein parking ki suvidha nahi hone se traffic jam hota hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "b3006bc3-707b-4a29-a05c-ae495cc2802d",
+    "text": "सरकारी अस्पताल Palamu में डॉक्टर पैसे मांग रहे हैं। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "17016fed-9b04-4216-b768-52b6d5fb7e04",
+    "text": "Gumla के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b03bd0d1-39cc-4ded-b113-ce5589a41313",
+    "text": "Deoghar में अवैध अतिक्रमण के कारण सड़क जाम रहती है।",
+    "category": "urban_development"
+  },
+  {
+    "id": "58c2a821-869d-4bcd-9716-122c170dc75b",
+    "text": "Construction of the Ranchi flyover has been stalled for 2 years. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "4f7f3fbe-0d1a-4246-9d8d-c196318ff688",
+    "text": "Air quality index in Palamu is hazardous due to construction dust. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "f4010704-7fec-4d9a-9096-41710efe50c3",
+    "text": "Plastic kachra Gumla ke park mein jala rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "b1fb281d-8f1f-4720-ad58-b8aaba330c87",
+    "text": "Jamshedpur park mein jhule tute hue hain aur kachra hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "32890f34-befd-4597-bee7-8c115a6fb55d",
+    "text": "Lack of computer labs in the Bokaro high school is affecting students. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "47c1e367-ebe2-4eae-a1a1-6d2a39a28971",
+    "text": "हमारे Ranchi के स्कूल में पीने का पानी नहीं है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "1479f983-c74d-484e-adb9-76b076711af2",
+    "text": "Bokaro में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "6fb4eea2-cb57-4a38-89cf-7b0c6224e288",
+    "text": "हमारे गांव Ranchi में अभी तक बिजली के खंभे नहीं लगे हैं। Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "e226551e-c2ba-411b-8ab9-38f1a940e445",
+    "text": "Jamshedpur hospital mein wheelchair available nahi hai. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "310fd0c7-80eb-4200-854f-c0a4590bcd5f",
+    "text": "Gumla में जल जीवन मिशन का काम अधूरा पड़ा है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "f13fab03-0761-405f-b05b-c06aac388bbe",
+    "text": "Giridih तहसील कार्यालय में अधिकारी समय पर नहीं आते। Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "c9012949-c232-477b-97ce-044e1e8446cd",
+    "text": "Factories in Palamu are releasing toxic smoke at night. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "b239c7bb-2664-4581-b046-b92a02c028d8",
+    "text": "Giridih park mein jhule tute hue hain aur kachra hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "1017f200-5d7b-49e4-9409-de6380e2fae5",
+    "text": "Exam paper leak ho gaya hai Bokaro mein, exams cancel hone chahiye. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "1bde90ba-4191-4077-b227-be454e543408",
+    "text": "Gumla block office mein caste certificate banane mein bahut time lag raha hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "dd9b1868-3598-424b-8f1b-2eba59385355",
+    "text": "Ayushman card Ranchi ke private hospital mein accept nahi kar rahe. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "f3c835ee-9e13-4e54-8b29-113a67a96e74",
+    "text": "Bribery is rampant in the Ramgarh RTO office for driving licenses. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "c8635774-4d2a-443d-b654-2a5b28c84a5a",
+    "text": "Need better citizen facilitation center in Bokaro. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "5958fd20-4b56-4c9c-b8eb-123af03a78ec",
+    "text": "पहाड़ों पर Jamshedpur में अवैध खनन हो रहा है। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "822722c8-152f-4ff4-b73e-8a71be4f60c8",
+    "text": "Self-help groups in Deoghar are not receiving government funding. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "29fb44a8-4fbd-4ab3-958b-bcf9e2355bb7",
+    "text": "Bokaro में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "f901299d-366d-4923-9e7b-0cb8f0d9096f",
+    "text": "Ramgarh में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है।",
+    "category": "accessibility"
+  },
+  {
+    "id": "addf4dac-b182-49cc-b9b8-e8b0d6e61a70",
+    "text": "Dhanbad में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "88651211-123d-429b-97cf-fdc4a5453048",
+    "text": "Minimum Support Price is not being offered at the Dhanbad mandi. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "7da490dd-a53f-4903-83fb-71dad412921c",
+    "text": "Divyang pension Ramgarh mein time par nahi mil rahi hai. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b1988f23-08f1-46d9-af6c-b7a2dcb1d567",
+    "text": "Giridih में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "c5402424-4585-4ad4-9165-8558ae65337a",
+    "text": "Crops in Giridih are dying due to lack of irrigation canals. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "336b572d-4c22-4eb8-b328-1aebd7f6d0d6",
+    "text": "Need soil testing lab in Ranchi for better crop yield. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "fdd10392-77dd-4f00-a6a1-171c09db3237",
+    "text": "Kisan credit card ka loan maaf nahi hua Jamshedpur mein. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "bd77f008-6c70-43fa-825b-58a4f45632f5",
+    "text": "Palamu तहसील कार्यालय में अधिकारी समय पर नहीं आते। Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "0cf03358-6b71-406e-91fc-afa4755f425d",
+    "text": "Low voltage issue in Jamshedpur is damaging water pumps. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "4bddadb5-740e-43f4-9761-9478dbc3890c",
+    "text": "No drinking water supply in Ramgarh for the last 5 days. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "796482f3-565c-4de6-940a-9447356931f0",
+    "text": "No drinking water supply in Bokaro for the last 5 days. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "1edf57c8-aefb-4c22-a031-4dc4c52d61e1",
+    "text": "Construction of the Ranchi flyover has been stalled for 2 years. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "3069e25f-9b08-4019-aed6-264eb1b614c1",
+    "text": "Hazaribagh में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a73dac9c-f9d3-47da-a3f4-31920e801d86",
+    "text": "Deoghar में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a63003b2-87ef-4b44-9d03-780959ed9bb7",
+    "text": "Ranchi में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "3aeeb8dc-d3b1-4a28-8a15-8d862578fe34",
+    "text": "Dhanbad ke river mein chemicals dump kiye ja rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "5316a7df-f137-49ae-966b-da819346d251",
+    "text": "Lack of computer labs in the Giridih high school is affecting students. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "e860fc34-a507-4e7b-b934-b974aadd91e6",
+    "text": "Tractor subsidy ka form reject ho gaya Jamshedpur office se. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "aa84b49f-30b6-4dee-88bc-dcfa6d56dc65",
+    "text": "Jamshedpur mein drainage system block hai, sadak par pani bhara hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "667c89e1-19da-4b1b-8b2f-fda2758ceeb5",
+    "text": "Palamu में खाद और बीज की बहुत कमी है, खेती कैसे करें?",
+    "category": "agriculture"
+  },
+  {
+    "id": "26030167-779b-4dd8-9c80-02f5749e95ef",
+    "text": "आवारा पशु Hazaribagh में हमारी सारी फसल चर गए हैं। Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "59eae3d7-7a4a-4852-9639-9e6401d229ff",
+    "text": "No wheelchair ramp available at the Ranchi railway station. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c4ada5e8-7e2b-4873-8e4d-ecc2cbd1f6be",
+    "text": "Solar panels installed in Hazaribagh government building are defective. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "a63a7dd0-5dee-4e81-998d-27f3ab799db9",
+    "text": "Palamu panchayat mein MNREGA ka payment ruka hua hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "5bd94f2f-927f-4aae-b745-ffd31001ea5c",
+    "text": "Pipeline is leaking near the main road in Dhanbad, wasting water. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "25c7bbcd-e1ad-4bc9-a071-c2a4f1fe9dfa",
+    "text": "Bribery is rampant in the Dhanbad RTO office for driving licenses. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "27d8d7c2-9f1d-4118-91b7-3b3f56d1cd96",
+    "text": "No drinking water supply in Gumla for the last 5 days. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "d5fc97d4-d75c-4097-8743-91b2f2ead9f2",
+    "text": "No drinking water supply in Hazaribagh for the last 5 days. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "335c79ef-c266-470c-994a-d799bafeb893",
+    "text": "Giridih panchayat mein MNREGA ka payment ruka hua hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "d5e1d0c2-523a-4dda-b1d7-15a43ec66217",
+    "text": "हमारे गांव Gumla में अभी तक बिजली के खंभे नहीं लगे हैं। Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "d31c4bb4-d68d-4203-ba42-117cdd774992",
+    "text": "No ultrasound machine available in the Bokaro district hospital. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a335bf42-7de4-4631-aa3f-2c8a5f0242ff",
+    "text": "Illegal sand mining is destroying the riverbed in Gumla.",
+    "category": "environment"
+  },
+  {
+    "id": "62f16f32-35da-468d-90c8-325fe57d512b",
+    "text": "Need better library facilities in our government college at Dhanbad. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "3637f503-fbd1-4858-8dd5-bac92b6473e7",
+    "text": "हमारे गांव Deoghar में अभी तक बिजली के खंभे नहीं लगे हैं। Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "85322053-cf05-4b0d-8f0a-d5919ea72abb",
+    "text": "Maternity ward in Ranchi is in unhygienic conditions.",
+    "category": "healthcare"
+  },
+  {
+    "id": "8022a1bf-2a10-4b16-9119-b65f78aa47a3",
+    "text": "Street lights in Dhanbad sector 4 are not working. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "2cc6909d-3a38-4742-a02d-1b81f8c8f657",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Gumla में, कभी भी गिर सकता है।",
+    "category": "education"
+  },
+  {
+    "id": "43c99764-adc6-4e3a-96c3-fee2439beeda",
+    "text": "Ranchi में जल जीवन मिशन का काम अधूरा पड़ा है। Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "5ea1b7e0-4059-496a-8c76-d0c4609be15b",
+    "text": "Minimum Support Price is not being offered at the Giridih mandi. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "edf74719-d0b1-47b4-8a41-3416231b2db3",
+    "text": "Exam paper leak ho gaya hai Deoghar mein, exams cancel hone chahiye. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "15717244-7f6c-4f7f-8dc1-9bd8a0dd2372",
+    "text": "Ramgarh के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "43583f2c-4ca2-448f-bada-a637a14d2ad2",
+    "text": "हमारे Hazaribagh के स्कूल में पीने का पानी नहीं है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "3801d45c-3092-4334-9c5e-be6e4578baaa",
+    "text": "Ranchi के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "2ebff046-e30f-4690-a7f3-7a684f78b770",
+    "text": "Lack of computer labs in the Hazaribagh high school is affecting students.",
+    "category": "education"
+  },
+  {
+    "id": "335d9d8a-da40-4876-a6a1-8c36b2bb70d0",
+    "text": "आवारा पशु Gumla में हमारी सारी फसल चर गए हैं। Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9b88d931-78bd-4e52-b125-8521ad8f0152",
+    "text": "High voltage ke karan Ranchi mein logo ke TV jal gaye. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "b7d89db6-e67f-413d-a332-b26acd6c99b7",
+    "text": "No ultrasound machine available in the Ranchi district hospital. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "5cad0854-fa1b-45c4-b7c7-82161f07e89a",
+    "text": "Need better citizen facilitation center in Bokaro. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "8b96cdfe-d85b-48d6-9f34-a64924ac6dce",
+    "text": "Need modern dairy farming training programs in Jamshedpur. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "914fb352-7c3c-49d4-a207-95b6396a2b97",
+    "text": "हमारे गांव Ranchi में अभी तक बिजली के खंभे नहीं लगे हैं। Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "c02e51b7-f3ef-4f55-818a-3c4d8f4d8f26",
+    "text": "गांव Hazaribagh से लोग रोजगार की तलाश में पलायन कर रहे हैं। Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "334cba63-4f1b-458c-bef2-e10484daa6d4",
+    "text": "Unseasonal rains have destroyed wheat crops in Dhanbad. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "e5059aa6-1ceb-49e9-857e-55e569009505",
+    "text": "Public buses in Deoghar are not accessible for differently-abled citizens.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c94b3db8-7705-41b8-813b-60b209f24800",
+    "text": "Dhanbad में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "e02d44ff-cc0a-4911-bafb-97684fdcf941",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Ramgarh में बहुत दिक्कत आ रही है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "84355ac3-a3bf-4ce0-a875-2aa4e63007e0",
+    "text": "Ranchi mein transformer jal gaya hai 3 din pehle.",
+    "category": "energy"
+  },
+  {
+    "id": "54250c0a-6f8e-4f88-8763-f1eab512379e",
+    "text": "Ramgarh में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "fa48fe6a-4b53-49ba-b0da-66cd577d1f74",
+    "text": "Jamshedpur में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "7d653c46-c476-4626-aa02-7c42e1c6bd45",
+    "text": "Skill development center in Deoghar has been closed down.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "50b54859-0bb2-4080-8078-ae7730c87ddb",
+    "text": "Women weavers in Giridih need micro-loans for purchasing looms. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a15f5ad7-1e42-4ae5-b6a4-816762cd629d",
+    "text": "Fasal bima yojana ka paisa Ranchi ke kisano ko nahi mila. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "b3205413-7018-42ff-836c-5bf668cf16b0",
+    "text": "Hazaribagh में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "9af7ec15-1471-4fa3-8276-75943f7e04bf",
+    "text": "Ranchi में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "c985eebb-5866-4739-9158-9a3c485f4a2e",
+    "text": "Low voltage issue in Jamshedpur is damaging water pumps. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "ae31c372-7e34-4f49-a847-12eaec024120",
+    "text": "Illegal sand mining is destroying the riverbed in Palamu. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "d19a3785-ac50-4158-8333-7a91f6d0874e",
+    "text": "Jamshedpur mein sound pollution limit se cross ho gaya hai.",
+    "category": "environment"
+  },
+  {
+    "id": "693cbdd6-413d-464d-bb83-5aa2722ea804",
+    "text": "No wheelchair ramp available at the Jamshedpur railway station. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "0cb23105-c5b0-4c05-ab9a-8dd231c04df0",
+    "text": "Illegal sand mining is destroying the riverbed in Dhanbad. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "4aa30f4f-a5d9-4750-b87a-c483b7a3ef96",
+    "text": "Ranchi के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "39126199-6277-4b62-bdbe-7ecac17eba39",
+    "text": "Ramgarh hospital mein wheelchair available nahi hai. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "caea3e36-e2a8-4f11-a207-ea953a2050a4",
+    "text": "Self-help groups in Ranchi are not receiving government funding. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "215dc243-7417-4fc3-8171-50e782cb7ce3",
+    "text": "Water tanker Palamu mein nahi aa raha hai. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "60b1b562-8217-4d90-8502-3e2a5863bb4e",
+    "text": "Maternity ward in Giridih is in unhygienic conditions. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "d9880326-4b6c-4fd8-824d-fb24807d16cc",
+    "text": "Construction of the Ramgarh flyover has been stalled for 2 years. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "12d0595b-2b25-4f87-a52a-9c5f99a7d05e",
+    "text": "Giridih mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "f4bfa13f-d402-4341-a6cf-e1b6d3cdd8b0",
+    "text": "Public buses in Ramgarh are not accessible for differently-abled citizens. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e329b2c7-ed18-44d4-a183-228e912a91a4",
+    "text": "Frequent power cuts in Hazaribagh are affecting student studies. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "d7cae1dc-f991-4ee1-9789-68538d96680c",
+    "text": "Need soil testing lab in Hazaribagh for better crop yield. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "11e11909-5c5d-4551-a18d-c83188f9fbae",
+    "text": "The primary health center in Ramgarh has no doctors on night duty. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "bbcbf77b-91be-4e95-a648-3f1cb2e25547",
+    "text": "Illegal sand mining is destroying the riverbed in Deoghar. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "56b65521-7a5f-4820-90bd-99e034bf002c",
+    "text": "Ranchi में सीवर लाइन का ढक्कन खुला है, खतरा है। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6abe56cf-680e-488f-9891-ae350f45c782",
+    "text": "Palamu block office mein caste certificate banane mein bahut time lag raha hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "8e212ecf-83b7-4d10-9c1d-4cada095d220",
+    "text": "Plastic kachra Jamshedpur ke park mein jala rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "2edc4e03-605b-4a13-ba76-9ea60963e074",
+    "text": "Need better citizen facilitation center in Hazaribagh. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "31349d76-9fac-45e6-aab0-3d4f143ae459",
+    "text": "Gumla ke hospital mein dawaiyan available nahi hain. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "aa7676dd-dd1f-4d18-b2e0-c12493481651",
+    "text": "Low voltage issue in Giridih is damaging water pumps. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "2938beb0-345a-4adc-83e4-a14c7b459f04",
+    "text": "Giridih के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "dbe8a12e-b29c-4b39-9d1c-79eab7dec4c2",
+    "text": "हमारे गांव Deoghar में अभी तक बिजली के खंभे नहीं लगे हैं।",
+    "category": "energy"
+  },
+  {
+    "id": "8afc45ee-11c4-4b3e-b427-813f3d4d9d8b",
+    "text": "No ultrasound machine available in the Dhanbad district hospital. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "79eddd15-0ea1-4805-b704-8c3032a664b4",
+    "text": "Bokaro ke gaon mein artisans ko unka saman bechne ka market nahi hai.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "1b42cd12-33fb-4654-a4de-a42d6a78a102",
+    "text": "Giridih में जल जीवन मिशन का काम अधूरा पड़ा है। Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "e1042b56-13c4-435f-8a66-37494f509b8a",
+    "text": "Need proper waste segregation systems in Dhanbad. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "df482367-6e17-4dd1-a29e-efbb3f4c8696",
+    "text": "Blind tactile paths are broken on Jamshedpur footpaths.",
+    "category": "accessibility"
+  },
+  {
+    "id": "79fdefec-3947-4214-8b4c-b2adbcbb61ac",
+    "text": "Hazaribagh ke government office mein disabled logo ke liye lift nahi hai.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c03185eb-cf9a-44a8-afd4-56986637cb38",
+    "text": "Public buses in Palamu are not accessible for differently-abled citizens. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "9711b329-bb98-4ac7-b12a-39dd86ed31f6",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Deoghar में, कभी भी गिर सकता है। Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "67a8041a-00c2-4589-9fa1-c2ea861611c9",
+    "text": "Air quality index in Bokaro is hazardous due to construction dust. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "ce8171ab-7b9c-4d74-95d0-f157ad5ad88f",
+    "text": "Low voltage issue in Palamu is damaging water pumps. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "6b39512f-1353-4eab-8c8c-67d067406fdd",
+    "text": "Police verification ke liye Bokaro thane mein pareshan kiya ja raha hai. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "6a3cbe5d-bf84-45ca-9e37-c6d30a852072",
+    "text": "Ranchi ke hospital mein dawaiyan available nahi hain. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "11522a1e-94c3-418e-989b-36b5f0ad19d6",
+    "text": "Hazaribagh में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e7b7422d-00af-46d3-befc-56dba16754cd",
+    "text": "Ramgarh के पास के जंगल में आग लग गई है, तुरंत बुझाएं।",
+    "category": "environment"
+  },
+  {
+    "id": "79198bfa-9422-4556-ad07-d61bf9b06938",
+    "text": "The local primary school in Bokaro has no roof and leaks during rain.",
+    "category": "education"
+  },
+  {
+    "id": "56ad601d-1197-4b2d-a059-6a85b94c8c5c",
+    "text": "पहाड़ों पर Ranchi में अवैध खनन हो रहा है। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "78adf616-6203-4cbf-98e3-c11c55b2f0ab",
+    "text": "Exam paper leak ho gaya hai Gumla mein, exams cancel hone chahiye.",
+    "category": "education"
+  },
+  {
+    "id": "4eef8615-5f64-46da-a497-2ecf1eaf885f",
+    "text": "The primary health center in Dhanbad has no doctors on night duty. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "9eb50e17-8a72-46e4-9432-a5585049686d",
+    "text": "Blind tactile paths are broken on Jamshedpur footpaths. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "ec00e400-eab0-46eb-8169-8cd521a1ecf2",
+    "text": "Ranchi mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4a9ecc0b-05ad-4544-88b6-1d5997d3c9e9",
+    "text": "The primary health center in Giridih has no doctors on night duty. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "65c5c5b5-6915-48ed-be05-b577679ece96",
+    "text": "Tractor subsidy ka form reject ho gaya Palamu office se. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9e68827e-e4fc-4980-b2a4-750456c0d55c",
+    "text": "Need better citizen facilitation center in Hazaribagh. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "bc411967-6c6a-405d-8307-9678c4bebcdb",
+    "text": "पहाड़ों पर Ranchi में अवैध खनन हो रहा है। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "77413eb8-6cc5-47dd-b6b7-15381dccc5ba",
+    "text": "Deoghar mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e4b02fb1-acbc-48ab-9566-2d15b03e5b90",
+    "text": "Factories in Jamshedpur are releasing toxic smoke at night. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "9ef3c62c-bbe3-4214-ad6a-7edf7276eebd",
+    "text": "Plastic kachra Dhanbad ke park mein jala rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "d07c89af-ee2c-4fab-b27d-6434bb273e6f",
+    "text": "Deoghar के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "bc04e50a-e509-47ea-ac5e-eeb0915de2d6",
+    "text": "Solar panels installed in Deoghar government building are defective. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "6d9468b3-9401-4ae1-8fd6-21899e05d000",
+    "text": "Fasal bima yojana ka paisa Palamu ke kisano ko nahi mila. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "b5ed3248-f0fd-4f48-b45e-f39cbd79efd0",
+    "text": "Giridih में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "648e0e5d-4710-4d5a-a9e4-a42599437061",
+    "text": "Bokaro ke government office mein disabled logo ke liye lift nahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "3856d966-0471-45b0-9a92-5f30f7d24707",
+    "text": "Fluoride contamination in Ramgarh groundwater is causing health issues. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "42ab8897-d500-4ef8-8cf3-0a89036f155d",
+    "text": "Garbage collection truck does not visit Dhanbad regularly. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "46134717-ec88-45c5-aec5-244382c4eb48",
+    "text": "Ramgarh ke gaon mein artisans ko unka saman bechne ka market nahi hai. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "679b3ce8-20f7-41b7-93fd-35dff5423b91",
+    "text": "Self-help groups in Deoghar are not receiving government funding.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "dad07009-e615-49f7-98db-61e6aeab1efc",
+    "text": "Ramgarh mein naya meter connection apply kiya tha, abhi tak nahi laga. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "93eb7d74-a787-4678-89f6-b877ae710e2b",
+    "text": "Bokaro ke gaon mein artisans ko unka saman bechne ka market nahi hai. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "718f4463-0292-474a-b39c-3a7f8e66f600",
+    "text": "Need audio signals at Ranchi traffic lights for visually impaired.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f801eeae-4f7b-49c6-8ec7-49e6fb59b25d",
+    "text": "Unseasonal rains have destroyed wheat crops in Ranchi.",
+    "category": "agriculture"
+  },
+  {
+    "id": "5f2b88da-8583-45e2-a416-4a90063a2e08",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Hazaribagh में बहुत दिक्कत आ रही है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "af103eeb-b520-4c12-bbd3-a76033584c9d",
+    "text": "Gumla ke government office mein disabled logo ke liye lift nahi hai. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b8f962ed-7d63-468e-9376-58747a781c20",
+    "text": "Deoghar में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "ea3d642d-7d56-4efe-96dd-78e9c4179c22",
+    "text": "Need proper waste segregation systems in Deoghar.",
+    "category": "environment"
+  },
+  {
+    "id": "895101f1-8631-4aba-9f2a-1beeeb9113e7",
+    "text": "Low voltage issue in Jamshedpur is damaging water pumps. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "d15ad95b-ec82-46b9-9ec7-b00996e2e949",
+    "text": "The local pond in Ramgarh is completely dried up. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "3cf16ab1-05bf-4838-9fa2-056c5e3bcdd8",
+    "text": "Frequent power cuts in Palamu are affecting student studies. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "c9a7a081-def5-4b28-bf87-f80a68b76b42",
+    "text": "Jamshedpur के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "858f8c9c-4f19-437c-acdc-bc4cec06527c",
+    "text": "Giridih ke gaon mein artisans ko unka saman bechne ka market nahi hai. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "7ca96dc4-87fe-4ba3-9e23-0c5530b22fc1",
+    "text": "Ranchi panchayat mein MNREGA ka payment ruka hua hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "2a01522c-c844-406e-ac4d-d480a439f370",
+    "text": "Jamshedpur तहसील कार्यालय में अधिकारी समय पर नहीं आते। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "99eca535-bdb3-4b8e-88f6-dea05e56a24e",
+    "text": "Self-help groups in Bokaro are not receiving government funding.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e09c38dc-d74b-4fbe-bcb7-3f2663781f5f",
+    "text": "Need better library facilities in our government college at Hazaribagh. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "99b05753-9e6b-4b86-8cda-e0eb4a816519",
+    "text": "Minimum Support Price is not being offered at the Hazaribagh mandi.",
+    "category": "agriculture"
+  },
+  {
+    "id": "ff0c7515-67bc-4f9b-aa05-2b8897662bdc",
+    "text": "The main road in Ranchi is full of potholes causing accidents. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "c2b46eae-7cde-4965-a1fe-ee59679f6f21",
+    "text": "Public buses in Palamu are not accessible for differently-abled citizens. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "123adc1a-81ab-4b87-830f-e0289bd4641c",
+    "text": "Dhanbad ke hospital mein dawaiyan available nahi hain. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "25ddac6a-c871-49d6-afea-7b4f51316152",
+    "text": "Hazaribagh mein naya meter connection apply kiya tha, abhi tak nahi laga. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "b3594b1f-8aa8-4649-be42-2b89811aa526",
+    "text": "Hazaribagh की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है।",
+    "category": "water"
+  },
+  {
+    "id": "d910d60b-f410-4134-a56f-c695c66ec516",
+    "text": "Skill development center in Ranchi has been closed down. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "359c88e7-0563-4b56-b6d6-2c08b8a8adde",
+    "text": "Crops in Giridih are dying due to lack of irrigation canals. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9901a26f-658f-4437-ade3-b771b9d00160",
+    "text": "Deoghar mein naya meter connection apply kiya tha, abhi tak nahi laga. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "217e3c43-0b9f-428f-931c-ef5501fc1e04",
+    "text": "Need public toilets in the busy market area of Jamshedpur. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "804b5b05-5d3f-4854-bf29-42f8a2abba8e",
+    "text": "Divyang pension Hazaribagh mein time par nahi mil rahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "b6c05661-ad99-4a30-b2da-502d9038553c",
+    "text": "Kisan credit card ka loan maaf nahi hua Dhanbad mein.",
+    "category": "agriculture"
+  },
+  {
+    "id": "1f82e877-c604-4624-9537-8a687f395897",
+    "text": "हमारे गांव Gumla में अभी तक बिजली के खंभे नहीं लगे हैं। Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "b3e0e1e3-6e76-4b89-9d1c-b6259fa1e097",
+    "text": "Tractor subsidy ka form reject ho gaya Dhanbad office se. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "7c168bf3-5f3f-473f-8e33-7348505c504f",
+    "text": "Tractor subsidy ka form reject ho gaya Ramgarh office se. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "77f47120-4ecd-485c-b4e0-6fe104c89184",
+    "text": "Hazaribagh mein naya borewell khudwane ki jarurat hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "3c742e8e-d05f-4b7c-aa3f-d316115af613",
+    "text": "Self-help groups in Giridih are not receiving government funding. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "1e5c7d24-229c-41ba-b293-4582bc55edc1",
+    "text": "Gumla School mein teacher nahi aate hain pichle ek mahine se. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "230e8a3d-d940-4626-9715-52acf4701868",
+    "text": "Exam paper leak ho gaya hai Hazaribagh mein, exams cancel hone chahiye. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "9ed3bbba-c496-4d6f-8f35-7d84b97436e1",
+    "text": "Bribery is rampant in the Gumla RTO office for driving licenses.",
+    "category": "public_admin"
+  },
+  {
+    "id": "6c51a0d4-4295-4256-8759-c67400a35585",
+    "text": "The local pond in Bokaro is completely dried up. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "b25f5d49-9500-4d9c-958e-f87106bf7bc1",
+    "text": "The local pond in Dhanbad is completely dried up. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "726a7d60-ddad-4628-8f3b-d43ec90d6595",
+    "text": "Construction of the Deoghar flyover has been stalled for 2 years. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dfa66a48-d590-44d0-b600-cd9fe3d6a25e",
+    "text": "हमारे गांव Jamshedpur में अभी तक बिजली के खंभे नहीं लगे हैं।",
+    "category": "energy"
+  },
+  {
+    "id": "d0485261-cdfb-41ee-8df4-750e5d1c9ff3",
+    "text": "Frequent power cuts in Ranchi are affecting student studies.",
+    "category": "energy"
+  },
+  {
+    "id": "6417a493-07fa-4ed8-9cb7-8fc6eaa1678b",
+    "text": "Solar panels installed in Ramgarh government building are defective.",
+    "category": "energy"
+  },
+  {
+    "id": "3b19d83e-246a-4e6a-b28c-c2bfd9cc9d02",
+    "text": "Bribery is rampant in the Gumla RTO office for driving licenses. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "82db8a60-e71c-4332-b500-3ec557f2c6c9",
+    "text": "बिजली विभाग वाले Ranchi में लाइन ठीक करने नहीं आ रहे। Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "fb3ffbc6-aab0-4768-832e-5b09f0630065",
+    "text": "Bokaro में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "8cdbac94-a559-4711-9973-e2ad07c4934c",
+    "text": "Construction of the Deoghar flyover has been stalled for 2 years. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "3e7305a1-4837-4ed6-8316-5bee0a7befb8",
+    "text": "High voltage ke karan Gumla mein logo ke TV jal gaye. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "776f372c-7af9-4436-9140-21496883b541",
+    "text": "Low voltage issue in Giridih is damaging water pumps.",
+    "category": "energy"
+  },
+  {
+    "id": "544e4528-91ca-423d-b2ec-f3bb9d379b27",
+    "text": "Skill development center in Giridih has been closed down. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "7c936e38-f72a-49cf-86a7-aa8808674428",
+    "text": "Blind tactile paths are broken on Jamshedpur footpaths.",
+    "category": "accessibility"
+  },
+  {
+    "id": "259b6d9e-92be-4dde-847e-43d570885391",
+    "text": "Palamu में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "3cc7a1af-ec82-4a3e-9af1-e94de75ecfd4",
+    "text": "Need proper waste segregation systems in Giridih. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "10ba52c6-0aed-4460-9113-70e79f449b89",
+    "text": "Street lights in Bokaro sector 4 are not working. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "8b110fd7-1d95-4358-9791-bfb9992fabfc",
+    "text": "हमारे मोहल्ले Gumla में पानी का प्रेशर बहुत कम है। Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "d50db3a6-0e2f-489d-ab9a-6d7d19b96e16",
+    "text": "Jamshedpur में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "3d64bc66-5ad0-49f8-9cd9-fa0551b0e905",
+    "text": "Blind tactile paths are broken on Giridih footpaths. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e9136a6f-6d95-418f-b199-3afe022cfa3a",
+    "text": "Teacher vacancy bahut zyada hai Hazaribagh district mein. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "1551729f-c603-4ae6-a792-6e249000e012",
+    "text": "सरकारी अस्पताल Deoghar में डॉक्टर पैसे मांग रहे हैं।",
+    "category": "healthcare"
+  },
+  {
+    "id": "1eb567cf-e612-4f47-8cce-12ddfb1bd685",
+    "text": "Giridih park mein jhule tute hue hain aur kachra hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "11b6f7ea-57ff-4495-bbe9-ba945a5213ab",
+    "text": "Frequent power cuts in Ramgarh are affecting student studies. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "61f1bcee-7651-49e1-95e9-a3cf719eb9ad",
+    "text": "Bribery is rampant in the Jamshedpur RTO office for driving licenses. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "214fbf50-31c6-45a2-b0ed-7bc9e9ac8bea",
+    "text": "Deoghar ke hospital mein dawaiyan available nahi hain. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "911ecea5-1899-4c92-9dc0-fccee8ae7df7",
+    "text": "आवारा पशु Gumla में हमारी सारी फसल चर गए हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "0095b829-a731-42d7-b6a6-d40b1b02c590",
+    "text": "आवारा पशु Dhanbad में हमारी सारी फसल चर गए हैं। Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "c9721bb4-1c01-4682-810a-fa850d38ebf3",
+    "text": "Need audio signals at Dhanbad traffic lights for visually impaired. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e4e40afb-7c7a-497d-b331-24158862227b",
+    "text": "Ranchi में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "dfadc842-e573-473d-8b82-a0dea06f95f1",
+    "text": "Need immediate dengue fogging in Hazaribagh as cases are rising. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "29c5b519-98c3-4a5c-8781-4ba8206b26a7",
+    "text": "Skill development center in Hazaribagh has been closed down. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "bd539e9e-8cc4-4be5-829e-a071f4c5324f",
+    "text": "Air quality index in Giridih is hazardous due to construction dust. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "5af15708-3eaa-45d6-bdab-f5763f4317f3",
+    "text": "Maternity ward in Jamshedpur is in unhygienic conditions. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "33ef59be-2fde-4599-a656-852e9c22f73a",
+    "text": "Jamshedpur ke hospital mein dawaiyan available nahi hain. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "97c2e163-7bc2-4d9b-8c35-1872c8f3d122",
+    "text": "हमारे Dhanbad के स्कूल में पीने का पानी नहीं है। Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "e20a2750-2257-4701-8cac-4fdd83150dee",
+    "text": "The primary health center in Giridih has no doctors on night duty.",
+    "category": "healthcare"
+  },
+  {
+    "id": "9fc7e62d-17c9-41f6-9f67-408fe59346d1",
+    "text": "Fasal bima yojana ka paisa Gumla ke kisano ko nahi mila. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "aa6d95bf-c819-4a51-93d5-70b559eb4636",
+    "text": "Need immediate dengue fogging in Dhanbad as cases are rising.",
+    "category": "healthcare"
+  },
+  {
+    "id": "1c47e2d8-4db4-4f51-8078-8b0e824f071c",
+    "text": "Fasal bima yojana ka paisa Ranchi ke kisano ko nahi mila. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "777b8314-978f-4bca-8037-b18f7166aa24",
+    "text": "Tractor subsidy ka form reject ho gaya Deoghar office se.",
+    "category": "agriculture"
+  },
+  {
+    "id": "d9e1e8a0-9aa6-442e-81a7-6b5cfb262411",
+    "text": "Minimum Support Price is not being offered at the Deoghar mandi. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "3361e3d6-fad5-4e87-b884-04ea26266767",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Hazaribagh में बहुत दिक्कत आ रही है। Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "6eebed60-4ec4-4dba-aef1-4656498387f9",
+    "text": "Bribery is rampant in the Jamshedpur RTO office for driving licenses.",
+    "category": "public_admin"
+  },
+  {
+    "id": "7e4437e1-5bfb-4386-bc09-0cedf103811b",
+    "text": "Deoghar mein transformer jal gaya hai 3 din pehle. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "c23e8817-cb4b-48ad-8667-603a9f474191",
+    "text": "Giridih mein MNREGA ke tahat 100 din ka kaam nahi mil raha.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "f9981b4f-5f1c-4e9d-8761-630d1f694994",
+    "text": "Deoghar ke river mein chemicals dump kiye ja rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "198309e4-930c-42d5-a048-30d37c548c6f",
+    "text": "Need better citizen facilitation center in Gumla.",
+    "category": "public_admin"
+  },
+  {
+    "id": "7b91030a-069b-4e57-830e-90504c339e36",
+    "text": "Crops in Jamshedpur are dying due to lack of irrigation canals.",
+    "category": "agriculture"
+  },
+  {
+    "id": "f6f607cd-db80-4c05-99fd-9da04007b4a9",
+    "text": "Ramgarh में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है।",
+    "category": "environment"
+  },
+  {
+    "id": "06694c23-aa1c-4cac-a1fd-d77c5af2c268",
+    "text": "Ramgarh park mein jhule tute hue hain aur kachra hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "480fd4fb-5b6a-45d3-84c5-0c9548549369",
+    "text": "Crops in Gumla are dying due to lack of irrigation canals. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "41cf3a70-7dd0-40c3-8958-4bd6a387367b",
+    "text": "Bokaro की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "611ccf0b-9930-4d4c-a689-274049157ec0",
+    "text": "High voltage ke karan Bokaro mein logo ke TV jal gaye. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "42d1e986-217a-4418-a67b-f6dfdc083b56",
+    "text": "Construction of the Jamshedpur flyover has been stalled for 2 years. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dd4d675e-f571-4a7c-a393-ebefdd20d1c9",
+    "text": "Dhanbad mein sound pollution limit se cross ho gaya hai. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "6c2d5c4b-e07b-4238-a697-66fecedaece4",
+    "text": "Exam paper leak ho gaya hai Giridih mein, exams cancel hone chahiye. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "eb3867d9-9586-4800-93c7-0a751eeeb23e",
+    "text": "Palamu mein transformer jal gaya hai 3 din pehle.",
+    "category": "energy"
+  },
+  {
+    "id": "acf61feb-8dc5-42f0-b530-492aad29d8e3",
+    "text": "Bokaro mein drainage system block hai, sadak par pani bhara hai. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6fae21c5-33a2-4548-8f22-b61992056e5a",
+    "text": "Hazaribagh में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "175a53db-de67-43dc-a2c1-78b0e7b5f725",
+    "text": "Need public toilets in the busy market area of Gumla. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "9a32e07a-2b8d-4279-a45e-973f1427af19",
+    "text": "Blind tactile paths are broken on Ranchi footpaths. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "7911a912-70ac-4d61-ac31-2f3fbb73a830",
+    "text": "Giridih में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "e5236716-a80a-4cdc-9dbe-6efbbf6e7c1d",
+    "text": "हमारे गांव Jamshedpur में अभी तक बिजली के खंभे नहीं लगे हैं। Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "82db1273-291d-4a10-abb4-2455ff1446e6",
+    "text": "Jamshedpur mein naya meter connection apply kiya tha, abhi tak nahi laga. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "8ff81891-9354-4aad-9ff9-f8ee832aaefd",
+    "text": "Factories in Dhanbad are releasing toxic smoke at night.",
+    "category": "environment"
+  },
+  {
+    "id": "8c979143-edaf-44cb-866c-cda0f8898ced",
+    "text": "No ultrasound machine available in the Dhanbad district hospital. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "051fa4be-c6d4-4f00-9f60-9b272cdcc4ae",
+    "text": "Palamu ke government office mein disabled logo ke liye lift nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "25602db6-073f-46e0-801a-9341c7e08b5f",
+    "text": "Gumla panchayat mein MNREGA ka payment ruka hua hai. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b5bf665f-f730-4137-b3fd-47b1ed0ba27c",
+    "text": "Bokaro में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है।",
+    "category": "healthcare"
+  },
+  {
+    "id": "d90ca68e-17e4-42b7-8942-9dbcad5885f8",
+    "text": "Street lights in Jamshedpur sector 4 are not working. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "12a4587e-4d9d-4f97-8243-26b4899cd6f3",
+    "text": "हमारे मोहल्ले Giridih में पानी का प्रेशर बहुत कम है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "3b4b0686-abef-4486-a371-119ccf5d63c4",
+    "text": "The primary health center in Palamu has no doctors on night duty. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "9fab5535-ea4c-4797-9436-0be9544ebea4",
+    "text": "Maternity ward in Palamu is in unhygienic conditions. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "d6460b5b-5528-4616-827c-949a73341b75",
+    "text": "Ranchi ke river mein chemicals dump kiye ja rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "86b3deb8-0bdd-4e4c-8a1f-740be2c07d17",
+    "text": "Giridih block office mein caste certificate banane mein bahut time lag raha hai. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "9ea4694b-2713-4eff-9055-336b55c78f3e",
+    "text": "The local primary school in Ranchi has no roof and leaks during rain. Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "d5b7fc6f-7561-4388-a4b5-4e46983d7233",
+    "text": "The main road in Ranchi is full of potholes causing accidents. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "32473539-cd8f-4d5b-a340-fa575c99f56e",
+    "text": "Jamshedpur ke river mein chemicals dump kiye ja rahe hain. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "eec4f6aa-466b-4890-9895-3816aa2cdb43",
+    "text": "Minimum Support Price is not being offered at the Ranchi mandi. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "2cd9f2ee-d04b-4ec7-8473-ca085e0a1043",
+    "text": "Need better citizen facilitation center in Jamshedpur. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "d8d1d501-eba2-4649-ac20-70dc68181eca",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Gumla में, कभी भी गिर सकता है। Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "d98177b2-4509-4214-88fe-68387f126e49",
+    "text": "हमारे Dhanbad के स्कूल में पीने का पानी नहीं है। Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "de66fb76-684b-4bf0-8f1f-efbe77372f8a",
+    "text": "Jamshedpur panchayat mein MNREGA ka payment ruka hua hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "190c28c0-732e-4b29-a05c-e3889daa2c1d",
+    "text": "Frequent power cuts in Gumla are affecting student studies. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "f2dab5aa-4fa5-491c-8719-1fa74d8a3148",
+    "text": "Gumla hospital mein wheelchair available nahi hai. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "1c5e6078-be86-47f5-98c8-b1633254d263",
+    "text": "Plastic kachra Dhanbad ke park mein jala rahe hain. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "c10b44b4-2328-4114-bb74-1c5b753b66e1",
+    "text": "Bokaro ke river mein chemicals dump kiye ja rahe hain. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "28814f1a-899c-4304-8179-4ad6109e1e84",
+    "text": "Hazaribagh में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e5f16c62-4263-4b6d-adfa-0d13a7bacdfa",
+    "text": "Frequent power cuts in Jamshedpur are affecting student studies. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "0b76650f-96fc-47a6-9001-d26fa800abde",
+    "text": "Need public toilets in the busy market area of Jamshedpur. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "5dcff445-8103-4f59-8a52-ed334cf3cd3a",
+    "text": "Low voltage issue in Giridih is damaging water pumps. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "66e7d54b-1985-4e37-b377-dfe863d1c76f",
+    "text": "Public buses in Bokaro are not accessible for differently-abled citizens. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "5f804b3b-e381-47cd-bbf2-16bd6f014693",
+    "text": "Fasal bima yojana ka paisa Ramgarh ke kisano ko nahi mila. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "c4e384ad-02e5-455b-a0b9-b7460e84667f",
+    "text": "Dhanbad में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "5c4ef827-5a7d-4bcc-92da-b93a0d4d626c",
+    "text": "Palamu panchayat mein MNREGA ka payment ruka hua hai. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "8ddd6d04-f7b3-4347-a1af-ccedfc8a0832",
+    "text": "Dhanbad mein handpump pichle 2 mahine se kharab hai.",
+    "category": "water"
+  },
+  {
+    "id": "8dac8245-b8d2-43af-8e02-714e40774bbb",
+    "text": "बच्चों को Giridih में मिड-डे मील सही से नहीं मिल रहा है।",
+    "category": "education"
+  },
+  {
+    "id": "aa5b0943-5793-40d2-9b34-14efea9e17b5",
+    "text": "No drinking water supply in Ramgarh for the last 5 days. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "412ecef3-398d-48e3-8efb-eceb93d62abc",
+    "text": "Online portal for Hazaribagh property tax is continuously crashing. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "198df7b2-d238-43cf-81bf-5fcaaff41054",
+    "text": "Deoghar में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "cea9cfa8-0b74-4f48-9069-704faecea7f0",
+    "text": "Solar panels installed in Ranchi government building are defective.",
+    "category": "energy"
+  },
+  {
+    "id": "d74591ff-6c1b-4f38-b202-1e08f51951c0",
+    "text": "हमारे गांव Ramgarh में अभी तक बिजली के खंभे नहीं लगे हैं। Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "fb51a6b3-1c9f-4df9-8524-abf3e38b297b",
+    "text": "Gumla में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "d95fa9ad-a197-4690-afb7-59a774f11d2b",
+    "text": "Palamu के सरकारी बाबू बिना घूस के कोई फाइल पास नहीं करते। Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "cc0fff83-a996-47f9-a67e-8451f11ed17b",
+    "text": "Dhanbad में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "27475d5d-aa81-4534-bdd2-e5e21858c878",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Jamshedpur में कोई काम नहीं हुआ। Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "7424e64d-2d02-460c-ba76-13bca2e66ef7",
+    "text": "Bokaro ke government office mein disabled logo ke liye lift nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "18dd66b3-1b8b-4936-8867-41b106edd296",
+    "text": "High voltage ke karan Palamu mein logo ke TV jal gaye. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "886e4458-14d0-4609-a06b-6a8bc36a1312",
+    "text": "Hazaribagh में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e7ef5d70-782b-4dc9-9362-2c72146737cb",
+    "text": "No scholarships have been disbursed in Bokaro this year.",
+    "category": "education"
+  },
+  {
+    "id": "347e077b-7e5c-4d39-b067-f4ed5461dd2d",
+    "text": "हमारे मोहल्ले Gumla में पानी का प्रेशर बहुत कम है।",
+    "category": "water"
+  },
+  {
+    "id": "a1bc511d-1f6e-47da-aa59-52b21d3999ae",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Hazaribagh में, कभी भी गिर सकता है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "f98341ae-0d80-443a-816f-a6a76648402e",
+    "text": "Maternity ward in Hazaribagh is in unhygienic conditions. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "3d53a511-f847-4a27-b858-a108d33c5c7e",
+    "text": "Crops in Ranchi are dying due to lack of irrigation canals. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "cd697fb2-fafc-48a1-a984-18f82ff3a5b9",
+    "text": "Giridih mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "2cbc6874-fdd1-4e25-872a-e8cafcfd3bb9",
+    "text": "Garbage collection truck does not visit Gumla regularly. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "0201cdd0-a5ee-4677-b050-f73f1124e7fd",
+    "text": "High voltage ke karan Ramgarh mein logo ke TV jal gaye. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "b2634363-57df-4ca3-8b27-8bf0d9ecb949",
+    "text": "Ayushman card Ranchi ke private hospital mein accept nahi kar rahe. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "8bd280c0-02b3-4760-9e02-c69d567218d1",
+    "text": "Blind tactile paths are broken on Gumla footpaths. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "7e73d1d6-5964-4b93-9f8b-cf5c8eac32d4",
+    "text": "Palamu में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "b9de494d-a2b3-4021-93c4-339937517e1f",
+    "text": "Need better citizen facilitation center in Hazaribagh.",
+    "category": "public_admin"
+  },
+  {
+    "id": "5b0728ed-5538-4900-a8de-0ca729607871",
+    "text": "Jamshedpur के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है।",
+    "category": "accessibility"
+  },
+  {
+    "id": "1479a5f0-8edf-4588-bea3-cbd7b0641415",
+    "text": "Jamshedpur mein transformer jal gaya hai 3 din pehle. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "eb5a399e-d26c-48b2-a9af-b4f2c1829579",
+    "text": "Need immediate dengue fogging in Hazaribagh as cases are rising.",
+    "category": "healthcare"
+  },
+  {
+    "id": "c166e811-f59d-4b5b-8a5d-a225b1ee2d97",
+    "text": "Jamshedpur तहसील कार्यालय में अधिकारी समय पर नहीं आते। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "5c0c3607-9e69-4e79-b590-cfdb6888c0dc",
+    "text": "Dhanbad ke hospital mein dawaiyan available nahi hain. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "47d16a90-eec1-49be-9fdc-d5eda7ddeaf6",
+    "text": "बिजली विभाग वाले Ramgarh में लाइन ठीक करने नहीं आ रहे। Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "b1679af6-5e3a-4d41-b423-ce7a177f0db2",
+    "text": "Deoghar के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "f00bc81b-d503-4d13-a393-bf13f7b996c6",
+    "text": "Dhanbad ke hospital mein dawaiyan available nahi hain. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "08e8cc77-4ef2-4ace-b91f-c5fd7cae15c4",
+    "text": "Need soil testing lab in Giridih for better crop yield. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "0369978c-c7b6-4a1c-acd7-d675d6bcb53e",
+    "text": "Maternity ward in Hazaribagh is in unhygienic conditions.",
+    "category": "healthcare"
+  },
+  {
+    "id": "755d45f4-86f1-47f4-87de-0ace02782385",
+    "text": "Giridih ke gaon mein artisans ko unka saman bechne ka market nahi hai. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4d7a80f8-77d6-439d-8db3-13a2e908e282",
+    "text": "No drinking water supply in Dhanbad for the last 5 days.",
+    "category": "water"
+  },
+  {
+    "id": "33380ccc-f987-4e8e-86bd-48702e91c55d",
+    "text": "Ranchi mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "8b4666b2-e744-4621-b499-582e0139bd47",
+    "text": "Jamshedpur mein drainage system block hai, sadak par pani bhara hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "70f62f59-c545-48cb-89ee-4812d0ab1b5a",
+    "text": "Palamu block office mein caste certificate banane mein bahut time lag raha hai. Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "f5831d8b-53ae-4660-947b-10c9f0f1328d",
+    "text": "आवारा पशु Jamshedpur में हमारी सारी फसल चर गए हैं। Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "df3552cb-d120-4379-972a-ab928d605686",
+    "text": "Frequent power cuts in Giridih are affecting student studies.",
+    "category": "energy"
+  },
+  {
+    "id": "94865504-237e-447f-b5cd-d4f943628323",
+    "text": "आवारा पशु Deoghar में हमारी सारी फसल चर गए हैं। Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "e51b3c97-d20a-4b16-b926-e2ec78af559d",
+    "text": "Ramgarh में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "54e62128-b4dd-4447-8d92-dd320e10e244",
+    "text": "Exam paper leak ho gaya hai Gumla mein, exams cancel hone chahiye. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "4d75014e-2fdc-4415-9206-fbd9dc4d8ee4",
+    "text": "Bokaro में जल जीवन मिशन का काम अधूरा पड़ा है।",
+    "category": "water"
+  },
+  {
+    "id": "342a44a6-2ab7-416c-9506-ac15878702f0",
+    "text": "Bokaro में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "c35d0109-af55-4f6d-bc11-14853c05a0ad",
+    "text": "Divyang pension Ranchi mein time par nahi mil rahi hai. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "beca34aa-0d0b-42d5-bfe0-ba9f068fc5cf",
+    "text": "Bribery is rampant in the Gumla RTO office for driving licenses. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "445cd27c-92bf-4258-878c-e4a6868f6892",
+    "text": "Bokaro ke river mein chemicals dump kiye ja rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "b98a077b-fb1c-4332-b724-8283c9c26d6e",
+    "text": "Bribery is rampant in the Hazaribagh RTO office for driving licenses. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "e07cb490-875a-4da1-87a9-3baaa35fb58b",
+    "text": "Divyang pension Bokaro mein time par nahi mil rahi hai. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "393b89c4-0d3c-40a1-b37d-875c902dbfa0",
+    "text": "Need audio signals at Ramgarh traffic lights for visually impaired. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e793e4d6-8372-424a-806e-f69bd9880d64",
+    "text": "आवारा पशु Ranchi में हमारी सारी फसल चर गए हैं। Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "0243174e-cb0a-4815-9c91-ccd1f75d00ff",
+    "text": "Bokaro panchayat mein MNREGA ka payment ruka hua hai. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "645b13c7-533e-414f-b28d-836ba8cc0e3a",
+    "text": "High voltage ke karan Giridih mein logo ke TV jal gaye. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "17fc1cc2-a243-4fec-9512-6e1a5b8396ac",
+    "text": "Bokaro के अस्पताल में एंबुलेंस की सुविधा नहीं है। Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "5014a394-07fd-477a-b618-8c28091c9aa5",
+    "text": "Need immediate dengue fogging in Gumla as cases are rising. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "352aefa6-c9cc-494b-ab7f-56528eb18824",
+    "text": "Self-help groups in Hazaribagh are not receiving government funding. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "92b3d71d-4cb8-4ff8-8eb3-a28a6f1a97ff",
+    "text": "Blind tactile paths are broken on Ranchi footpaths. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "9f9814bb-3029-4b21-9264-37b4c9c8e755",
+    "text": "The main road in Bokaro is full of potholes causing accidents. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "f12c1004-1686-453f-9c84-ae21b3f987ee",
+    "text": "Palamu के अस्पताल में एंबुलेंस की सुविधा नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "6e860b01-6523-4039-8021-b41421f902ab",
+    "text": "Women weavers in Ramgarh need micro-loans for purchasing looms. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "6cdc9f56-6477-4865-a6aa-211f9840fd7b",
+    "text": "Giridih में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "f3e5b00a-6195-42c5-b63f-135f63f81f7b",
+    "text": "Jamshedpur panchayat mein MNREGA ka payment ruka hua hai. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b866fe4a-123b-4286-a882-04f01803e834",
+    "text": "Crops in Palamu are dying due to lack of irrigation canals. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "fd492e35-aa6d-4e32-8e78-275664fd6ddf",
+    "text": "Construction of the Gumla flyover has been stalled for 2 years.",
+    "category": "urban_development"
+  },
+  {
+    "id": "5afeaa7f-0547-47c2-b5ea-7b0c57c01191",
+    "text": "Ranchi mein naya meter connection apply kiya tha, abhi tak nahi laga. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "9bd2c927-03a1-4d67-8e8c-e3d34da05c00",
+    "text": "No drinking water supply in Giridih for the last 5 days. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "1b38cc4c-fe6e-4755-832c-b2627753b4f6",
+    "text": "बच्चों को Bokaro में मिड-डे मील सही से नहीं मिल रहा है। Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "923515c6-1a26-4e56-b0ed-43b3d378cfd3",
+    "text": "Jamshedpur mein naya borewell khudwane ki jarurat hai. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "d2ed279a-3d3f-46c4-aa6d-10211a991020",
+    "text": "हमारे Gumla के स्कूल में पीने का पानी नहीं है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "9290b2bc-798c-4d64-9f46-96ea9e78a919",
+    "text": "Dhanbad park mein jhule tute hue hain aur kachra hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "24a16e89-4612-4534-a7f2-1c19403ab108",
+    "text": "बच्चों को Hazaribagh में मिड-डे मील सही से नहीं मिल रहा है। Urgent issue.",
+    "category": "education"
+  },
+  {
+    "id": "d1f34107-e16c-4064-a852-f7731239b8ce",
+    "text": "Need proper waste segregation systems in Bokaro.",
+    "category": "environment"
+  },
+  {
+    "id": "04aa2520-1f9f-4aff-918a-6965fb5e7d7c",
+    "text": "Crops in Dhanbad are dying due to lack of irrigation canals. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "154d8bb5-7319-4744-866e-4116ce629700",
+    "text": "Bribery is rampant in the Deoghar RTO office for driving licenses. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "23a95a0d-c7c5-4cd5-845b-1259c064c61c",
+    "text": "The local primary school in Palamu has no roof and leaks during rain. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "922f98c7-9974-4a00-9545-a7f5842960de",
+    "text": "Online portal for Palamu property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "fd6ccf15-9fb7-493a-9b43-20098064869c",
+    "text": "Deoghar के सरकारी बाबू बिना घूस के कोई फाइल पास नहीं करते। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "f40a0b87-60ca-4ffc-a4fa-a4cc96880975",
+    "text": "Tractor subsidy ka form reject ho gaya Bokaro office se.",
+    "category": "agriculture"
+  },
+  {
+    "id": "652d410f-aa86-4ca6-b148-b5bc57b4574c",
+    "text": "Ayushman card Bokaro ke private hospital mein accept nahi kar rahe.",
+    "category": "healthcare"
+  },
+  {
+    "id": "1b11e4fb-73ab-4980-80a8-bf41306e63ec",
+    "text": "Fluoride contamination in Gumla groundwater is causing health issues. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "0650b514-a779-4e7c-a15f-6a5a1de7461b",
+    "text": "Hazaribagh तहसील कार्यालय में अधिकारी समय पर नहीं आते। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "45b1e872-249f-4982-a38f-8ba87ed02459",
+    "text": "Pipeline is leaking near the main road in Ranchi, wasting water. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "72a8b587-8367-41a2-93ad-b1a2b3097262",
+    "text": "Frequent power cuts in Ramgarh are affecting student studies. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "4fb65328-f518-4bf7-8530-30bf0935011b",
+    "text": "Giridih में सीवर लाइन का ढक्कन खुला है, खतरा है। Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "7db3e5e4-af12-40cf-a0fd-c5ad7bd3fa27",
+    "text": "हमारे मोहल्ले Ranchi में पानी का प्रेशर बहुत कम है। Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "8dd3b6ed-f59d-4e6e-904c-5870a8c1d749",
+    "text": "Dhanbad में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "f790c767-a1d2-4e4b-b83b-6fdd34bc738e",
+    "text": "The local pond in Gumla is completely dried up. Koi dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "2aa7b6fe-617b-4d20-a5e5-d60a0fbaa681",
+    "text": "Deoghar mein handpump pichle 2 mahine se kharab hai. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "a369693a-1460-444e-b204-205147e251b7",
+    "text": "Construction of the Bokaro flyover has been stalled for 2 years. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "fcf26e38-3514-4596-90e1-b721e259573c",
+    "text": "Need better citizen facilitation center in Hazaribagh.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b3efb9c4-7505-4cae-8ff6-8419e769ce1d",
+    "text": "Skill development center in Bokaro has been closed down. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4a7cc2ff-f342-4c31-9498-2a8926fcd6f6",
+    "text": "आवारा पशु Giridih में हमारी सारी फसल चर गए हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "de02f8dc-0914-47ad-bb4b-50ddb9a8dcc0",
+    "text": "हमारे Ranchi के स्कूल में पीने का पानी नहीं है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "f76812d7-02aa-44d6-8461-3be2257d25bf",
+    "text": "Jamshedpur ke gaon mein artisans ko unka saman bechne ka market nahi hai. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4b5b0aaa-bb1e-4680-9ab4-1014c2cafdc9",
+    "text": "Dhanbad में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "43d81df6-2c66-4652-a529-7a4f0e4b981e",
+    "text": "Palamu mein naya borewell khudwane ki jarurat hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "6c972dc1-8f5e-4ffa-9932-e436b59ace19",
+    "text": "Tractor subsidy ka form reject ho gaya Hazaribagh office se. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "02c32a37-f47c-45a8-b895-cb2e3017b321",
+    "text": "Solar panels installed in Bokaro government building are defective.",
+    "category": "energy"
+  },
+  {
+    "id": "faff2a16-ef62-433d-aa64-fd8803270b54",
+    "text": "Ramgarh में जल जीवन मिशन का काम अधूरा पड़ा है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "5b10fbe1-10e9-49a9-9157-3d1272b76b5c",
+    "text": "Public buses in Ranchi are not accessible for differently-abled citizens. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "d5e38848-2449-4f74-97c5-05a9fbd6f59f",
+    "text": "आवारा पशु Deoghar में हमारी सारी फसल चर गए हैं।",
+    "category": "agriculture"
+  },
+  {
+    "id": "9d5a8afb-56ab-4769-b5a8-9e01c09f26e9",
+    "text": "No wheelchair ramp available at the Jamshedpur railway station. Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f01761f4-6cd6-4217-9a24-5d586db25510",
+    "text": "Garbage collection truck does not visit Ranchi regularly.",
+    "category": "urban_development"
+  },
+  {
+    "id": "ab1754df-9dd9-4616-94ba-93e255df0e95",
+    "text": "Factories in Jamshedpur are releasing toxic smoke at night. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "c461d825-179c-43be-a41d-d3771369b2e0",
+    "text": "Skill development center in Gumla has been closed down. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "87c7a1fe-ecf2-4cde-973a-a16221b5e402",
+    "text": "Need better library facilities in our government college at Palamu. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "02e4b156-f07c-4999-98eb-a9428ba42a2b",
+    "text": "Palamu block office mein caste certificate banane mein bahut time lag raha hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "5ee2d622-3ad8-4df0-8a6f-5b11674e61ca",
+    "text": "Unseasonal rains have destroyed wheat crops in Jamshedpur. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "6cb2b97e-7cab-4b52-a23d-38658a8cd5ca",
+    "text": "Jamshedpur mein handpump pichle 2 mahine se kharab hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "7be59411-48eb-4631-9629-278f7336247c",
+    "text": "Deoghar में जल जीवन मिशन का काम अधूरा पड़ा है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "89d7642c-f455-4ba5-aa37-81c46092def6",
+    "text": "Covid vaccination center Hazaribagh mein band pada hai. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "c67ad777-0026-479b-8aac-f121b398edad",
+    "text": "The local pond in Jamshedpur is completely dried up. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "d6c0f286-7d8d-4a68-b563-1ced03b72604",
+    "text": "The main road in Giridih is full of potholes causing accidents. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "28ef91e4-25b0-480a-8c80-3472faccf081",
+    "text": "Tractor subsidy ka form reject ho gaya Ranchi office se. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "7a9c7d6f-fe0b-4a64-8382-92f62786400e",
+    "text": "Water tanker Giridih mein nahi aa raha hai. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "8049a211-7a91-4ac2-89ab-279e79940279",
+    "text": "Ramgarh mein drainage system block hai, sadak par pani bhara hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "900c059c-d584-4a04-8598-5691448e1337",
+    "text": "Bokaro mein naya borewell khudwane ki jarurat hai.",
+    "category": "water"
+  },
+  {
+    "id": "3abfcf86-623b-4d97-b58c-4e58c3dde549",
+    "text": "Need modern dairy farming training programs in Hazaribagh. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "0a64d128-50d5-47c8-9166-267d91bf0765",
+    "text": "The primary health center in Dhanbad has no doctors on night duty. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "bfcb0bfb-e71d-4bd8-a261-a3df57e78679",
+    "text": "Need better library facilities in our government college at Bokaro. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "4dfffa17-d59f-413f-9cf8-2e5869497bc3",
+    "text": "हमारे गांव Bokaro में अभी तक बिजली के खंभे नहीं लगे हैं। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "41cadbdd-b692-4d0a-95a8-e1d2f26fb024",
+    "text": "Ramgarh School mein teacher nahi aate hain pichle ek mahine se. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "6f4028ce-60e1-42c8-976e-8db67bd80be8",
+    "text": "Hazaribagh mein parking ki suvidha nahi hone se traffic jam hota hai. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "921a7705-405a-462b-8139-623e87894ac4",
+    "text": "Need proper waste segregation systems in Hazaribagh. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "dd27df83-38e2-48e6-bdc5-f74424f90b94",
+    "text": "Ramgarh में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e3a9e608-d0ae-40dd-b6d3-e91a02d7bfd9",
+    "text": "Ranchi तहसील कार्यालय में अधिकारी समय पर नहीं आते। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "4a4c1f7b-1e24-49a5-b983-5f17fb3ad54c",
+    "text": "Solar panels installed in Jamshedpur government building are defective. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "390e1ca5-9a83-4c8d-a1cf-2b7a440d471f",
+    "text": "Maternity ward in Ramgarh is in unhygienic conditions. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ef8641f4-89ef-4b1f-b86a-88513c64ec43",
+    "text": "Low voltage issue in Gumla is damaging water pumps. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "35c22fa7-3424-4bc0-ba96-86e7c186d658",
+    "text": "पहाड़ों पर Dhanbad में अवैध खनन हो रहा है।",
+    "category": "environment"
+  },
+  {
+    "id": "f7679c19-c4fb-4584-aeb2-3b1ad9fb5ea8",
+    "text": "Need better citizen facilitation center in Giridih. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b9d18a04-784e-495b-ae34-531cfbc06267",
+    "text": "Hazaribagh की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Please help.",
+    "category": "water"
+  },
+  {
+    "id": "b7bc7f1c-41f9-4e11-ada1-ff9c130720ba",
+    "text": "Construction of the Gumla flyover has been stalled for 2 years. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "12628576-7599-4e35-b72d-2b9f730c2221",
+    "text": "Bribery is rampant in the Palamu RTO office for driving licenses.",
+    "category": "public_admin"
+  },
+  {
+    "id": "642aa3e1-254f-4a65-9a9b-425123158cc0",
+    "text": "No ultrasound machine available in the Ranchi district hospital.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ea57b44c-f49f-417f-8c0d-b7da6ef8252d",
+    "text": "Construction of the Giridih flyover has been stalled for 2 years. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "2656e8cf-61ec-4aa5-85f9-7d8a516855e1",
+    "text": "High voltage ke karan Hazaribagh mein logo ke TV jal gaye. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "487fbbf0-ef35-4cd6-aed9-d9e3eb9e4f86",
+    "text": "Need public toilets in the busy market area of Palamu. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "195e61f2-fdb2-4df4-823f-8546c7cd69b2",
+    "text": "Fasal bima yojana ka paisa Dhanbad ke kisano ko nahi mila. Koi dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "13c4ec9d-dc9d-4ae5-be8b-b76708b8d674",
+    "text": "Hazaribagh mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "fb30e31a-bd1d-4a18-b2bd-a5d369c79e0a",
+    "text": "Giridih School mein teacher nahi aate hain pichle ek mahine se. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "6611d0a8-1ba3-4fd6-a21b-577077be8fcc",
+    "text": "No drinking water supply in Ranchi for the last 5 days. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "935242c8-7131-423a-8a50-39889ebcee73",
+    "text": "Deoghar में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "32ab2070-82b8-45da-8113-9bed11b8a944",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Bokaro में बहुत दिक्कत आ रही है। Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "88afca90-584b-407a-8eca-34712033220e",
+    "text": "Hazaribagh की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Please help.",
+    "category": "water"
+  },
+  {
+    "id": "a54984b1-66a6-4770-9e26-590b7335c221",
+    "text": "Need proper waste segregation systems in Ramgarh. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "173d26e6-c6fa-40c9-a239-69d83ed2a095",
+    "text": "Garbage collection truck does not visit Deoghar regularly.",
+    "category": "urban_development"
+  },
+  {
+    "id": "a7f1881f-f61f-4be9-9918-956dce8f343e",
+    "text": "Pipeline is leaking near the main road in Jamshedpur, wasting water. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "0fb199cf-cb75-4ad4-9e3f-54a509b6575c",
+    "text": "Frequent power cuts in Giridih are affecting student studies. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "9ec87f76-4f3d-4080-92a0-349bb5e498ec",
+    "text": "Covid vaccination center Hazaribagh mein band pada hai. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "0d4da1a7-b95d-44e6-95f4-f24c77793a53",
+    "text": "Teacher vacancy bahut zyada hai Giridih district mein. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "45ed45d5-7b36-4c99-af47-36369397af23",
+    "text": "Jamshedpur panchayat mein MNREGA ka payment ruka hua hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "781be612-c329-4b40-9c78-71d7d137d563",
+    "text": "The local pond in Jamshedpur is completely dried up. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "7d5b6375-7eaa-4832-8189-37a1284c4e14",
+    "text": "Frequent power cuts in Dhanbad are affecting student studies.",
+    "category": "energy"
+  },
+  {
+    "id": "fea3ff73-d7d6-463d-af76-79b26c74a465",
+    "text": "सरकारी अस्पताल Jamshedpur में डॉक्टर पैसे मांग रहे हैं। Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "83a48cbe-19a5-4cbb-a579-9b92eb26dd5b",
+    "text": "Dhanbad School mein teacher nahi aate hain pichle ek mahine se.",
+    "category": "education"
+  },
+  {
+    "id": "f8460ece-f359-4d9a-ad84-c33b493cec10",
+    "text": "Gumla में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "20d265d0-c748-4b50-be8d-9967fe3e8857",
+    "text": "Street lights in Ranchi sector 4 are not working.",
+    "category": "energy"
+  },
+  {
+    "id": "bcbcedf1-d10d-4604-9290-1e7bd3ac0f77",
+    "text": "Hazaribagh hospital mein wheelchair available nahi hai. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "458d489e-275a-4c36-8438-566b22400a80",
+    "text": "Deoghar में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है।",
+    "category": "environment"
+  },
+  {
+    "id": "2106a6f6-e48e-45d9-a819-e10cda5ad34f",
+    "text": "Jamshedpur mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4fa3fe73-030b-4442-81b0-3cd499168941",
+    "text": "Factories in Dhanbad are releasing toxic smoke at night.",
+    "category": "environment"
+  },
+  {
+    "id": "c8c3d166-06e6-48e6-841a-6150ae95c773",
+    "text": "Ranchi में सीवर लाइन का ढक्कन खुला है, खतरा है। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "f01c1e70-203d-468c-aa12-8f73ff3a6e72",
+    "text": "Hazaribagh mein drainage system block hai, sadak par pani bhara hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "216616ad-4e4c-42d9-84dd-fca91ca39e87",
+    "text": "The local primary school in Bokaro has no roof and leaks during rain. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "ed627932-ec15-42cd-b5b0-e0a67fc09099",
+    "text": "बिजली विभाग वाले Giridih में लाइन ठीक करने नहीं आ रहे। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "fb5b2848-ecd0-4ada-81b1-20eeaa824ba2",
+    "text": "Kisan credit card ka loan maaf nahi hua Giridih mein. Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "d4b75a45-78b1-4c78-96b5-4a58ee17b516",
+    "text": "बिजली विभाग वाले Ranchi में लाइन ठीक करने नहीं आ रहे। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "89e51501-7211-4388-8c6c-b3ced59ff669",
+    "text": "Kisan credit card ka loan maaf nahi hua Palamu mein.",
+    "category": "agriculture"
+  },
+  {
+    "id": "73c74917-55b2-4c67-9d3a-9d08ba2849bb",
+    "text": "Jamshedpur के पास के जंगल में आग लग गई है, तुरंत बुझाएं।",
+    "category": "environment"
+  },
+  {
+    "id": "e2a49095-fca5-49a3-9d6e-4ef878be7879",
+    "text": "Need audio signals at Ramgarh traffic lights for visually impaired. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "eb1f9918-9871-4478-8bf4-2357509bcb56",
+    "text": "Bokaro mein naya meter connection apply kiya tha, abhi tak nahi laga. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "9a6da054-d857-4a87-bb2e-3e0e81b806c9",
+    "text": "Air quality index in Jamshedpur is hazardous due to construction dust.",
+    "category": "environment"
+  },
+  {
+    "id": "00ab3850-7f31-4a60-8848-b9c2db45b4f3",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Ranchi में बहुत दिक्कत आ रही है। Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "0af4053b-76fa-49d7-a4ec-4ae19ce662e0",
+    "text": "Dhanbad में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "3026e036-7f34-48c0-9821-f03af8e143af",
+    "text": "Lack of computer labs in the Palamu high school is affecting students. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "754f7705-edbd-43ba-9f5a-2758b8464895",
+    "text": "Public buses in Ramgarh are not accessible for differently-abled citizens. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f122ca66-a138-44d7-a459-7c9407c59ff4",
+    "text": "Exam paper leak ho gaya hai Deoghar mein, exams cancel hone chahiye. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "2b7bfc39-7b59-433f-92c4-8ea9eea29d2f",
+    "text": "Jamshedpur ke gaon mein artisans ko unka saman bechne ka market nahi hai. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "08781e49-2505-4049-a5fd-7ff496334d30",
+    "text": "हमारे Bokaro के स्कूल में पीने का पानी नहीं है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "652ba3ff-5ee5-49ae-ae75-62b21bcbec14",
+    "text": "Deoghar में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "7fcf1dd2-1079-4438-92e5-f38606b25711",
+    "text": "Need modern dairy farming training programs in Giridih. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a543e22a-146a-41a1-a2f7-53fc8c339433",
+    "text": "Hazaribagh में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "f859db4a-5b6a-489f-8770-f4f256c319cd",
+    "text": "Crops in Dhanbad are dying due to lack of irrigation canals. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "ce8d4e2b-e172-4c02-b723-260000642960",
+    "text": "Exam paper leak ho gaya hai Hazaribagh mein, exams cancel hone chahiye. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "fd49fe15-c168-4574-83f6-bb8d3821151d",
+    "text": "The main road in Ranchi is full of potholes causing accidents. Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "8f6a6282-32d0-4d4e-912b-77a5c25de24b",
+    "text": "Divyang pension Ramgarh mein time par nahi mil rahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "6833495c-6f48-491d-829a-129e87414ab4",
+    "text": "Public buses in Hazaribagh are not accessible for differently-abled citizens. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "48b99e9b-fdfe-4dde-9b03-fffb2dbd5189",
+    "text": "Need better library facilities in our government college at Giridih. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "53e3c774-5f1b-4223-8659-219f7eee863e",
+    "text": "Deoghar park mein jhule tute hue hain aur kachra hai. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dd981523-3591-48b6-9680-dd437d5e3b40",
+    "text": "No scholarships have been disbursed in Ramgarh this year. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "003ef85e-1461-4471-9291-ae56aa94dc9a",
+    "text": "Self-help groups in Jamshedpur are not receiving government funding. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d83f7ba5-77e7-47ca-afab-5309d6240c1a",
+    "text": "Online portal for Bokaro property tax is continuously crashing. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "fcd2f749-6e30-4174-a725-7cbce7895073",
+    "text": "Need better citizen facilitation center in Deoghar. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "6d90e3c3-0657-4ec8-8c44-df753f0b7bdb",
+    "text": "Tractor subsidy ka form reject ho gaya Ranchi office se.",
+    "category": "agriculture"
+  },
+  {
+    "id": "84a07d05-4f62-4a0b-95c9-d8339139274c",
+    "text": "Hazaribagh ke government office mein disabled logo ke liye lift nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c902287f-b36d-4bb3-b8c7-1158d7f4e710",
+    "text": "Bokaro में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "db1887eb-63b9-4e17-9940-abf0ca2a3ab8",
+    "text": "Ramgarh में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d66b06fd-92ce-4793-8c42-907708a3f33e",
+    "text": "Divyang pension Ramgarh mein time par nahi mil rahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "257169ec-2299-4f97-8d27-1e3084734c6e",
+    "text": "Ramgarh hospital mein wheelchair available nahi hai. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "c8b476df-176d-403d-a471-e7ae415e539d",
+    "text": "Jamshedpur mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "9973aaba-7e8c-4b76-95d1-f3d4f5e4f014",
+    "text": "सरकारी अस्पताल Ranchi में डॉक्टर पैसे मांग रहे हैं।",
+    "category": "healthcare"
+  },
+  {
+    "id": "5dccdb1b-fd36-4ef7-87de-e1570ae7153d",
+    "text": "Ramgarh mein drainage system block hai, sadak par pani bhara hai. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dd17d82b-ff2c-4452-aaff-5888ad32d401",
+    "text": "Dhanbad में जल जीवन मिशन का काम अधूरा पड़ा है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "544927dd-652b-49d9-a9a2-1af8167ad05f",
+    "text": "Hazaribagh mein drainage system block hai, sadak par pani bhara hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "70ebd43f-937b-441f-b912-0c4f2b71cccf",
+    "text": "Divyang pension Jamshedpur mein time par nahi mil rahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "ea700ae6-1585-462a-baea-80c8faf094ff",
+    "text": "विकलांग प्रमाण पत्र बनवाने में Jamshedpur में बहुत दिक्कत आ रही है। Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "57b544c8-c37e-4ddb-aacc-b988dbdc1dd2",
+    "text": "Ramgarh School mein teacher nahi aate hain pichle ek mahine se. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "b92107c7-e488-4751-86fc-ba4ac10497df",
+    "text": "Ramgarh School mein teacher nahi aate hain pichle ek mahine se.",
+    "category": "education"
+  },
+  {
+    "id": "d1c1852f-ef32-433c-ae20-45a0692bf291",
+    "text": "गांव Palamu से लोग रोजगार की तलाश में पलायन कर रहे हैं।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "ae461b55-463a-41da-bb3b-eb977ed9ea52",
+    "text": "Palamu panchayat mein MNREGA ka payment ruka hua hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "bd1a27a2-514f-49d5-bf83-c0417d5332a6",
+    "text": "Street lights in Hazaribagh sector 4 are not working. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "b0417b7b-e825-49f2-8097-7b335d60efe8",
+    "text": "Palamu mein naya meter connection apply kiya tha, abhi tak nahi laga. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "70f526f4-279c-49da-9e58-8bc0ad17c3db",
+    "text": "Ayushman card Dhanbad ke private hospital mein accept nahi kar rahe. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "353d8328-efb0-4b26-8b97-8ba10b828b79",
+    "text": "Dhanbad के अस्पताल में एंबुलेंस की सुविधा नहीं है। Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "d2c6f5f1-a484-4d40-8efd-bb0e2639acf0",
+    "text": "Pipeline is leaking near the main road in Deoghar, wasting water. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "d8ded9c7-1afe-425c-b57f-dbfee547fac7",
+    "text": "Ramgarh mein parking ki suvidha nahi hone se traffic jam hota hai.",
+    "category": "urban_development"
+  },
+  {
+    "id": "1a912c0e-d1fa-49a8-8cbf-a2daaddc0ada",
+    "text": "Dhanbad ke government office mein disabled logo ke liye lift nahi hai. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "6f3950fc-3887-4003-93cc-cbb6bb357583",
+    "text": "Need soil testing lab in Palamu for better crop yield. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "68ce7a12-2efb-4f4d-85af-0658b501fade",
+    "text": "Self-help groups in Bokaro are not receiving government funding. Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e5773fe5-1bfb-4023-ab96-4bbaa261c812",
+    "text": "Need soil testing lab in Bokaro for better crop yield. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "9b7bbe42-8149-4f88-901a-166800dbe6e0",
+    "text": "Street lights in Ranchi sector 4 are not working. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "b6600691-c0d3-4a4d-a19b-9c4daa834dfb",
+    "text": "Deoghar में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "88b3f214-26a3-44a4-aa48-55c2fc1b9d97",
+    "text": "बच्चों को Gumla में मिड-डे मील सही से नहीं मिल रहा है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "ec27ff0b-d807-4d6c-aebf-f29433bf86bc",
+    "text": "Deoghar में बिजली का बिल बहुत ज्यादा और गलत आ रहा है। Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "dd0edc3a-f6be-43ad-bad8-cd78552965fa",
+    "text": "Ayushman card Deoghar ke private hospital mein accept nahi kar rahe. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "7bb0995c-5664-4b92-8d9f-a230219c97e2",
+    "text": "Ramgarh में अवैध अतिक्रमण के कारण सड़क जाम रहती है। Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "a683792c-9dbb-4fab-808f-3910798e71ef",
+    "text": "गांव Bokaro से लोग रोजगार की तलाश में पलायन कर रहे हैं। Urgent issue.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "7fe5b776-7c9b-4dfd-95e7-18f84d6b181c",
+    "text": "Ramgarh के बस स्टैंड पर विकलांगों के लिए कोई सुविधा नहीं है। Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "f0ee0dbd-c504-4149-8042-0d2da7da0af8",
+    "text": "आवारा पशु Hazaribagh में हमारी सारी फसल चर गए हैं। Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "935ced80-2650-4535-9b22-f3f28ba56dba",
+    "text": "Police verification ke liye Gumla thane mein pareshan kiya ja raha hai. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "13d00184-5ba9-4bdd-99e0-3d62cf12bc53",
+    "text": "Public buses in Bokaro are not accessible for differently-abled citizens.",
+    "category": "accessibility"
+  },
+  {
+    "id": "5a9d2570-7f76-4246-ac4d-665fd38d9796",
+    "text": "Jamshedpur park mein jhule tute hue hain aur kachra hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "5c6780bc-3b88-4493-a558-a9b7c9a81ee9",
+    "text": "Grievance cell phone numbers for Bokaro municipality are always switched off. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "09e1cb65-875a-499e-b0eb-2081ac07d496",
+    "text": "Water tanker Giridih mein nahi aa raha hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "a2a6f0fe-a332-4a92-b1e8-25628ade35fb",
+    "text": "Dhanbad के अस्पताल में एंबुलेंस की सुविधा नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "35eea90c-97f8-4ccf-8826-a9481b13c6cf",
+    "text": "Online portal for Hazaribagh property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "b89b711b-82a3-4b0e-bbd2-59a7159baacd",
+    "text": "Divyang pension Jamshedpur mein time par nahi mil rahi hai.",
+    "category": "accessibility"
+  },
+  {
+    "id": "46d8d577-f4ce-4401-a1b8-eea8fc06c3ae",
+    "text": "Dhanbad तहसील कार्यालय में अधिकारी समय पर नहीं आते। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "026edda2-ea8f-4a28-aabb-2a75d24beccb",
+    "text": "Covid vaccination center Dhanbad mein band pada hai. Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "efa6e02c-1c2c-4f26-8e3a-61bbec3b3198",
+    "text": "Hazaribagh park mein jhule tute hue hain aur kachra hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "49e59148-b3fb-472a-965e-b7fac8786958",
+    "text": "Palamu ke river mein chemicals dump kiye ja rahe hain.",
+    "category": "environment"
+  },
+  {
+    "id": "e1c3e5bf-2bc8-48aa-b0ed-969c9baaa84f",
+    "text": "Deoghar block office mein caste certificate banane mein bahut time lag raha hai. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "147c88e3-ae07-4166-a320-c8e6b2649318",
+    "text": "Gumla के अस्पताल में एंबुलेंस की सुविधा नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "a32eaebe-0246-42a3-bcd0-fd1453737d00",
+    "text": "Unseasonal rains have destroyed wheat crops in Palamu. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "ab452526-d2d1-42ec-a6ef-d252bcf786e8",
+    "text": "Need better library facilities in our government college at Jamshedpur. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "ee434d4c-b7c3-45b8-ae26-f55fb2b7a493",
+    "text": "Tractor subsidy ka form reject ho gaya Jamshedpur office se. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "0b942cdc-6145-497b-b7cd-67a340c12254",
+    "text": "Garbage collection truck does not visit Jamshedpur regularly. Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "6d710b19-f2c4-4d2f-a8f2-6894e49cfd3b",
+    "text": "Bokaro park mein jhule tute hue hain aur kachra hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "852b54ca-61c1-490e-8fa0-5e8d7f00c6cb",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Gumla में कोई काम नहीं हुआ।",
+    "category": "urban_development"
+  },
+  {
+    "id": "ea4b05fd-3331-4731-9b92-9277d41701f1",
+    "text": "Dhanbad ke government office mein disabled logo ke liye lift nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "57e5c0f2-5e37-4f38-b934-bcb57d546407",
+    "text": "Palamu block office mein caste certificate banane mein bahut time lag raha hai. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "0625684c-729d-4983-862c-f9843827da9f",
+    "text": "Need better library facilities in our government college at Ramgarh. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "5d673db7-6d0b-4f5f-ac5f-674ae5f48862",
+    "text": "Exam paper leak ho gaya hai Dhanbad mein, exams cancel hone chahiye.",
+    "category": "education"
+  },
+  {
+    "id": "ca6b6dd6-abfa-4fe5-a1bc-8bfabd068aa8",
+    "text": "Ayushman card Ramgarh ke private hospital mein accept nahi kar rahe. Urgent issue.",
+    "category": "healthcare"
+  },
+  {
+    "id": "c6858609-efa1-468b-98f0-1ba51144f965",
+    "text": "Need immediate dengue fogging in Giridih as cases are rising.",
+    "category": "healthcare"
+  },
+  {
+    "id": "84aa6949-bd23-42ef-b490-d4df5e262014",
+    "text": "Dhanbad School mein teacher nahi aate hain pichle ek mahine se. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "5a485169-99b5-481b-96d2-ec4d68c2b8b5",
+    "text": "Dhanbad तहसील कार्यालय में अधिकारी समय पर नहीं आते।",
+    "category": "public_admin"
+  },
+  {
+    "id": "844e2163-2a56-4994-a2f1-5003aeaf4e31",
+    "text": "The local primary school in Palamu has no roof and leaks during rain. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "ac56abc6-b3c2-4701-b844-49c7cba23634",
+    "text": "Jamshedpur में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "7ed25718-1956-473b-87a6-c486e2ba9e10",
+    "text": "The local pond in Bokaro is completely dried up. Please help.",
+    "category": "water"
+  },
+  {
+    "id": "6dca1f28-5b31-4a61-aff3-3f6cef237ae9",
+    "text": "Need proper waste segregation systems in Ranchi. Fix it asap.",
+    "category": "environment"
+  },
+  {
+    "id": "20dd832c-ebee-4699-8d19-c491ed44d094",
+    "text": "Need audio signals at Ramgarh traffic lights for visually impaired. Kripya dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "41e06e8e-8ce5-4663-9807-ba3e751625bf",
+    "text": "हमारे गांव Palamu में अभी तक बिजली के खंभे नहीं लगे हैं। Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "7c320265-6e69-43c0-aa9d-6daffc1b1e40",
+    "text": "आवारा पशु Dhanbad में हमारी सारी फसल चर गए हैं। Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "70d715f2-4366-4fbb-a714-39a7fd76985f",
+    "text": "Bokaro mein drainage system block hai, sadak par pani bhara hai. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "befb7903-a3a4-4e30-8d91-822e85177fd6",
+    "text": "Jamshedpur park mein jhule tute hue hain aur kachra hai. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "2900608c-fb87-4ed0-ab30-5597ed4f6afb",
+    "text": "Fluoride contamination in Ramgarh groundwater is causing health issues. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "6e5c81ff-a045-4007-a350-e90cd500d710",
+    "text": "पहाड़ों पर Hazaribagh में अवैध खनन हो रहा है। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "daa5af79-3cb4-42f6-8112-336cac646c87",
+    "text": "Bokaro ke hospital mein dawaiyan available nahi hain.",
+    "category": "healthcare"
+  },
+  {
+    "id": "47f400ac-3f42-4443-a24c-01d6a211d646",
+    "text": "Self-help groups in Deoghar are not receiving government funding. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "1a47941b-8442-44ad-bf12-422258009cc8",
+    "text": "Hazaribagh के सरकारी बाबू बिना घूस के कोई फाइल पास नहीं करते। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "3a6de065-9fee-4ab7-9c34-5bb04ed99f16",
+    "text": "Hazaribagh में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "2de21c8d-2e54-4f44-a6b9-8984073e0d6f",
+    "text": "Dhanbad में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Fix it asap.",
+    "category": "agriculture"
+  },
+  {
+    "id": "a96fb550-cef8-403d-9f72-efd6223dfcd3",
+    "text": "Need immediate dengue fogging in Giridih as cases are rising. Fix it asap.",
+    "category": "healthcare"
+  },
+  {
+    "id": "ea9c4587-242d-4d81-b59a-23b5a92b2243",
+    "text": "Lack of computer labs in the Giridih high school is affecting students. Fix it asap.",
+    "category": "education"
+  },
+  {
+    "id": "94d1731f-5bc8-4019-9bd8-b8b2f8800376",
+    "text": "Blind tactile paths are broken on Palamu footpaths. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "cbcf63fb-24c2-4898-ac4d-3d9f07914412",
+    "text": "गांव Dhanbad से लोग रोजगार की तलाश में पलायन कर रहे हैं।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "2276b80a-95eb-4411-9c00-aa4d9af64578",
+    "text": "Palamu block office mein caste certificate banane mein bahut time lag raha hai. Urgent issue.",
+    "category": "public_admin"
+  },
+  {
+    "id": "3205c315-7984-4f9b-8fba-c7803670c83c",
+    "text": "Palamu की पानी की टंकी में गंदगी है और पानी बदबूदार आ रहा है। Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "fc58e098-841d-4854-9531-483f5f2104ed",
+    "text": "हमारे Hazaribagh के स्कूल में पीने का पानी नहीं है। Please help.",
+    "category": "education"
+  },
+  {
+    "id": "dc671d2e-5938-4e15-ab87-a6dfc2820825",
+    "text": "Deoghar mein naya meter connection apply kiya tha, abhi tak nahi laga. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "364b4030-f3a6-429a-a1ec-99e09a422f63",
+    "text": "Need proper waste segregation systems in Dhanbad. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "ac8b599b-b506-48ed-b969-1acd810913a5",
+    "text": "हमारे Hazaribagh के स्कूल में पीने का पानी नहीं है। Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "1eea04d7-fb9f-47cc-85de-adef1c623338",
+    "text": "Street lights in Jamshedpur sector 4 are not working. Koi dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "9f6d3f06-db06-4959-ae6c-1d4b8f56819c",
+    "text": "Giridih ke gaon mein artisans ko unka saman bechne ka market nahi hai.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "2d0b0167-5f44-45c4-8253-806a226de66f",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Gumla में कोई काम नहीं हुआ। Please help.",
+    "category": "urban_development"
+  },
+  {
+    "id": "530ac11a-46b1-4fd9-a825-58700ba70327",
+    "text": "Pipeline is leaking near the main road in Bokaro, wasting water. Kripya dhyan de.",
+    "category": "water"
+  },
+  {
+    "id": "d1d69c2b-7ae1-424f-aff6-35d161cff21f",
+    "text": "Hazaribagh के सरकारी बाबू बिना घूस के कोई फाइल पास नहीं करते। Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "ba8dc9d3-31c3-4a14-ba76-5507ee190d18",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Deoghar में कोई काम नहीं हुआ। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "dfc0c2e1-2f70-48e5-8e48-3e7d24f4245a",
+    "text": "Palamu hospital mein wheelchair available nahi hai. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "ccb01f65-4fb9-4260-9258-c5399d9adb86",
+    "text": "Exam paper leak ho gaya hai Dhanbad mein, exams cancel hone chahiye. Please help.",
+    "category": "education"
+  },
+  {
+    "id": "b27c863f-3d21-4c53-a8fe-90457a27de8f",
+    "text": "Illegal sand mining is destroying the riverbed in Ramgarh. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "4b09cff4-e01c-4f73-b9b4-ca3ae89d756a",
+    "text": "Street lights in Ranchi sector 4 are not working. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "88ef4bf6-84b1-41ef-9f24-8e59964b772b",
+    "text": "Construction of the Giridih flyover has been stalled for 2 years. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "54f3d9d6-425e-454e-80ff-7dead1c8d28b",
+    "text": "बच्चों को Jamshedpur में मिड-डे मील सही से नहीं मिल रहा है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "3e918ae0-d436-469f-997f-389731d1ca9d",
+    "text": "Hazaribagh mein naya meter connection apply kiya tha, abhi tak nahi laga.",
+    "category": "energy"
+  },
+  {
+    "id": "5208f0dc-c54d-409f-9c6f-10332cb4a2ef",
+    "text": "Factories in Bokaro are releasing toxic smoke at night. Kripya dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "cccd2c60-a878-40f0-b5f9-8ca180346cdc",
+    "text": "Frequent power cuts in Hazaribagh are affecting student studies. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "fa6c57af-7b1c-4dfb-9b63-e5a32c8f7e59",
+    "text": "Ramgarh mein naya meter connection apply kiya tha, abhi tak nahi laga. Kripya dhyan de.",
+    "category": "energy"
+  },
+  {
+    "id": "7a4bf517-705b-43c1-9c76-5c3462605fc0",
+    "text": "गांव Giridih से लोग रोजगार की तलाश में पलायन कर रहे हैं।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "52f48149-1867-4d0f-984a-228f54567a61",
+    "text": "Bokaro mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "4854df84-8d83-498a-b66f-4728b44734b8",
+    "text": "Kisan credit card ka loan maaf nahi hua Ranchi mein. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "dac82d70-46c3-4392-a286-e43a09e988b3",
+    "text": "स्मार्ट सिटी प्रोजेक्ट के तहत Hazaribagh में कोई काम नहीं हुआ। Urgent issue.",
+    "category": "urban_development"
+  },
+  {
+    "id": "c5603ca1-1b12-422f-9d35-d3ede3ad7557",
+    "text": "Construction of the Gumla flyover has been stalled for 2 years. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "028dd6d2-b1d3-46cb-b68f-7191c670ec1a",
+    "text": "Ayushman card Hazaribagh ke private hospital mein accept nahi kar rahe.",
+    "category": "healthcare"
+  },
+  {
+    "id": "f6a0394b-5a94-4ec2-b2d3-bb78109fe0fe",
+    "text": "Giridih में कोल्ड स्टोरेज की सुविधा नहीं চরম है, सब्जियां खराब हो रही हैं। Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "c428bb96-077c-4557-8578-7360b69804ea",
+    "text": "Minimum Support Price is not being offered at the Palamu mandi. Urgent issue.",
+    "category": "agriculture"
+  },
+  {
+    "id": "ee34045d-a4f3-49e9-83e6-91bdae5105e0",
+    "text": "No drinking water supply in Dhanbad for the last 5 days.",
+    "category": "water"
+  },
+  {
+    "id": "4998995a-573d-41e0-bb29-93041bb59deb",
+    "text": "Police verification ke liye Ranchi thane mein pareshan kiya ja raha hai.",
+    "category": "public_admin"
+  },
+  {
+    "id": "a9db8032-7e6e-4c22-a553-1ad344a0eab9",
+    "text": "Water tanker Hazaribagh mein nahi aa raha hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "984c6bd5-b3b2-4542-9236-dd03b0b40859",
+    "text": "Palamu में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है।",
+    "category": "environment"
+  },
+  {
+    "id": "a15108c0-2f3a-4770-b6f7-8bca9fbc892f",
+    "text": "Gumla के सरकारी बाबू बिना घूस के कोई फाइल पास नहीं करते। Koi dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "ad284a2f-3d43-464e-aae1-42440eaf538d",
+    "text": "Lack of computer labs in the Giridih high school is affecting students.",
+    "category": "education"
+  },
+  {
+    "id": "f6e7b2d9-f44a-41d9-8dbd-40b56616be00",
+    "text": "Ramgarh में मलेरिया तेजी से फैल रहा है, कोई रोकथाम नहीं है। Kripya dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "16b0d758-9033-4a1c-beef-04ce5fb8d925",
+    "text": "Blind tactile paths are broken on Hazaribagh footpaths. Fix it asap.",
+    "category": "accessibility"
+  },
+  {
+    "id": "8e2d3646-240e-4367-bd19-91ba60d3db15",
+    "text": "गांव Deoghar से लोग रोजगार की तलाश में पलायन कर रहे हैं। Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "5bfb041a-1f88-42d1-80c6-d2ed86db9a09",
+    "text": "विद्यालय का भवन बहुत जर्जर हालत में है Giridih में, कभी भी गिर सकता है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "cdde911c-85c0-4de5-a5de-7803ee8c4169",
+    "text": "हमारे Gumla के स्कूल में पीने का पानी नहीं है।",
+    "category": "education"
+  },
+  {
+    "id": "32a1b66e-2444-4c2b-ace9-f0efc2786fca",
+    "text": "Illegal sand mining is destroying the riverbed in Dhanbad. Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "687c269d-9639-48f7-ba3d-0d32c3fdc7bd",
+    "text": "Gumla के पास के जंगल में आग लग गई है, तुरंत बुझाएं। Koi dhyan de.",
+    "category": "environment"
+  },
+  {
+    "id": "47862fe2-18ec-4b33-849e-172f019b5090",
+    "text": "Covid vaccination center Deoghar mein band pada hai.",
+    "category": "healthcare"
+  },
+  {
+    "id": "b2daeaa9-aaa4-4b86-8293-6c76785bc128",
+    "text": "Need better library facilities in our government college at Bokaro. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "7d267dcd-3b76-4ef7-a338-4add526d112f",
+    "text": "हमारे गांव Dhanbad में अभी तक बिजली के खंभे नहीं लगे हैं।",
+    "category": "energy"
+  },
+  {
+    "id": "8d141019-0a8f-4c27-8228-165d6c3abe1e",
+    "text": "Illegal sand mining is destroying the riverbed in Ranchi. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "fad223e5-db19-4b0d-8444-82d50b4fb9ac",
+    "text": "No ultrasound machine available in the Palamu district hospital. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "1cfba44f-1961-4475-9ff0-ef3aee6d542b",
+    "text": "High voltage ke karan Gumla mein logo ke TV jal gaye. Please help.",
+    "category": "energy"
+  },
+  {
+    "id": "901aa1a9-a9ba-4652-ad6a-edac6879feed",
+    "text": "Factories in Hazaribagh are releasing toxic smoke at night. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "663bca07-0b61-4cac-a3bf-d39c9a65150a",
+    "text": "No drinking water supply in Dhanbad for the last 5 days.",
+    "category": "water"
+  },
+  {
+    "id": "dbf43f2e-a3fa-4b96-9e3c-b4bd7aef671a",
+    "text": "Ramgarh mein forest produce ka sahi daam nahi mil raha adivasiyon ko. Koi dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "d8783066-f289-4d87-a7a2-4847307a5676",
+    "text": "Bokaro में मुर्गी पालन के लिए सब्सिडी का पैसा नहीं आया। Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "620fde3a-2ce3-490d-8f84-826e27ff820a",
+    "text": "Bokaro mein transformer jal gaya hai 3 din pehle. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "c3652258-3b15-4c03-bba5-854e7ebb095c",
+    "text": "Deoghar hospital mein wheelchair available nahi hai.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e4001b85-9c0c-4a62-93a3-8706afa89ae0",
+    "text": "Ranchi ke gaon mein artisans ko unka saman bechne ka market nahi hai. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "e4ea81f6-84dd-4c60-8d53-22f70b928465",
+    "text": "Dhanbad ke government office mein disabled logo ke liye lift nahi hai.",
+    "category": "accessibility"
+  },
+  {
+    "id": "e64a7d12-fb58-4012-aeec-271172b2988d",
+    "text": "Unseasonal rains have destroyed wheat crops in Dhanbad. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "8b47f532-ef23-446b-abcc-616d1c237f6c",
+    "text": "Bokaro mein MNREGA ke tahat 100 din ka kaam nahi mil raha.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "39591db1-fb68-48ae-b396-3689c57f060f",
+    "text": "Gumla में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Urgent issue.",
+    "category": "accessibility"
+  },
+  {
+    "id": "86c436d1-0a4b-467e-8015-b8bab89b5226",
+    "text": "Self-help groups in Deoghar are not receiving government funding. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "ca88bd94-399d-48e7-9b3b-56f33c41dfab",
+    "text": "Teacher vacancy bahut zyada hai Ramgarh district mein. Koi dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "e3507aac-0d82-48cb-b5cd-5e50acc2e72d",
+    "text": "Construction of the Gumla flyover has been stalled for 2 years. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "ecf413f7-bbc8-4164-8819-9446560a6079",
+    "text": "Lack of computer labs in the Palamu high school is affecting students. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "0e5397b2-7ae6-4d45-88ed-a56f47d00958",
+    "text": "The main road in Bokaro is full of potholes causing accidents. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "84da0720-8c6a-41e9-9cbb-b4b1d111680d",
+    "text": "Need audio signals at Jamshedpur traffic lights for visually impaired. Koi dhyan de.",
+    "category": "accessibility"
+  },
+  {
+    "id": "82243337-7eea-4404-adc5-1ce3408b6f92",
+    "text": "Bokaro mein MNREGA ke tahat 100 din ka kaam nahi mil raha. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "3e074da6-87f9-41c6-ad9b-7ad4d94877d6",
+    "text": "Dhanbad panchayat mein MNREGA ka payment ruka hua hai. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "be97d99b-f553-4535-8294-9d0f131b4321",
+    "text": "Bokaro में राशन कार्ड में नाम जुड़वाने के लिए पैसे मांगे जा रहे हैं। Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "e61a06a7-9deb-4a71-9e46-8575b252c647",
+    "text": "No drinking water supply in Ramgarh for the last 5 days. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "89eaec5d-a5cc-44d1-b94c-1142d73fefc8",
+    "text": "Lack of computer labs in the Hazaribagh high school is affecting students. Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "fd32f0ca-8074-45a9-93ba-84888f449f17",
+    "text": "Construction of the Jamshedpur flyover has been stalled for 2 years. Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "29b6ae81-365a-431f-822e-6546b48189d5",
+    "text": "Self-help groups in Ramgarh are not receiving government funding. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "8545b70c-ac2f-4a0b-a0a6-21d34bf9251d",
+    "text": "Women weavers in Gumla need micro-loans for purchasing looms. Please help.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "18b2b411-bf0d-45a9-876f-babafdc78e22",
+    "text": "हमारे Jamshedpur के स्कूल में पीने का पानी नहीं है। Kripya dhyan de.",
+    "category": "education"
+  },
+  {
+    "id": "f54e19d1-54e2-481a-a00c-af44b4eff445",
+    "text": "Ranchi में कुटीर उद्योग लगाने के लिए कोई सरकारी सहायता नहीं मिल रही है।",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a20f1e3c-919a-477e-af86-785d61a933a5",
+    "text": "Deoghar mein parking ki suvidha nahi hone se traffic jam hota hai. Fix it asap.",
+    "category": "urban_development"
+  },
+  {
+    "id": "cccdc043-2f4d-45d6-8192-e1a6bd875b38",
+    "text": "No ultrasound machine available in the Ramgarh district hospital.",
+    "category": "healthcare"
+  },
+  {
+    "id": "26b66ae3-f6c9-41e0-8cc6-e99bf38ef18d",
+    "text": "Maternity ward in Ramgarh is in unhygienic conditions. Koi dhyan de.",
+    "category": "healthcare"
+  },
+  {
+    "id": "b38c4dc1-280e-417d-8f02-03258360e47b",
+    "text": "Dhanbad ke hospital mein dawaiyan available nahi hain. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "089f30de-ea39-4479-be4a-8ee5a0836e85",
+    "text": "High voltage ke karan Ranchi mein logo ke TV jal gaye. Urgent issue.",
+    "category": "energy"
+  },
+  {
+    "id": "ee51af3c-11e4-46af-ba2c-a3b5324c9b36",
+    "text": "Gumla में बहुत ज्यादा पेड़ काटे जा रहे हैं, कोई रोक नहीं है। Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "6fe7b5f7-bec0-410f-a3e5-b73f8e7c4b93",
+    "text": "Gumla mein sound pollution limit se cross ho gaya hai. Urgent issue.",
+    "category": "environment"
+  },
+  {
+    "id": "10137367-df77-4875-8e35-43d0627bddc3",
+    "text": "Gumla mein drainage system block hai, sadak par pani bhara hai. Koi dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "34ca9922-fcdf-4b1e-a1c2-c68725f214a9",
+    "text": "Factories in Gumla are releasing toxic smoke at night. Please help.",
+    "category": "environment"
+  },
+  {
+    "id": "75e70fab-77cb-42eb-affd-95ff0c50f504",
+    "text": "Ramgarh mein naya borewell khudwane ki jarurat hai. Urgent issue.",
+    "category": "water"
+  },
+  {
+    "id": "a0ec01b2-fd16-43be-9e08-3823b564c289",
+    "text": "Maternity ward in Giridih is in unhygienic conditions. Please help.",
+    "category": "healthcare"
+  },
+  {
+    "id": "0b99451d-5d43-49c8-b2a6-5e850176e015",
+    "text": "Blind tactile paths are broken on Giridih footpaths. Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "0d2b31c5-9be4-4e8f-b940-53a844d5de3f",
+    "text": "Deoghar में सीवर लाइन का ढक्कन खुला है, खतरा है। Kripya dhyan de.",
+    "category": "urban_development"
+  },
+  {
+    "id": "e714e7d0-92bc-4320-a1bc-af4fd0ad31f5",
+    "text": "Dhanbad में मूक-बधिर बच्चों के लिए विशेष स्कूल नहीं है। Please help.",
+    "category": "accessibility"
+  },
+  {
+    "id": "cdf636d9-17a7-411b-9bf0-e12a81905e33",
+    "text": "Need modern dairy farming training programs in Deoghar. Kripya dhyan de.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "a1739dfb-8cbc-4f49-bb73-2fefa24e0c8d",
+    "text": "High voltage ke karan Ranchi mein logo ke TV jal gaye. Fix it asap.",
+    "category": "energy"
+  },
+  {
+    "id": "1ab15495-8ff3-477d-ae7e-9e7bf9915b78",
+    "text": "Jamshedpur block office mein caste certificate banane mein bahut time lag raha hai. Kripya dhyan de.",
+    "category": "public_admin"
+  },
+  {
+    "id": "6f9e6685-8f87-4826-924a-fafd6d61b580",
+    "text": "Online portal for Palamu property tax is continuously crashing. Please help.",
+    "category": "public_admin"
+  },
+  {
+    "id": "8a086208-f7f2-4f90-ba7e-a292dc50ef7b",
+    "text": "Grievance cell phone numbers for Ranchi municipality are always switched off. Fix it asap.",
+    "category": "public_admin"
+  },
+  {
+    "id": "209def63-0ca0-4901-b383-63af709d6698",
+    "text": "The local pond in Giridih is completely dried up. Fix it asap.",
+    "category": "water"
+  },
+  {
+    "id": "1a56a027-efc9-4e9e-acc2-a8e17dd98317",
+    "text": "Jamshedpur ke gaon mein artisans ko unka saman bechne ka market nahi hai. Fix it asap.",
+    "category": "rural_livelihoods"
+  },
+  {
+    "id": "5a32dccd-9bca-4b6c-b47d-4f15df88e4f6",
+    "text": "Kisan credit card ka loan maaf nahi hua Gumla mein. Please help.",
+    "category": "agriculture"
+  },
+  {
+    "id": "8a086853-3e72-4ae6-a2a1-a1cc2b8b5872",
+    "text": "Fasal bima yojana ka paisa Giridih ke kisano ko nahi mila. Kripya dhyan de.",
+    "category": "agriculture"
+  },
+  {
+    "id": "6ac5ee6f-74eb-4995-8352-4f6c0cce77b7",
+    "text": "Giridih mein parking ki suvidha nahi hone se traffic jam hota hai. Kripya dhyan de.",
+    "category": "urban_development"
+  }
+]

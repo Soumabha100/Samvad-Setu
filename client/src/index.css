@@ -10,6 +10,19 @@
     --accent-urgent: #C1443B;
     --text-primary: #F2EFE9;
     --text-muted: #9BA8A6;
+    --border-color: #1D3238;
+  }
+
+  [data-theme='light'] {
+    --bg-base: #F5F8F7;
+    --surface: #FFFFFF;
+    --surface-raised: #E6EFEC;
+    --accent-primary: #B86E12;
+    --accent-secondary: #167568;
+    --accent-urgent: #B93832;
+    --text-primary: #172522;
+    --text-muted: #5C6D68;
+    --border-color: #D4E1DD;
   }
 
   body {
@@ -26,6 +39,22 @@
     font-family: 'IBM Plex Mono', monospace;
   }
 }
+
+html, body, #root { min-height: 100%; }
+body { transition: background-color 180ms ease, color 180ms ease; }
+
+/* Existing screens use legacy utility literals; these token overrides keep them theme-aware. */
+[class*="bg-[#0F1B1E]"] { background-color: var(--bg-base) !important; }
+[class*="bg-[#16262A]"] { background-color: var(--surface) !important; }
+[class*="bg-[#1D3238]"] { background-color: var(--surface-raised) !important; }
+[class*="text-[#F2EFE9]"] { color: var(--text-primary) !important; }
+[class*="text-[#9BA8A6]"] { color: var(--text-muted) !important; }
+[class*="border-[#1D3238]"] { border-color: var(--border-color) !important; }
+
+.theme-switcher { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--border-color); border-radius: 10px; background: var(--surface); }
+.theme-option { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 30px; padding: 0 9px; border: 0; border-radius: 7px; background: transparent; color: var(--text-muted); cursor: pointer; font: inherit; font-size: 12px; }
+.theme-option:hover, .theme-option.active { background: var(--surface-raised); color: var(--accent-primary); }
+.theme-switcher-compact .theme-option { width: 30px; padding: 0; }
 
 /* Custom background & text helper classes matching design tokens */
 .bg-base { background-color: #0F1B1E; }
